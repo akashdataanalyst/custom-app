@@ -1,0 +1,1097 @@
+item_code,item_name,item_group,stock_uom,is_stock_item,include_item_in_manufacturing,valuation_method,has_batch_no,create_new_batch,inspection_required_before_purchase,inspection_required_before_delivery,allow_alternative_item,disabled,description,quality_template
+710C3031,CiLON™ 30% GF PA 6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3002,CiLON™ 30 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091,ZiLITE™ 20% GF PBT CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001HF,CiLON™ 30 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093L,ZiLITE™ 20% GF CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031HFHS,"CiLON™ 30% GF PA6 High Flow, Heat Stabilized Natural",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0002,CiLON™ Unfilled PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F4,CiLON™ 20% MF + 5% GF FR PA6 MCB RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0032,ZiLITE™ UF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3003,CiLON™ 35% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031,CiLON™ Unfilled PA 6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3031,HiLENE™ 30% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1001,CiLON™ 15 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0031,ZiLITE™ UF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3283,HiLENE™ 25 % TF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0001,CiLON™ Unfilled PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F2,CiLON™ 20% MF + 5% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3391F,ZiLITE™ 30 % GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3013,CiLON™ 35% GF PA6 Beige,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3001,CiLON™ 33% GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C3001,ZiLITE™ 30 % GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2283F4,CiLON™ 20% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001F,CiLON™ 30% GF FR PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3031,ZiLITE™ 30% GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C3001F,ZiLITE™ 30 % GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001UVS,CiLON™ 30% GF PA6 Black UV Stabilized,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3392F,ZiLITE™ 30% GF + MF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4101,CiLON™ 40% MF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C0001,CiLON™ Unfilled PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001M,CiLON™ 30 % GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3031,CiLON™ 33% GF PA 66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3033,CiLON™ 30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3003,CiLON™ 30 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3002,CiLON™ 33% GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C1081,CiLON™ 15 % GF PA 66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091B,ZiLITE™ 20% GF PBT CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2081,CiLON™ 25% GF PA6 Dark Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2291,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3005,CiLON™ 35% GF PA6 Compound BLK,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0031,PiCAN™ PC COMPOUND,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2001F,CiLON™ 20% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031,CiLON™ UF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001E,CiLON™ 30% GF PA6 Ebony Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0092,CiLON™ Unfilled PA 6 Milky White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2192,HiLENE™ 20% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091L,ZiLITE™ 20% GF CFL PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3381,ZiLITE™ 20% GF+10% MF PBT L. Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1031,CiLON™ 15 % GF PA 6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3002HS,CiLON™ 30% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3002,ZiLITE™ 30% GF PBT/PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001ST,CiLON™ UF PA6 Super Tough Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3003,CiLON™ 33% GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3002E,CiLON™ 30% PA6 GF Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4101,CiLON™ 40% MF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001,CiLON™ Unfilled PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3032F,"ZiLITE™ 30% GF FR PBT, Natural",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C3031,PiCAN™ 30% GF PC Natural,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0083,CiLON™ Unfilled PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1001,ZiLITE™ 15% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093OP,ZiLITE™ 20% GF LED OPAQUE White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C6031,CiLON™ 60% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C1001,CiLON™ 15% GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0033,ZiLITE™ Unfilled PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0001F,CiLON™ Unfilled FR PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0092F,CiLON™ UF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093A,ZiLITE™ 20% GF CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1001F,CiLON™ 5% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2081F1,CiLON™ 20% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4111,CiLON™ 40 % MF PA6 Beige,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1031,ZiLITE™ 15% GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001F,ZiLITE™ 30% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031ST,CiLON™ UF PA6 Super Tough Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2001F,CiLON™ 25% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001,ZiLITE™ 30% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3381F,ZiLITE™ 30% GF + MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001,CiLON™ 15 % GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C1031,CiLON™ 15 % GF PA 66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C5001,ZiLITE™ 50% GF PBT/PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2002HS,ZiLITE™ 20 % GF PBT LED Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3005F,CiLON™ 35% GF FR PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3005HS,CiLON™ 35% GF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1012,CiLON™ 15% GF PA6 RAL 9010 Ivory,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2192A,HiLENE™ 20% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3003F,"ZiLITE™ 30% GF FR PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3031F,ZiLITE™ 30% GF FR PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3001,ZiLITE™ 30% GF PBT - PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0085,CiLON™ UF PA6 Dark Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6001,PiCAN™ PC/ABS Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3293E,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2031F,CiLON™ 20% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001,CiLON™ 50% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3006HF,CiLON™ 35% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3004,CiLON™ 30% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0001,"ZiLITE™ Unfilled PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0062,CiLON™ UF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031W,CiLON™ 30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2181,ZiLITE™ 20% MF PBT+PET Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2102,HiLENE™ PP 20%TF Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001HFHS,"CiLON™ 30% GF PA6 High Flow, Heat Stabilized Black",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3023,CiLON™ 30% GF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C4001F,CiLON™ 40% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2031,HiLENE™ 20 % GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2191,HiLENE™ 15% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3003UV,CiLON™ 30% GF PA6 UV Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0002ST,CiLON™ UF PA66 Super Tough Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0022ST,CiLON™ UF PA66 Super Tough Red,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2031,ZiLITE™ 20 % GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C003160,PiCAN™ PC Diffuser 60E/M,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3301,HiLENE™ 15% TF + 15% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001S,CiLON™ 30% GF PA6 Satin Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0001F,CiLON™ UF FR PA66 Reddish Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0032,CiLON™ UF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1031,HiLENE™ 15% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2221,HiLENE™ MF PP Red,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3001,HiLENE™ 30% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3181F1,HiLENE™ 30% MF FR PP Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3284,HiLENE™ 30 % TF PP Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001F,CiLON™ UF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031F,"CiLON™ 30 % GF FR PA 6 Natural, Halogenated",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C5001,CiLON™ 50% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3361F,ZiLITE™ 30% GF FR PBT Sky Blue,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2191,ZiLITE™ 20% MF PBT + PET White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0001,PiCAN™ UF PC Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0032,ABSiL™ UF ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C0031F,HiLENE™ Unfilled FR PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C4031,HiLENE™ 40% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001UVS,CiLON™ UF PA6 UV Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0031F,ZiLITE™ UF FR PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C4301,HiLENE™ 25 % GF + 15% Mica Filled Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0022,CiLON™ UF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1011,CiLON™ 15% GF PA6 Brown,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2082F1,CiLON™ 20% GF PA6 HF FR RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2082F2,CiLON™ 20% GF PA6 HF FR RAL7016 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2311F,CiLON™ 20%MF + 5% GF FR PA6 RAL8016 Brown,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031F1,"CiLON™ 30% GF FR PA6 Natural, Halogen Free",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001,CiLON™ 30 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0001,CiLON™ UF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2001,CiLON™ 25% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3034HSHD,"CiLON™ 30% GF PA66 Heat Stabilized, Hydrolysis Resistance Natural",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093LS,ZiLITE™ 20% GF CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2094F,ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0031,PiCAN™ PC+ABS ALLOY,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0001UVS,ABSiL™ UF ABS UV Stabilized Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C0001UV,HiLENE™ UF PP UV Stabilized Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C0091,HiLENE™ Unfilled PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C0091F,HiLENE™ Unfilled PP FR White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1001,HiLENE™ 10% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1001HS,HiLENE™ 15% GF Chemically Coupled Heat Stabilized PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1131,HiLENE™ 10% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1151,HiLENE™ 15% TF PP Lemon Green,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1161,HiLENE™ 10% TF PP Navy Blue,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1181,HiLENE™ 10 % TF PP Mid Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1182,HiLENE™ PP 10%GF Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1185,HiLENE™ PP Grey Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1201,HiLENE™ 10% TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1231,HiLENE™ 10% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1232,HiLENE™ 15% TF PP Nat.,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1261,HiLENE™ PP Light Blue Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1271,HiLENE™ PP Violet Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1281,HiLENE™ PP Grey Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1292,HiLENE™ MF PP IFB White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1294,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2001,HiLENE™ 20 % GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2001HS,HiLENE™ 20% GF PP Heat Stabiized Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2011,HiLENE™ 20% GF PP Beige,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2031H,HiLENE™ 20% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2111,HiLENE™ 20% TF PP Ivory,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2121,HiLENE™ 20% TF PP Red,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2122,HiLENE™ 20 % TF PP Cherry Red,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2123,HiLENE™ 20%TF PP Dark Pink,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2131,HiLENE™ 20% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2131F,HiLENE™ 20% MF FR PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2132,HiLENE™ 20% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2201,HiLENE™ 20% MF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2211,HiLENE™ PP 20% TF Beige,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2212,HiLENE™ 20% MF PP Ivory,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2231,HiLENE™ 20% MF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2251,HiLENE™ 20 % TF PP Lemon Green,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2261,HiLENE™ 20% MF PP Sky Blue,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2262,HiLENE™ MF PP Blue,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2263,HiLENE™ MF PP Navy Blue,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2281,HiLENE™ MF PP Grey Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2292,HiLENE™ MF PP IFB White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2293,HiLENE™ 20 % MF PP IFB White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2295,HiLENE™ 25 % MF PP Opel White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3101,HiLENE™ 30% TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3102,HiLENE™ 30% TF PP Compound Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3131,HiLENE™ 30 % TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3131F,HiLENE™ 30% MF FR PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3182,HiLENE™ 30% TF PP 6C Cool Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3191F,HiLENE™ 30% TF PP FR White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3201,HiLENE™ 30% MF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3282,HiLENE™ 30% MF PP Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3295,HiLENE™ 30% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C4031HS,HiLENE™ 40% GF PP Heat Stabilized Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C2001,HiLENE™ 20% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C2101,HiLENE™ 20 % TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C2102,HiLENE™ 20% TF PP Compound Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C2281,HiLENE™ MF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3001,HiLENE™ 30% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3081,HiLENE™ 30%TF PP Metallic Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3201,HiLENE™ 30% TF PP Compound Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3281,HiLENE™ Light Grey PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3282,HiLENE™ Dark Grey PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+501C3286,HiLENE™ 30% MF PP Light Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C0002,HiLENE™ UF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C0031F,HiLENE™ UF FR PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C0041F,HiLENE™ UF FR PP Yellow,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C0081,HiLENE™ UF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C0091F,HiLENE™ UF FR PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1101IM,HiLENE™ 10% TF IM PP Ebony Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1102,HiLENE™ 10% TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1111,HiLENE™ MF PP Beige,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1181,HiLENE™ 10% TF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1191,HiLENE™ 10 % TF PP Opel White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1192,HiLENE™ 15% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1291IM,HiLENE™ 15% MF IM PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2001,HiLENE™ 20% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2101,HiLENE™ 20% TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2103,HiLENE™ 22% TF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2131,HiLENE™ 20% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2181,HiLENE™ 20% TF PP Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2191,HiLENE™ 20% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2193,HiLENE™ 20% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2193N,HiLENE™ 20% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2231,HiLENE™ 20% MF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2281,HiLENE™ 20% MF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2292,HiLENE™ 20 % MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2293,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2294,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2295,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3001,HiLENE™ 30% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3041,HiLENE™ 30% GF PP Yellow,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3081,HiLENE™ 30% GF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3101HS,"HiLENE™ 30% TF PP Black, Heat Stabilized",PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3131,HiLENE™ 30% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3191,HiLENE™ 30% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3231,HiLENE™ PP 30% MF Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3251,HiLENE™ PP 30% TF Havells Green,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3281,HiLENE™ Met. Grey PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3282,HiLENE™ Light Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3283,HiLENE™ Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3285,HiLENE™ PP Dark Grey Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3286,HiLENE™ PP Light Grey Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3291,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3292,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3293,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3293L,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3294,HiLENE™ IFB White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3294E,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3294L,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3295,HiLENE™ PP Milky White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3295E,HiLENE™ 30% MF PP B. White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3296,HiLENE™ PP Compound MJ White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3296A,HiLENE™ PP Compound MJ White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3296B,HiLENE™ Milky White PP Compound,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3299,HiLENE™ 30 % MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C4131,HiLENE™ 40% TF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C4191,HiLENE™ 40% TF PP Milky White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C4193N,HiLENE™ 40% TF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C5391,HiLENE™ PP CFL White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+521C3031,HiLENE™ PP 30%GF Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001LS,CiLON™ UF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001M,CiLON™ UF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0002,CiLON™ UF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0003,CiLON™ IM UF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0004,CiLON™ UF PA6 BLACK,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0021,CiLON™ Unfilled PA 6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0024,CiLON™ UF PA6 Brown,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0025,CiLON™ Unfilled PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0026,CiLON™ UF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031F,"CiLON™ Unfilled FR PA 6 Natural, Halogen & Phosphorus Free",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031HS,"CiLON™ UF PA6 Natural, Heat Stabilized",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0032,CiLON™ PA6 UNFILLED NATURAL,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0033,CiLON™ PA6 Unfilled Natural RV3,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0041,CiLON™ Unfilled PA 6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0042,CiLON™ UF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0043,CiLON™ UF PA6 Light Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0044,CiLON™ UF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0051F,CiLON™ UF FR PA6 Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0061,CiLON™ Unfilled PA 6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0061F,"CiLON™ Unfilled FR PA 6 Blue, Halogen Free Compound",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0062F,"CiLON™ UF FR PA6 Blue, Halogen Free Compound",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0063,CiLON™ UF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0064,CiLON™ UF PA6 UV Stabilized Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0084,CiLON™ UF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0091,CiLON™ PA6 UF Milky White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0091F,CiLON™ PA6 UF FR Bluish White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0092F,CiLON™ Unfilled FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001E,CiLON™ 15% GF PA6 Ebony Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001F,CiLON™ 5% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001HS,CiLON™ 15% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1002,CiLON™ 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1021,CiLON™ 15% GF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1031IMV,CiLON™ 15% GF Impact Modified UVS Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1041,CiLON™ 15 % GF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1061,CiLON™ 15 % GF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1081,CiLON™ 15 % GF PA6 Asian Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1091,CiLON™ 15 % GF PA6 Milky White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1092,CiLON™ 15% GF PA6 LED ALLOY,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1531,CiLON™ N6 PTFE Filled Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2001,CiLON™ 20% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2001F,CiLON™ 20% GF FR PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2002F,CiLON™ 25% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2003F,CiLON™ 20% GF FR PA6 BLACK,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2031,CiLON™ 25%GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2032,CiLON™ 22% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2032F,CiLON™ 20% GF FR PA6 NATURAL,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2032H,CiLON™ 20% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2051,CiLON™ 25% GF PA6 Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2081F,CiLON™ 20 % GF FR PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2081F2,CiLON™ 20% GF FR PA6 Cool Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2082F,CiLON™ 20% GF FR PA6 UV Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2083F,CiLON™ 20% GF FR PA6 GREY,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2084F,CiLON™ 20% GF FR PA6 RAL7012 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2085F,CiLON™ 20% GF FR PA6 RAL7016 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2091F,CiLON™ 20% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2093F,CiLON™ 20% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2281F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2293F4,CiLON™ 20% MF FR PA6 RAL9003 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2381F,CiLON™ 20%MF+5%GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2381FF,CiLON™ 20% MF+5% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2382F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2382F1,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2382F3,CiLON™ 20% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F5,CiLON™ 20% MF + 5% GF FR PA6 Cool Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F6,CiLON™ 20% MF + 5% GF FR PA6 Goldmedal Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F7,CiLON™ 20% MF + 5% GF FR PA6 Vihan Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F8,CiLON™ 20% MF + 5% GF FR PA6 Daspan White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383FF,CiLON™ 20% MF+5% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2384F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2385F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2386F(N),CiLON™ 25% MF FR PA6 New Vihan Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2391F,CiLON™ 25% MF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2392F,CiLON™ 25% MF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2392F1,CiLON™ 25% MF FR PA6 White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2393F,CiLON™ 25% MF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2394F,CiLON™ 25% MF FR PA6 Syska White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2395F,CiLON™ 20% MF + 5%GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001,CiLON™ PA6 30% GF Pre colored Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001E2,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001EL,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001F,CiLON™ 30 % GF FR PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001IM,CiLON™ 30% GF PA6 Impact Modifier Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001N,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001N TRIAL,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001ST,CiLON™ 30% GF PA6 Super Tough Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001UVS TRIAL,CiLON™ 30% GF PA6 Black UV Stabilized,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3002,CiLON™ PA6 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3003F,CiLON™ 30% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3011,CiLON™ 30 % GF PA 6 Beige,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3012,CiLON™ 30% GF PA6 Beige,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3014,CiLON™ 30% GF PA6 Brown,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3021,CiLON™ 30 % GF PA6 Pink,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3022,CiLON™ 30% GF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3024,CiLON™ 30% GF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3025,CiLON™ 30% GF PA6 RAL 3026 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3026,CiLON™ 30% GF PA6 RAL 2009 Orange,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3027,CiLON™ 30% GF PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031HF,CiLON™ 30% GF PA6 High Flow Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031HS,CiLON™ 30% GF PA6 Heat Stabilized Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031IM,CiLON™ 30% GF PA6 Impact Modifier Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3032,CiLON™ 35% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3041,CiLON™ 30% GF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3042,CiLON™ 30% GF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3051,CiLON™ 30% GF PA6Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3052,CiLON™ 30% GF PA6 Light Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3053,CiLON™ 30% GF PA6 RAL 6038 Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3054,CiLON™ 30% GF PA6 Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3061,CiLON™ 30%GF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3062,CiLON™ 30% GF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3063,CiLON™ 30% GF PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3064,CiLON™ 30% GF PA6 Dark Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3065,CiLON™ 30% GF PA6 BLUE,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3071,CiLON™ 30% GF PA6 Violet,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081F,CiLON™ 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081F1,CiLON™ 30% GF FR PA6 RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081F2,CiLON™ 30% GF FR PA6 RAL7016Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3082,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3082F,CiLON™ 30 % GF FR PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3083,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3083F,CiLON™ 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3084,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3084F,CiLON™ 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3085,CiLON™ 30% GF PA6 Gey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3085F,CiLON™ 30% GF FR PA6 GREY,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3086,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3088,CiLON™ 30%GF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3088A,CiLON™ 30% GF PA6 Ash Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3089,CiLON™ 30% GF PA6 RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3091,CiLON™ 30% GF White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3091F,CiLON™ 30% GF FR PA6 G White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3092F,CiLON™ 30% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3181,CiLON™ 30% MF PA6 GREY,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3301A,CiLON™ 15%MF + 15%GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4001,CiLON™ 40% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4031,CiLON™ 40% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4191,CiLON™ 40% MF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4301,CiLON™ 40% GF+MF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001UV,CiLON™ 50% GF PA6 UV Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5031,CiLON™ 50% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5031F,CiLON™ 50% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5081F,CiLON™ 50% GF FR PA6 RAL 7015 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D0091,CiLON™ UF High Gloss PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D0092,CiLON™ UF High Gloss PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0003,CiLON™ Unfilled PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0021,CiLON™ UF PA6 Orange,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0051,CiLON™ UF PA6 Olive Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0052,CiLON™ UF PA6 IM Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0071,CiLON™ UF IM PA6 Violet,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0081,CiLON™ Unfilled PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0082,CiLON™ Unfilled PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0083,CiLON™ UF PA6 Metallic Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0084,CiLON™ Unfilled PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0085IM,CiLON™ IM UF PA6 RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0091,CiLON™ Unfilled PA 6 Milky White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0091F,CiLON™ Unfilled FR PA 6 Milky White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1002,CiLON™ 15 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1003,CiLON™ 10% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1201,CiLON™ 15% MF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2001,CiLON™ 25% GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2002F,CiLON™ 25% GF FR PA 6 Red Phosphorous,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2003,CiLON™ 20% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2081,CiLON™ 20 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2081F,CiLON™ 20%GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2181,CiLON™ 20 % MF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2181F,CiLON™ 20% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2281F,CiLON™ 20 % MF FR PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2301F,CiLON™ 25% Filled FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2381F,CiLON™ 20% MF+5%GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001IM,CiLON™ 30% GF PA6 Impact Modifier Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3001ML,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3003HS,CiLON™ 30% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3004,CiLON™ 30 % GF PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3005E,CiLON™ 35% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3006,CiLON™ 35% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3007,CiLON™ 30%GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3031,CiLON™ 30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3051,CiLON™ 30 % GF PA 6 Green,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3081,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3081F,CiLON™ 30 % GF FR PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3082,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3084,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3085,CiLON™ 30 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3086,CiLON™ 30% GF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3091,CiLON™ 30% GF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3181,CiLON™ 30 % MF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3381,CiLON™ 20 % GF + 10 % MF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C4001,CiLON™ 40% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C4081,CiLON™ 40 % GF PA 6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C4082,CiLON™ 40% GF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711M004,"CiLON™ Unfilled PA6 Black, Industrial",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711M006N,"CiLON™ Unfilled PA6 Natural, Industrial",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711M006SB,"CiLON™ Unfilled PA6 Black, Industrial",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711M006SN,"CiLON™ Unfilled PA6 Natural, Industrial",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0001HS,CiLON™ UF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0002,CiLON™ Unfilled PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0011,CiLON™ UF PA66 Beige,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0021,CiLON™ Unfilled PA66 Orient red,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0023,CiLON™ Unfilled PA66 Orange,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0024ST,CiLON™ UF PA66 Super Tough Brown,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031F,CiLON™ UF FR PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031HS,CiLON™ UF PA66 Heat Stabilized Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031ST,CiLON™ PA66 UF Natural ST,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0081,CiLON™ Unfilled PA66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0081ST,CiLON™ UF PA66 Super Tough Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0082,CiLON™ UF PA66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0084,CiLON™ UF PA66 RAL7035 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C1001,CiLON™ 15% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C1001F,CiLON™ 15% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2001F,CiLON™ 25% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2001HS,"CiLON™ 25% GF PA66 Heat Stabilized, Black",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2002,CiLON™ 20% GF PA66 UV Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2031,CiLON™ 25% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2031F,CiLON™ 25% GF FR PA66 Red Phosphorus,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2032,CiLON™ 20% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2061F,CiLON™ 25% GF FR PA66 Blue,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3001,CiLON™ 33 % GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3001F,CiLON™ 30% GF FR PA66 Red Phosphorus,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3002F,CiLON™ 35% GF FR PA66 Red Phosphorus,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3002HSHD,"CiLON™ 35% GF PA66 Heat Stabilized, Hydrolysis Resistance Black",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3002ST,CiLON™ 33% GF PA66 Super Tough Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3004HS,CiLON™ 30% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3004HSHD,"CiLON™ 30% GF PA66 Heat Stabilized, Hydrolysis Resistance Black",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3011,CiLON™ 33% GF PA66 Brown,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3031F,CiLON™ 30% GF FR PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3032,CiLON™ 35% GF PA 66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3032HSHD,"CiLON™ 35% GF PA66 Heat Stabilized, Hydrolysis Resistance Natural",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3034,CiLON™ 30% GF PA66 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4001,CiLON™ 43% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4001UV,"CiLON™ 40% GF PA66 Black, UV Stabilized",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4031,CiLON™ 43% GF PA66 NATURAL,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4102,CiLON™ 40% MF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4301,CiLON™ 25%MF + 15%GF PA66 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C5001,CiLON™ 50% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C5031,CiLON™ 50% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C6001,CiLON™ 60% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C6031,CiLON™ 60% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C0001F,CiLON™ UF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C0001MT,CiLON™ Unfilled PA66 Medium Tough Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C0001UV,CiLON™ UF UV Stabilized PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C1101,CiLON™ 15% MF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C1102,CiLON™ 10% MF PA66 Blk,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2001,CiLON™ 25% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2001L,CiLON™ 25% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2002,CiLON™ 20% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2031F,CiLON™ 25% GF FR PA66 Red Phosphorus,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2101,CiLON™ 20% MF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3001HS,CiLON™ 30% GF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3002HF,CiLON™ 33% GF PA66 High Flow Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3031,CiLON™ 33% GF PA 66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3081,CiLON™ 33% GF PA 66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3082,CiLON™ 33% GF PA66 Indica Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C4001,CiLON™ 40% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C4001UV,"CiLON™ 40% GF PA66 Black, UV Stabilized",PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C4002,CiLON™ 43% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C5001,CiLON™ 50% GF PA 66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721M003,CiLON™ Unfilled PA66 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0001F,ZiLITE™ Unfilled FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0001ST,ZiLITE™ UF Super Tough PBT Blk,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0002,"ZiLITE™ Unfilled PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0011F,ZiLITE™ UF FR PBT Beige,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0021,ZiLITE™ UF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0034,ZiLITE™ UF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0061,ZiLITE™ UF PBT BLUE,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0081,"ZiLITE™ Unfilled PBT, Grey",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0091F,ZiLITE™ UF FR PBT CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0091ST,ZiLITE™ UF Super Tough PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0092F,ZiLITE™ UF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1001UV,ZiLITE™ 15% GF PBT UV Stabilized Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1021,ZiLITE™ 30% GF PBT Red,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1041,ZiLITE™ 15% GF PBT Yellow,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1081F,ZiLITE™ 15% GF FR PBT Metallic Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2001,"ZiLITE™ 15% GF PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2002,ZiLITE™ 20% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2031F,ZiLITE™ 20% GF FR PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2032,ZiLITE™ 20% GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2082F,"ZiLITE™ 25% GF FR PBT, Grey",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091A,ZiLITE™ 20% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091F,ZiLITE™ 20 % GF FR PBT CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091ST,ZiLITE™ 20% GF PBT Super Tough CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2092,ZiLITE™ 20%GF PBT CFL White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2092F,ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2092F(N),ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093,ZiLITE™ 20% GF CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093AL,ZiLITE™ 20% GF CFL PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093ALF,ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093AO,ZiLITE™ 20% GF CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093B,ZiLITE™ 20% GF PBT CFL WHITE,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093F,ZiLITE™ 20% GF FR PBT WHITE,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2093HS,ZiLITE™ 20% GF PBT LED White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2181,ZiLITE™ 20%MF PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2231,ZiLITE™ 20% MF PBT NATURAL,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2321,ZiLITE™ 20% GF PBT Orange,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2391,ZiLITE™ 20 % GF PBT LED White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2391A,ZiLITE™ 20% GF CFL PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2392,ZiLITE™ 20% GF LED WHITE PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2401,ZiLITE™ 20% GB PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2402,ZiLITE™ 25% GB PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2403,ZiLITE™ 25% GB PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2431,ZiLITE™ 20% GB PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001HD,ZiLITE™ 30% GF PBT Hydrolysis Resistance,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3002F,"ZiLITE™ 30% GF FR PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3011,ZiLITE™ 30% GF PBT Brown,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3011F,ZiLITE™ 30% GF FR PBT Beige,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3012F,ZiLITE™ 30% GF FR PBT Beige,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3021F,ZiLITE™ 30 % GF FR PBT Orange,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3022F,ZiLITE™ 30% PBT GF FR Red,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3032,ZiLITE™ 35% GF PBT NATURAL,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3061F,ZiLITE™ PBT 30% GF FR Blue,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3081,ZiLITE™ 30% GF PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3081F,ZiLITE™ 30% GF FR PBT Light Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3082F,ZiLITE™ 30% GF FR PBT Electric Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3083F,ZiLITE™ 30%GF FR PBT Light Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3084F,"ZiLITE™ 30% GF FR PBT, Grey",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3085F,ZiLITE™ 30% GF FR GM Grey PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3088F,ZiLITE™ 30% GF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3091F,ZiLITE™ 30% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3092F,ZiLITE™ 30% GF FR PBT GM White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3093F,ZiLITE™ 30% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3181F,ZiLITE™ 30%MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3182F,ZiLITE™ 30%GF+MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3183F,ZiLITE™ 30% GF + MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3301,ZiLITE™ 30% GF + MF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3382F,ZiLITE™ 30% GF+MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3383F,ZiLITE™ 30% GF+MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3383F2,ZiLITE™ 30% GF+MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3384F,ZiLITE™ 30% GF+MF FR PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3391F2,ZiLITE™ 30 % GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3394F,ZiLITE™ 30% GF FR PBT Off White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3431,ZiLITE™ 30% GB PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C5001,"ZiLITE™ 50% GF PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C5001F,"ZiLITE™ 50% GF FR PBT, Black",PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C0031ST,ZiLITE™ UF Super Tough PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C2001F,ZiLITE™ 25% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C3001ST,ZiLITE™ 30% GF PBT Super Tough Blk,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C1031,ZiLITE™ 15% GF PBT+ PET Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2101,ZiLITE™ 20% MF PBT + PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2102,ZiLITE™ 20% MF PBT/PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2182,ZiLITE™ 20% MF PBT/PET GREY,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3031,ZiLITE™ 30% GF PBT-PET Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3032,ZiLITE™ 30% GF PET Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3091,ZiLITE™ 30% GF PET LED White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3092,ZiLITE™ 30% GF PBT - PET LED White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3191,ZiLITE™ 30% MF PBT + PET White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0001F,PiCAN™ Unfilled FR PC Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0011,PiCAN™ PC IVORY,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0012,PiCAN™ PC BEIGE,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C003160E,PiCAN™ PC Diffuser 60E,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C003160M,PiCAN™ PC Diffuser 60M,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0031F,PiCAN™ Unfilled FR PC Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0031NG,PiCAN™ UF PC Off Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0081,PiCAN™ PC DARK GREY,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0082FA,PiCAN™ PC UF FR Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0091,PiCAN™ UF PC White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0091FOP,PiCAN™ UF FR PC Opaque White,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0093,PiCAN™ UF PC White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1001,PiCAN™ 10% GF PC Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1002,PiCAN™ 10% GF PC Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1031,PiCAN™ 10% GF PC Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1031F,PiCAN™ 10% GF FR PC Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1081F,PiCAN™ 10% GF FR PC Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1091,PiCAN™ 10% GF PC White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C2001,PiCAN™ 20% GF PC Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C2031,PiCAN™ 20% GF PC Natural,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C3001F,PiCAN™ 30% GF FR PC Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C3031F,PiCAN™ 30% GF FR PC Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750CD001,PiCAN™ PBT/PET MF,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750CD002,PBT/PET MF,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750CD003,PBT/PET MF,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0002,PiCAN™ UF PC/Polyester Alloy,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0051,PiCAN™ UF PC/PBT Green,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0081F,PiCAN™ PC/ABS FR Alloy Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0081ST,PiCAN™ UF PC/PBT Alloy Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0091,PiCAN™ PC ABS MILKY WHITE,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0091F,PiCAN™ PC/ABS FR White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0091HS,PiCAN™ UF PC/Polyester Alloy White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0092F,PiCAN™ PC/ABS UF FR Alloy White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0093F,PiCAN™ PC/ABS FR Alloy White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0093HS,PiCAN™ UF PC/Polyester Alloy White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1001,PiCAN™ 10 % GF PC + PBT Alloy,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1002,PiCAN™ 15% GF PC/PBT Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1003,10% GF PC/PBT Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1031F,PiCAN™ 10% GF FR PC/ABS Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1101,PiCAN™ 10% MF PBT/PC Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C2002,25% GF PBT/PC Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C3001F,PiCAN™ 30% GF FR PC-PBT Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C4031,PiCAN™ ABS/PC Alloy Natural,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C4081F,PiCAN™ PC/ABS FR Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C4091,PiCAN™ ABS/PC White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C4092,PiCAN™ ABS/PC White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6001F,PiCAN™ PC / ABS FR Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6002,PiCAN™ PC/ABS Unfilled Black,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6031,PiCAN™ PC / ABS Natural,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6081F,PiCAN™ PC/ABS FR Dark Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6082F,PiCAN™ PC/ABS FR Light Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6083F,PiCAN™ PC/ABS FR RAL 5425C Grey,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C6091F,PiCAN™ PC/ABS FR White,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+OTHERS,ZiLITE™ 30 % GF PBT+ASA BLK,Alloy,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+770C3001F,ZiLITE™ 30 % GF FR PBT+ASA Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0001,ABSiL™ UF ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0001F,ABSiL™ UF FR ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0002,ABSiL™ UF High Gloss ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0011,ABSiL™ Asian Ivory ABS,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0011F,ABSiL™ UF FR Asian Ivory ABS,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0012,ABSiL™ UF ABS Pink,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0013,ABSiL™ UF ABS Ivory,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0021,ABSiL™ UF ABS Dark Pink,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0022,ABSiL™ UF ABS Red,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0023,ABS PINK,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0031,ABS NATURAL,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0031F,ABSiL™ UF FR ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0051,ABS LEMON GREEN,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0061,ABSiL™ UF ABS Sky Blue,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0061F,ABSiL™ ABS FR Blue,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0062,ABS BLUE,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0063,ABSiL™ ABS UF Blue,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0064,ABSiL™ UF ABS Navy Blue,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0082,ABSiL™ ABS Maruti Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0083,ABSiL™ ABS UF Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0084,ABSiL™ UF ABS Dark Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0085,ABSiL™ UF ABS Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0086,ABSiL™ UF ABS Silver Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0087,ABSiL™ UF ABS Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0091,ABS WHITE,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0091F,ABSiL™ ABS FR IFB White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0092,ABS BLUISH WHITE,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0093,ABSiL™ Opel White ABS,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0093B,ABSiL™ UF ABS Opal White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0093F,ABSiL™ ABS UF FR Opal White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0095,ABSiL™ IFB White ABS,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0096,"ABSiL™ ABS, IFB Off White",ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0096A,ABSiL™ UF ABS IFB OFF White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0096P,ABSiL™ UF ABS IFB White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0097,ABSiL™ UF ABS White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0098,ABSiL™ UF/ABS RAL 9016 White,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C1001,ABSiL™ 15% GF ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C1002,ABSiL™ 7% GF ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C1031,ABSiL™ 15% GF ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C1231,ABS NATURAL,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2001,ABSiL™ 20% GF ABS BLACK,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2031,ABSiL™ 20% GF ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2032,ABSiL™ 20% GF ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2041,ABSiL™ 25% GF ABS Yellow,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2091,ABSiL™ 20% GF ABS WHITE,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C2092,ABSiL™ 20% GF ABS WHITE,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C3041,ABSiL™ 30% GF ABS Yellow,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C0001,ABSiL™ ABS Unfilled Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C0081,ABSiL™ Unfilled ABS Grey,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C0081F,US FR ABS Compund,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C0082,ABS Green,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C0083,ABSiL™ Havells Green ABS,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C1001,ABSiL™ 15% GF ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901C2001,ABSiL™ 20% GF ABS Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+901D002,Unfilled FR ABS Gray,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910C2031,ABSiL™ 20% GF SAN Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910C2032,ABSiL™ 20% GF SAN Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910C3031,ABSiL™ 30% GF SAN Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+L/OLD,UD Material,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+TRANSFER,Transfer,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3094F,ZiLITE™ 30% GPFRPBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2031,20% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091LOP,ZiLITE™ PBT LED White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091K,ZiLITE™ 20% GF PBT CFL WHITE,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2294,20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1042,CiLON™ 15% GF PA6 Yellow,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001A,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001UVS,ZiLITE™ 30% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C4001,40% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3131,CiLON™ 30% MF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0032,eCiLON™ UF PA6 natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3022A,CiLON™ 30% GF PA6 RED,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0022A,CiLON™ UF PA6 RED,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2011,CiLON™ 25% GF PA66 BROWN,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001A,ZiLITE™ 30% GF PBT JET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3021,30% GF PP RAL 2001 Red,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2091C,ZiLITE™ 20% GF CFL PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C1001A,eCiLON™ 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3011,30% GF PP RAL 1014 Ivory,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3003UVS,CiLON™ 30% PA6 Black UVS,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2094F1,ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3051,30% GF PP RAL 6010 Green,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2012,CiLON™ 25% GF PA66 Brown,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0002A,eCiLON™ UF PA6 Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081A,CiLON™ 30%GF PA6 RAL 7016 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+770C3001,30% GF PBT+ASA BLK,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3001F,30% GF FR PET Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3003F,30% GF FR PET Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3091F1,ZiLITE™ 30% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081FA,CiLON™ 30% GF PA6 Dark Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+751C0091FOP,PiCAN™ UF FR PC Opaque White,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3086F,ZiLITE™ 30% GF FRPBT Dark Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2386F,ZiLITE™ 20% MF+5% GF PBT White FR,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3092,CiLON™ 30% GF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3381,20%+ GF+10% MF PP UVS RAL 7035 Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001UV,CiLON™ 30% GF PA6 UV Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031UVS,CiLON™ 35% PA6 UV Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001HSF,ZiLITE™ 30% PBT GF FRHS Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C3031,ABSiL™ 30% GF ABS Natural,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2201F,CiLON™ 20% MF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0002F,CiLON™ Unfilled FR Black PA6,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C0001,eZiLITE™ UF PBT Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2081F,ZiLITE™ 20% GF FR PBT Dark Admiralty Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1002UVS,CiLON™ 15% GF PA6 UV Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712C3001,30% GF PA6/66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3081F,CiLON™ 35% GF FR PA66 RAL7040 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2083F,ZiLITE™ 20% GF FR PBT RAL7035 Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3002HS,eCiLON™ 30% GF/GB PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3032F,CiLON™ 30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2201F,HiLENE™ 20% MF FR PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1191F,HiLENE™ 10% TF PP FR RAL9003 White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3083,ZiLITE™ 30% GF PBT Light Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2001UVS,HiLENE™ 20% GF PP UVS Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731C2002HS,eZiLITE™ 20% GF PBT LED BLACK,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C1002,eCiLON™ 10% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F9,CiLON™ 20% MF + 5% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0081F,CiLON™ UF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1181F,HiLENE™ 10% TF PP FR Antracit 7016 Grey,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2091,HiLENE™ 20% GF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C4001F,PiCAN™ ABS+PC FR Black,ABS,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2031A,HiLENE™ 20% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3082A,CiLON™ 30% GF PA6 GREY,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3021A,CiLON™ 30% GF PA6 RAL3005 Red,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3101F,30% MF PP FR Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C5031HS,CiLON™ 50% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0002F,CiLON™ UF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3093F,CiLON™ 30% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+7203091HS,CiLON™ PA66,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2003FA,CiLON™ 20% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0032F,CiLON™ UF PA6 Halogen Free FR Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C3081F,PC,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0081A,CiLON™ UF PA6 RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0081FA,CiLON™ UF FR PA6 RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C6001,CiLON™ 60% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3081FB,CiLON™ 33% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0002F,eCiLON™ UF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001HTF,CiLON™ UF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2092F1,CiLON™ 20% GF PA6 HF FR White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C1002,CiLON™ PA66,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1001F,PiCAN™ 15% GF FR PC/ABS Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2181F,HiLENE™ 25% MF FR PP Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3091HS,CiLON™ 30% GF PA66 White,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0023,CiLON™ UF PA6 Maroon,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2282,PP,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+520C1001F,HiLENE™ 10% GF Halogen Free FR PPE Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3081,CiLON™ 30% GF PA66 RAL7043 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4031HFHS,"CiLON™ 40% GF PA6 High Flow, Heat Stabilized Natural",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C0011,PC/PBT,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3092,ZiLITE™ PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3002ST,CiLON™ 30% GF PA6 Super Tough Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0031F1,ZiLITE™ PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1032,PiCAN™ 15% GF PC Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1001F,ZiLITE™ 15% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001UVHSHD,ZiLITE™ 30% GF PBT UVHSHD Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0091A,PiCAN™ Unfilled PC/ABS White,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031ST,CiLON™ 30% GF PA6 Super Tough Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C1032,HiLENE™ 10% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1031EDS,CiLON™ 15% GF PA6 EDS Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2031HFHS,"CiLON™ 20% GF PA6 High Flow, Heat Stabilized Natural",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2002,HiLENE™ 25% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2032,HiLENE™ 25% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2101A,21% TF PP BLACK,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910C3061,ABSiL™ 30% GF SAN Blue,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C6031,HiLENE™ 60% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+790C0031,ZiLITE™ UF POM Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0082,CiLON™ UF PA6 Dark Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F2A,CiLON™ 20%MF+5%GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3092P,CiLON™ 30% GF+12% PTFE Filled PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C2001A,eCiLON™ 20% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3001A,eCiLON™ 30% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2182,HiLENE™ 20% TF PP Dark Grey,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C3031HFHS,HiLENE™ 30% GF PP HFHS Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3004F,ZiLITE™ 30% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3031HFHS,CiLON™ 33% GF PA66 HFHS Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3003FIM,ZiLITE™ 30% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2094F2,ZiLITE™ 20% GF FR CFL White PBT,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3001F,eCiLON™ 30% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001P,CiLON™ 50% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3002M,eCiLON™ 30% GF PA6 Dark Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2001F2,ZiLITE™ 20% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C2261HFHS,HiLENE™ 20% TF PP HFHS Sky Blue,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1004,PiCAN™ 15% GF PC/ABS Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3091UV,HiLENE™ 30% GF PP UV Stabilized RAL9003 White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+751C0091,PiCAN™ UF PC White,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2001HS,CiLON™ 20% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910C1031,ABSiL™ 10% GF SAN Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C0002M,eCiLON™ Unfilled PA 6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5291,CiLON™ 55% MF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2004,CiLON™ 25% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4002,CiLON™ 45% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2181,CiLON™ 20% MF PA66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0033,PiCAN™ UF PBT/PC Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1032,PiCAN™ 11% GF PC/PBT Alloy Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0001,PiCAN™ UF PC/PBT Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001IMUV,CiLON™ 30% GF PA6 Impact Modifier UV Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001B,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3031HD,ZiLITE™ 30% GF Hydrolytic Resistance PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2401,CiLON™ 20% GB PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4302IM,CiLON™ 25% GF + 15% GB PA6 IM Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0003F,CiLON™ Unfilled FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3331,HiLENE™ 30% GF+MF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1083,CiLON™ 10% GF PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0004F,CiLON™ UF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C4081,CiLON™ 40% GF PA6 RAL9006 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0021UVS,CiLON™ Unfilled PA6 RAL3000 UVS Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5292,CiLON™ 55% MF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0002F,PiCAN™ UF PC FR Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C1002F,PiCAN™ 10% GF FR PC/ABS Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C3002IM,eCiLON™ 30% GF PA6 IM Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3032HFHS,"CiLON™ 30% GF PA6 High Flow, Heat Stabilized Natural",PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C1181,CiLON™ 15% MF PA66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+770C3002,ZiLITE™ 30% GF PBT+ABS Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1051UVS,PiCAN™ 10% GF PC UV Stabilized Olive Green,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0081B,CiLON™ Unfilled PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0082F,CiLON™ UF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0034,CiLON™ UF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3002F,CiLON™ 30% GF Halogenated FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C3032,HiLENE™ 30% GF PP Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3051,ZiLITE™ 30% GF PBT RAL6001 Green,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0081F,PiCAN™ UF FR PC RAL7035 Grey,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031F1,CILON TM UF FR PA66 NATURAL,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3004,ZiLITE™ 30% GF PET Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C2181,PiCAN™ 20% MF PC+PBT Grey,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3051HS,CiLON™ 30% GF PA66 Heat Stabilized Green,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3034,CiLON™ 30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2095,ZiLITE™ 20% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C5002,ZiLITE™ 50% GF PET Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C0001T,eCiLON™ UF PA66 Tough Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001HF,CiLON™ 50% GF PA6 HF Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2082F1,CiLON™ 25% GF Halogen & Phosphorus Free FR PA66 RAL 7035 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2082F1L,CiLON™ 25% GF Halogen & Phosphorus Free FR Laser Markable PA66 RAL 7035 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3087F,ZiLITE™ 30% GF FR PBT RAL7031 Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3033F,CiLON™ 30% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3531,CiLON™ 30% GF + 15% PTFE Filled PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2032F,CiLON™ 25% GF FR PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2282F,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5291N,CiLON™ 55% MF PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3095F,ZiLITE™ 30% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+721C3002HS,eCiLON™ 33% GF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3035,CiLON™ 30% GF PA6 Pure Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2091MF,CiLON™ 20% GF FR PA6 RAL 7047 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2092MF,CiLON™ 20% GF FR PA6 RAL 9003 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2013,CiLON™ 25% GF PA66 Brown,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3001HDL,ZiLITE™ 30% GF PBT Hydrolysis Resistance and Laser Markable Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2081F1,eCiLON™ 20% GF FR PA6 RAL 7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C4001F,ZiLITE™ 40% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3093,ZiLITE™ 30% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C2095F,ZiLITE™ 20% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3087F,CiLON™ 37% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001HS,CiLON™ 50% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0022F,CiLON™ UF FR PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0081F,CiLON™ UF FR PA66 RAL 7035 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3034HS,CiLON™ 30% GF PA66 Heat Stabilized Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C5001F,CiLON™ 50% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711C2092F,CiLON™ 20% GF FR PA6 RAL 9003 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C5001F,CiLON™ 50% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3003F,CiLON™ 30% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3061F,CiLON™ 30% GF FR PA6 Pantone 286C Dark Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C3033,ZiLITE™ 35% GF PET Natural,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3021F,CiLON™ 30% GF FR PA6 RAL3000 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3091HFHS,CiLON™ 30% GF PA6 HFHS White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001HS,CiLON™ Unfilled PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001J,CiLON™ 30% GF PA6 Jet Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F10,CiLON™ 15% MF + 10% GF FR PA6 MCB RAL7035 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001J,CiLON™ 15% GF PA6 Jet Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C1101,ZiLITE™ 10% MF PBT + PC Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C2082F2,CiLON™ 25% GF Red Phosphorus FR PA66 RAL 7016 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3036,CiLON™30% GF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3031,ZiLITE™ 30% GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3001L,ZiLITE™30% GF PBT Laser Markable Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0082F,PiCAN™ UF FR PC RAL7015 Grey,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3086F,CiLON™ 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3031F2,CiLON™30% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D1001,ReViveX™15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3091,ZiLITE™ 30% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1002F,PiCAN™ 10 % GF FR PC Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2031HFHS,HiLENE™ 20% GF PP HFHS Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D1001F,eCiLON™15% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031A,CiLON™UF PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+722D1101HSIM,ReViveX™15% MF PA66 Heat Stabilized impact Modifier Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750D1001F,PiCAN™ 10 % GF FR PC Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1081,ZiLITE™ 15% GF PBT Grey,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3091,ZiLITE™ 30% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3022,CiLON™ 33% GF PA66 Red,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+722D3001,ReViveX™ 35% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3002UV,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D1031F,CiLON™ 15% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740D3041F,ZiLITE™ 30% GF FR PET Light Yellow,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D1004HS,CiLON™ 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C003XF,CiLON™ UF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C009XF,CiLON™ 50% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C000XF,CiLON™ UF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C002XF,CiLON™ UF FR PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C503XF,CiLON™ 50% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C500XF,CiLON™ 50% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C502XF,CiLON™ 50% GF FR PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C509XF,CiLON™ 50% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D5002,eCiLON™ 50% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0003F,CiLON™ UF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+722D2001F,ReViveX® 25% GF FR PA66 Red Phosphorus Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3391,ZiLITE™ 30% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3392,ZiLITE™ 30% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0032HS,CiLON™ UF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D2294,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D2295,HiLENE™ 20% MF PP White,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+731D5391,ReViveX® 55% GF+MF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D2096F,ZiLITE™ 20% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D3004HS,CiLON™ 30% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D1033,CiLON™ 15% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2004F,CiLON™ 20% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0004F,CiLON™ UF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3005F,ZiLITE™ 30% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2033F,CiLON™ 25% GF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2061F,CiLON™ 25% GF FR PA6 Blue,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2021F,CiLON™ 25% GF FR PA6 Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2087F,CiLON™ 25% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D1532,CiLON™ 20% Teflon Filled PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D1533,CiLON™ 20% Teflon Filled PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D3008,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3004F,CiLON™ 30% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D2097F,ZiLITE™ 20% GF FR PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740C2001,ZiLITE™20% GF PBT/PET Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3006-4,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D1004-4,CiLON™ 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3004F,CiLON™ 30% GF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D4033,CiLON™ 43% GF PA66 Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3007HS,CiLON™ 35% GF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0003HS,CiLON™ UF PA66 Heat Stabilized Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D5002HS,CiLON™ 50% GF PA6 Heat Stabilized Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D5003,CiLON™ 50% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D0031F,ReViveX™ UF FR PA6 Natural,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3035HS,CiLON™ 30% GF PA66 Heat Stabilized Natural,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2011F,CiLON™ 20% GF FR PA6 Brown,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D2083F,CiLON™ 25% GF FR PA66 Silk Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C2383F4A,CiLON™ 20%MF +5%GF FR PA6 MCB Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3006HS,CiLON™ 30% GF PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D2088F-4,ReViveX ® 20% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D2094F-4,ReViveX ® 20% GF FR PA6 White,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C3393,ZiLITE™ 20% GF PBT White,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0021F,CiLON™ UF FR PA66 Orange,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2284F3,CiLON™ 25% MF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0001F4,CiLON™ Unfilled FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3006L,ZiLITE™ 30% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D3008IM,CiLON™ 30% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3033F,ZiLITE™ 30% GF FR PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1031,ZiLITE™ 15% GF FR PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1004F,ZiLITE™ 15% GF PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3004F,ZiLITE™ 30% GF FR PBT Black,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+770D2002,ZiLITE™ 20% GF PBT+ASA Black,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3028UV,CiLON™30% GF PA6 UV Stabilized Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D0027UV,CiLON™ UF PA6 UV Stabilized Red,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D2002F,CiLON™ 25% GF FR PA66 Red Phosphorus Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3091HR,CiLON™ 30% GF PA66 White,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D1004-6,ReViveX ® 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1032,ZiLITE™ 15% GF PBT Natural,PBT,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1193,HiLENE™ 15% TF PP White (Orient),PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D5003F2,CiLON™ 50% GF FR PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+722D3081F2-4,ReViveX ® 30% GF FR PA66 Grey,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D3081F2-4,ReViveX ® 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D6002,CiLON™ 60% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D1004,HiLENE™ 30% GF PP Black,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D3002,CiLON™ 25% GF FR PA66 Red Phosphorus Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D2002F2,HiLENE™ 40% GF PP FR Natural,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3001HS,HiLENE™ Unfilled PP FR UV stabilised,PP,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D0082F1UV,CiLON™ 15% GF PA6 Black,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1033F4,eCiLON™ UF FR PA66 Black,PA66,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+620D2031,CiLON™ 30% GF FR PA6 Grey,PA6,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+610D2031,610D2031,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D0042F1,510D0042F1,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D4031F1,510D4031F1,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2089F3,710D2089F3,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D2003F4,720D2003F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2294F3,710D2294F3,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3037,710D3037,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0033IMF4,720D0033IMF4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3001MUV,710D3001MUV,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3034F4,730D3034F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2285F3,710D2285F3,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C3035,720C3035,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0034IMF4,720D0034IMF4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2384F3,710D2384F3,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C0031A,720C0031A,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D2385F3,710D2385F3,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D4004F2,710D4004F2,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D3381F1,730D3381F1,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D6001UV,720D6001UV,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C0035,730C0035,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D2001F1,730D2001F1,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3003HS,710C3003HS,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+500C0082FA,500C0082FA,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0001IMF4,720D0001IMF4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D1031F,730D1031F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D5391,710D5391,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D0001F,710D0001F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+711D0093,711D0093,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D0093,710D0093,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D3031-4,712D3031-4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0032A,710C0032A,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D4391F4,710D4391F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D4031F4,720D4031F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D3082UV,720D3082UV,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3037,710C3037,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+741C3001F,741C3001F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720D0031IMF4,720D0031IMF4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730C1032,730C1032,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C1131,510C1131,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D6081,710D6081,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+712D2081F3-4,712D2081F3-4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+722D2083F2-4,722D2083F2-4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D4391F5,710D4391F5,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D2091F,730D2091F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D4392F5,710D4392F5,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0001E2,710C0001E2,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031F4,710C0031F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D5001F,710D5001F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C0092,750C0092,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C3101,710C3101,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760C0092,760C0092,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C1001MT,710C1001MT,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+910D2032,910D2032,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031K,710C0031K,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+760D0031HF,760D0031HF,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3038,710D3038,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+730D2091,730D2091,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+740D3002HF,740D3002HF,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510D0082UV,510D0082UV,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710D3001F4,710D3001F4,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0002ST,710C0002ST,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+710C0031W,710C0031W,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+900C0033,900C0033,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+750C1091F,750C1091F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+720C4031HS,720C4031HS,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+510C2192,510C2192,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC
+751C1091F,751C1091F,Unclassified FG,Kg,1,1,FIFO,1,1,0,1,0,0,,Calco Final FG QC

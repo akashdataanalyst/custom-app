@@ -1,0 +1,2 @@
+"""COA Record doctype."""
+

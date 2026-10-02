@@ -1,0 +1,167 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "hash",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "batch_production_record",
+    "stock_entry",
+    "release_stock_entry",
+    "item_code",
+    "batch_no",
+    "quality_inspection",
+    "release_qty",
+    "moisture",
+    "mfi",
+    "ash",
+    "density",
+    "status",
+    "released_by",
+    "released_on",
+    "coa_record"
+  ],
+  "fields": [
+    {
+      "fieldname": "batch_production_record",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Batch Production Record",
+      "options": "Batch Production Record",
+      "reqd": 1
+    },
+    {
+      "fieldname": "stock_entry",
+      "fieldtype": "Link",
+      "label": "Manufacture Stock Entry",
+      "options": "Stock Entry",
+      "read_only": 1
+    },
+    {
+      "fieldname": "release_stock_entry",
+      "fieldtype": "Link",
+      "label": "Release Stock Entry",
+      "options": "Stock Entry",
+      "read_only": 1
+    },
+    {
+      "fieldname": "item_code",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Item Code",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "batch_no",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Batch No",
+      "options": "Batch",
+      "reqd": 1
+    },
+    {
+      "fieldname": "quality_inspection",
+      "fieldtype": "Link",
+      "label": "Quality Inspection",
+      "options": "Quality Inspection",
+      "reqd": 1
+    },
+    {
+      "fieldname": "release_qty",
+      "fieldtype": "Float",
+      "label": "Released Quantity",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "moisture",
+      "fieldtype": "Float",
+      "label": "Moisture"
+    },
+    {
+      "fieldname": "mfi",
+      "fieldtype": "Float",
+      "label": "MFI"
+    },
+    {
+      "fieldname": "ash",
+      "fieldtype": "Float",
+      "label": "Ash"
+    },
+    {
+      "fieldname": "density",
+      "fieldtype": "Float",
+      "label": "Density"
+    },
+    {
+      "default": "Pending",
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Status",
+      "options": "Pending\nReleased\nHold\nRejected",
+      "reqd": 1
+    },
+    {
+      "fieldname": "released_by",
+      "fieldtype": "Link",
+      "label": "Released By",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "released_on",
+      "fieldtype": "Datetime",
+      "label": "Released On",
+      "read_only": 1
+    },
+    {
+      "fieldname": "coa_record",
+      "fieldtype": "Link",
+      "label": "COA Record",
+      "options": "COA Record",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "is_submittable": 1,
+  "links": [],
+  "module": "Calco Quality",
+  "name": "Final QC Release",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "submit": 1,
+      "write": 1
+    },
+    {
+      "role": "Production Engineer",
+      "read": 1
+    },
+    {
+      "role": "Production Head",
+      "read": 1
+    },
+    {
+      "role": "Manufacturing Manager",
+      "read": 1
+    }
+  ],
+  "quick_entry": 1,
+  "search_fields": "item_code,batch_no,batch_production_record,stock_entry",
+  "show_name_in_global_search": 1,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "title_field": "batch_no"
+}

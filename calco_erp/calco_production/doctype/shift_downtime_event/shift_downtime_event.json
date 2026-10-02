@@ -1,0 +1,19 @@
+{
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": ["sequence", "stop_time", "start_time", "total_time_minutes", "code", "description", "recorded_by", "recorded_on"],
+ "fields": [
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sr. No.","read_only":1},
+  {"fieldname":"stop_time","fieldtype":"Datetime","label":"Stop Time","read_only":1},
+  {"fieldname":"start_time","fieldtype":"Datetime","label":"Start Time","read_only":1},
+  {"fieldname":"total_time_minutes","fieldtype":"Float","label":"Total Time (Minutes)","precision":"6","read_only":1},
+  {"fieldname":"code","fieldtype":"Select","label":"Code","options":"\nP\nQ\nM\nS\nC\nGC\nE","read_only":1},
+  {"fieldname":"description","fieldtype":"Small Text","label":"Description","read_only":1},
+  {"fieldname":"recorded_by","fieldtype":"Link","label":"Recorded By","options":"User","read_only":1},
+  {"fieldname":"recorded_on","fieldtype":"Datetime","label":"Recorded On","read_only":1}
+ ],
+ "istable": 1,
+ "module": "Calco Production",
+ "name": "Shift Downtime Event"
+}

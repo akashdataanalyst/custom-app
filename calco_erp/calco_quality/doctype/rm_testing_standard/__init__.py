@@ -1,0 +1,2 @@
+"""RM Testing Standard doctype."""
+

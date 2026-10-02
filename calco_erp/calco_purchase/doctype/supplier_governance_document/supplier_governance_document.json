@@ -1,0 +1,166 @@
+{
+  "actions": [],
+  "creation": "2026-07-19 17:30:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "document_key",
+    "document_type",
+    "category",
+    "document_scope",
+    "rm_reference",
+    "requirement",
+    "applicable",
+    "rule_reason",
+    "available",
+    "attachment",
+    "document_number",
+    "issue_date",
+    "expiry_date",
+    "verification_status",
+    "verified_by",
+    "verified_on",
+    "verification_remarks"
+  ],
+  "fields": [
+    {
+      "fieldname": "document_key",
+      "fieldtype": "Data",
+      "hidden": 1,
+      "label": "Document Key",
+      "read_only": 1
+    },
+    {
+      "columns": 2,
+      "fieldname": "document_type",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Document Type",
+      "options": "Supplier Registration Form\nGST Registration\nPAN\nMSME / Udyam\nSupplier Agreement\nBank Proof / Cancelled Cheque\nTax / TDS Declaration\nNDA\nCode of Conduct\nTechnical Data Sheet (TDS)\nMSDS\nCOA\nRoHS\nREACH\nUL\nTrial / Sample Approval",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Select",
+      "label": "Category",
+      "options": "Onboarding\nStatutory\nBanking\nCommercial\nCompliance\nTechnical\nTrial / Sample",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "document_scope",
+      "fieldtype": "Select",
+      "label": "Document Scope",
+      "options": "Supplier\nSupplier-RM",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "columns": 1,
+      "fieldname": "rm_reference",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "RM Reference",
+      "read_only": 1
+    },
+    {
+      "columns": 1,
+      "fieldname": "requirement",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Requirement",
+      "options": "Required\nConditional\nOptional",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "columns": 1,
+      "default": "0",
+      "fieldname": "applicable",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Applicable",
+      "read_only": 1
+    },
+    {
+      "fieldname": "rule_reason",
+      "fieldtype": "Small Text",
+      "label": "Rule Reason",
+      "read_only": 1
+    },
+    {
+      "columns": 1,
+      "default": "0",
+      "fieldname": "available",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Available",
+      "read_only": 1
+    },
+    {
+      "columns": 2,
+      "fieldname": "attachment",
+      "fieldtype": "Attach",
+      "in_list_view": 1,
+      "label": "Attachment"
+    },
+    {
+      "fieldname": "document_number",
+      "fieldtype": "Data",
+      "label": "Document Number"
+    },
+    {
+      "fieldname": "issue_date",
+      "fieldtype": "Date",
+      "label": "Issue Date"
+    },
+    {
+      "columns": 1,
+      "fieldname": "expiry_date",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "Expiry Date"
+    },
+    {
+      "columns": 2,
+      "default": "Pending",
+      "fieldname": "verification_status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Verification Status",
+      "options": "Pending\nVerified\nRejected\nExpired\nExpiring Soon",
+      "reqd": 1
+    },
+    {
+      "fieldname": "verified_by",
+      "fieldtype": "Link",
+      "label": "Verified By",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "verified_on",
+      "fieldtype": "Datetime",
+      "label": "Verified On",
+      "read_only": 1
+    },
+    {
+      "fieldname": "verification_remarks",
+      "fieldtype": "Small Text",
+      "label": "Verification Remarks"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "istable": 1,
+  "links": [],
+  "module": "Calco Purchase",
+  "name": "Supplier Governance Document",
+  "owner": "Administrator",
+  "permissions": [],
+  "quick_entry": 0,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}

@@ -1,0 +1,2 @@
+"""RM Release Note doctype."""
+

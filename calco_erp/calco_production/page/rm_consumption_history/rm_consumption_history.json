@@ -1,0 +1,9 @@
+{
+  "doctype": "Page",
+  "name": "rm-consumption-history",
+  "page_name": "rm-consumption-history",
+  "title": "RM Consumption History",
+  "module": "Calco Production",
+  "standard": "Yes",
+  "roles": []
+}

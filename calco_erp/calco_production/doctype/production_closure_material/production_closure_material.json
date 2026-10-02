@@ -1,0 +1,66 @@
+{
+  "doctype": "DocType",
+  "name": "Production Closure Material",
+  "module": "Calco Production",
+  "field_order": [
+    "item_code",
+    "batch_no",
+    "stock_uom",
+    "issued_qty",
+    "accounted_qty",
+    "final_actual_qty",
+    "source_evidence"
+  ],
+  "fields": [
+    {
+      "fieldname": "item_code",
+      "label": "RM Item",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Item"
+    },
+    {
+      "fieldname": "batch_no",
+      "label": "Batch",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Batch"
+    },
+    {
+      "fieldname": "stock_uom",
+      "label": "Stock UOM",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "UOM"
+    },
+    {
+      "fieldname": "issued_qty",
+      "label": "Issued to Production",
+      "fieldtype": "Float",
+      "read_only": 1
+    },
+    {
+      "fieldname": "accounted_qty",
+      "label": "Qty Already Accounted from WIP",
+      "fieldtype": "Float",
+      "read_only": 1
+    },
+    {
+      "fieldname": "final_actual_qty",
+      "label": "Final Actual Consumption",
+      "fieldtype": "Data",
+      "read_only": 1
+    },
+    {
+      "fieldname": "source_evidence",
+      "label": "Source Evidence",
+      "fieldtype": "Long Text",
+      "read_only": 1,
+      "hidden": 1,
+      "permlevel": 1
+    }
+  ],
+  "track_changes": 1,
+  "allow_rename": 0,
+  "istable": 1
+}

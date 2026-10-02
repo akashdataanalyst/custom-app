@@ -1,0 +1,1 @@
+# Frappe is expected to be available from the Bench / ERPNext environment.

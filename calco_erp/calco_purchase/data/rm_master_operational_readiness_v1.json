@@ -1,0 +1,1772 @@
+[
+  {
+    "ItemCode": "1085",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "2083",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "24FS040",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "300-FG",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "501M020",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "520M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "530M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "530M002",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "530M003",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "530M004",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "6202",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M004",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M005",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M006BK",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M006N",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M006SB",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M006SM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M006SN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M022",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "711M023",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "721M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "721M003",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "721M004",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "730M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "731M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "7684 KN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "790M001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "900M045",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "900MS136",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "910M030",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "910M040",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "A24",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "A45",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "A45G",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "A45L",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD101",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD102",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD103",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD104",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD105",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD106",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD107",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD108",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD201",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD202",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD203",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD204",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD205",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD206",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD207",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD208",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD209",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD210",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD211",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD212",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD213",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD214",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD301",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD302",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD303",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD304",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD305",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD306",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD307",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD308",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD309",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD310",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD311",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD312",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD313",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD314",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD315",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD316",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD401",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD402",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD402F",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD402F1",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD403",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD404",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD404A",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD405",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD405A",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD406",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD407",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD408",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD409",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD410",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD411",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD412",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD413",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD414",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD415",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD416",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD417",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD418",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD419",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD420",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD421",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD422",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD423",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD424",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD425",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD426",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD427",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD428",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD4814",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD501",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD502",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD503",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD601",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD602",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD603",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD8",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD801",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD802",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD803G",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD804",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD805",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD806",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD807",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD808",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD809",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD810",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD811",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD812M",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD815",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AD816",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AER003N",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "AM650N",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "APP",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B-30",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B-72",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B120MN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B220MN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B265MO",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "B400MN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "BP0717",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "BP0800",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "BP0880",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "C080M",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "C1200",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "C320MN",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "CAO",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "CO15EG",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "CS-123D",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "CS-995",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "D120MA",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "DELAMINE",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "EXFLAIR",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "FR-102",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G249",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G508",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G511",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G534",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G560",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G568",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G952",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "G968",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "GBEAD",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H-10",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H-11",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H110MA",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H200FG",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H350FG",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H8202L",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "H8202NLB",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "HALDWANI",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "HR 181",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JE25",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JE25 OG",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JE25L",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JE25SD",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JE28",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "JEMB",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "K102A",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "KEMOLIT KF4",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "KEMOLIT SL4",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L/OLD",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L05XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L07XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L08XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L09XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L10XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L11XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L12XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L12XMA",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "L13XM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "M-1251",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "M-1420",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "M1000R",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "M12RR",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "M2407",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "MIXROY",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "N200HV",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P-22",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P-30",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00002",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00003",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00004",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00005",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00006",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00007",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00008",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00009",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00010",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00011",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00012",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00013",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00014",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00015",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P00016",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P080M",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "P100M",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PA0001",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PA0002",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PA0003",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PB06HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PBR1HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PBR2HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PC06",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PD01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE0201",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE0570",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE0800",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE0803",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE232130",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE252158",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE252169",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE262201",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE44882",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE522156",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE5302",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PE6269",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PG01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PG02HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PG03HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PMX",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO81",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PO82",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "POB1",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "POB2",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "POB3",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PP01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PP02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PP03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR06",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PR07",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT-84",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PT83",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PV01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY01",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY02",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY03",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY04",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY05",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY06",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY07",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY08",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY10HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "PY11HS",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "QH1200",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "SAN-300N",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "SM-200",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "T435TM",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "T551",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "TALC 1090",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "TH6085",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "WX",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  },
+  {
+    "ItemCode": "Y35GR",
+    "ManifestReference": "RM-MASTER-OP-READY-v1.0",
+    "InitializationBasis": "Existing enabled Raw Material stock Item approved for operational use by the 2026-08-16 business decision.",
+    "SourceSnapshot": "Recovery 2026-08-16"
+  }
+]

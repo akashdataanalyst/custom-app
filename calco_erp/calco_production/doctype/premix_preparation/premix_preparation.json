@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "job_card",
+  "verified_by",
+  "verified_on",
+  "status",
+  "items"
+ ],
+ "fields": [
+  {"fieldname": "naming_series", "fieldtype": "Data", "label": "Series", "default": "PPX-.YYYY.-", "hidden": 1},
+  {"fieldname": "job_card", "fieldtype": "Link", "label": "Job Card", "options": "Production Job Card", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "verified_by", "fieldtype": "Link", "label": "Verified By", "options": "User"},
+  {"fieldname": "verified_on", "fieldtype": "Datetime", "label": "Verified On"},
+  {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Draft\nVerified\nCompleted", "default": "Draft", "in_list_view": 1},
+  {"fieldname": "items", "fieldtype": "Table", "label": "Items", "options": "Premix Preparation Item", "reqd": 1}
+ ],
+ "index_web_pages_for_search": 1,
+ "module": "Calco Production",
+ "name": "Premix Preparation",
+ "permissions": [
+  {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "report": 1, "export": 1, "share": 1, "print": 1, "email": 1},
+  {"role": "Production Manager", "read": 1, "write": 1, "create": 1, "report": 1, "print": 1},
+  {"role": "Production Engineer", "read": 1, "write": 1, "create": 1, "report": 1, "print": 1}
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name"
+}
+

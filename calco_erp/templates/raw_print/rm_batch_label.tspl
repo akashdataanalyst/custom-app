@@ -1,0 +1,19 @@
+{% for row in doc.items if row.batch_no %}
+SIZE 100 mm,50 mm
+GAP 3 mm,0 mm
+DIRECTION 1
+REFERENCE 0,0
+OFFSET 0 mm
+CLS
+TEXT 24,12,"0",0,8,8,"CALCO POLYTECHNIK PVT LTD"
+TEXT 24,38,"0",0,10,10,"RM BATCH LABEL"
+TEXT 24,78,"0",0,9,9,"Item: {{ row.item_code }}"
+TEXT 24,110,"0",0,9,9,"Batch: {{ row.batch_no }}"
+TEXT 24,142,"0",0,9,9,"Qty: {{ frappe.utils.flt(row.qty or row.received_qty, 3) }} Kg"
+TEXT 24,174,"0",0,9,9,"Supplier: {{ (doc.supplier or '')[:28] }}"
+TEXT 24,206,"0",0,9,9,"Receipt: {{ doc.posting_date }}"
+QRCODE 620,28,H,5,A,0,"{{ row.batch_no }}"
+BARCODE 24,250,"128",65,1,0,2,2,"{{ row.batch_no }}"
+TEXT 24,326,"0",0,8,8,"{{ row.batch_no }}"
+PRINT 1,1
+{% endfor %}

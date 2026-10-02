@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "module": "Calco Production",
+ "name": "production-planning-center",
+ "page_name": "production-planning-center",
+ "roles": [
+  {"role": "Manufacturing User"},
+  {"role": "Manufacturing Manager"},
+  {"role": "Sales User"},
+  {"role": "Sales Manager"}
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Production Planning Center"
+}

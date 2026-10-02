@@ -1,0 +1,163 @@
+{
+ "doctype": "DocType",
+ "name": "Partial FG Lot",
+ "module": "Calco Production",
+ "autoname": "format:PFG-LOT-{YYYY}-{#####}",
+ "is_submittable": 1,
+ "track_changes": 1,
+ "field_order": [
+  "job_card",
+  "work_order",
+  "company",
+  "item_code",
+  "parent_batch",
+  "lot_batch",
+  "fg_qty",
+  "cutoff",
+  "output_evidence",
+  "consumption_evidence",
+  "material_value",
+  "confirmed_by",
+  "confirmed_on",
+  "confirmation_reason",
+  "qc_fingerprint"
+ ],
+ "fields": [
+  {
+   "fieldname": "job_card",
+   "label": "Compounding Job Card",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Job Card"
+  },
+  {
+   "fieldname": "work_order",
+   "label": "Work Order",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Work Order"
+  },
+  {
+   "fieldname": "company",
+   "label": "Company",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Company"
+  },
+  {
+   "fieldname": "item_code",
+   "label": "FG Item",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Item"
+  },
+  {
+   "fieldname": "parent_batch",
+   "label": "Parent Production Batch",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Batch"
+  },
+  {
+   "fieldname": "lot_batch",
+   "label": "Partial Lot Batch",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Batch"
+  },
+  {
+   "fieldname": "fg_qty",
+   "label": "Confirmed FG Qty",
+   "fieldtype": "Float",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cutoff",
+   "label": "Production Cutoff",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "output_evidence",
+   "label": "Output Snapshot References",
+   "fieldtype": "Long Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "consumption_evidence",
+   "label": "Actual Consumption Attribution",
+   "fieldtype": "Long Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "material_value",
+   "label": "Attributed Material Value",
+   "fieldtype": "Currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "confirmed_by",
+   "label": "Confirmed By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User"
+  },
+  {
+   "fieldname": "confirmed_on",
+   "label": "Confirmed On",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "confirmation_reason",
+   "label": "Confirmation Note",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qc_fingerprint",
+   "label": "Frozen QC Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1
+  }
+ ],
+ "permissions": [
+  {
+   "role": "Production Head",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "cancel": 1,
+   "report": 1
+  },
+  {
+   "role": "Manufacturing Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "cancel": 1,
+   "report": 1
+  },
+  {
+   "role": "Production Engineer",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "cancel": 1,
+   "report": 1
+  },
+  {
+   "role": "Quality User",
+   "read": 1,
+   "report": 1
+  },
+  {
+   "role": "Quality Manager",
+   "read": 1,
+   "report": 1
+  }
+ ]
+}

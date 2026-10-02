@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "requisition_section",
+  "job_card",
+  "production_requirement",
+  "status",
+  "quantity_section",
+  "required_qty",
+  "issued_qty",
+  "target_warehouse",
+  "stores_confirmed_by",
+  "stores_confirmed_on",
+  "stock_entry",
+  "items_section",
+  "items"
+ ],
+ "fields": [
+  {"fieldname": "naming_series", "fieldtype": "Data", "label": "Series", "default": "PRR-.YYYY.-", "hidden": 1},
+  {"fieldname": "requisition_section", "fieldtype": "Section Break", "label": "Requisition Details"},
+  {"fieldname": "job_card", "fieldtype": "Link", "label": "Job Card", "options": "Production Job Card", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "production_requirement", "fieldtype": "Link", "label": "Production Requirement", "options": "Production Requirement"},
+  {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Draft\nPending Issue\nIssued\nCancelled", "default": "Draft", "in_list_view": 1},
+  {"fieldname": "quantity_section", "fieldtype": "Section Break", "label": "Quantity Summary"},
+  {"fieldname": "required_qty", "fieldtype": "Float", "label": "Required Qty", "read_only": 1},
+  {"fieldname": "issued_qty", "fieldtype": "Float", "label": "Issued Qty", "read_only": 1},
+  {"fieldname": "target_warehouse", "fieldtype": "Link", "label": "Target Warehouse", "options": "Warehouse"},
+  {"fieldname": "stores_confirmed_by", "fieldtype": "Link", "label": "Stores Confirmed By", "options": "User", "read_only": 1},
+  {"fieldname": "stores_confirmed_on", "fieldtype": "Datetime", "label": "Stores Confirmed On", "read_only": 1},
+  {"fieldname": "stock_entry", "fieldtype": "Link", "label": "Stock Entry", "options": "Stock Entry", "read_only": 1},
+  {"fieldname": "items_section", "fieldtype": "Section Break", "label": "Requisition Items"},
+  {"fieldname": "items", "fieldtype": "Table", "label": "Items", "options": "Production RM Requisition Item", "reqd": 1}
+ ],
+ "index_web_pages_for_search": 1,
+ "module": "Calco Production",
+ "name": "Production RM Requisition",
+ "permissions": [
+  {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "report": 1, "export": 1, "share": 1, "print": 1, "email": 1},
+  {"role": "Stores User", "read": 1, "write": 1, "create": 1, "report": 1, "print": 1},
+  {"role": "Production Engineer", "read": 1, "write": 1, "create": 1, "report": 1, "print": 1}
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name"
+}

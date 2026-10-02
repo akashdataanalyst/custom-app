@@ -1,0 +1,283 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\": \"quality-0\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Pending review</h4>\", \"col\": 12}}, {\"id\": \"quality-1\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New RM Requests - Pending Document & Sample Verification\", \"col\": 4}}, {\"id\": \"quality-2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New RM Requests - Pending Quality Review\", \"col\": 4}}, {\"id\": \"quality-3\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New Supplier Requests - Pending Quality Review\", \"col\": 4}}, {\"id\": \"quality-4\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Incoming Quality</h4>\", \"col\": 12}}, {\"id\": \"quality-5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Incoming Quality Inspections\", \"col\": 4}}, {\"id\": \"quality-6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM QC Decision\", \"col\": 4}}, {\"id\": \"quality-7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Deviation Approval\", \"col\": 4}}, {\"id\": \"quality-8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Release Note\", \"col\": 4}}, {\"id\": \"quality-9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Testing Standard\", \"col\": 4}}, {\"id\": \"quality-10\", \"type\": \"header\", \"data\": {\"text\": \"<h4>In-Process Quality</h4>\", \"col\": 12}}, {\"id\": \"quality-11\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"In-Process QC / Checkpoints\", \"col\": 4}}, {\"id\": \"quality-12\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"In-Process Quality Inspections\", \"col\": 4}}, {\"id\": \"quality-13\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Action\", \"col\": 4}}, {\"id\": \"quality-14\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Finished Goods Quality</h4>\", \"col\": 12}}, {\"id\": \"quality-15\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Final FG Quality Inspection\", \"col\": 4}}, {\"id\": \"quality-16\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Final QC Release\", \"col\": 4}}, {\"id\": \"quality-17\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Dispatch Clearance\", \"col\": 4}}, {\"id\": \"quality-18\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Batch Quality Records\", \"col\": 4}}, {\"id\": \"quality-19\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Certificates of Analysis\", \"col\": 4}}, {\"id\": \"quality-20\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Governance and Improvement</h4>\", \"col\": 12}}, {\"id\": \"quality-21\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Inspection Parameters\", \"col\": 4}}, {\"id\": \"quality-22\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Inspection Templates\", \"col\": 4}}, {\"id\": \"quality-23\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Procedure\", \"col\": 4}}, {\"id\": \"quality-24\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Non Conformance\", \"col\": 4}}, {\"id\": \"quality-25\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Goal\", \"col\": 4}}, {\"id\": \"quality-26\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supplier CAPA Request\", \"col\": 4}}, {\"id\": \"quality-27\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Quality Reporting</h4>\", \"col\": 12}}, {\"id\": \"quality-28\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supplier Performance Analytics\", \"col\": 4}}, {\"id\": \"quality-29\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Supplier-wise RM Rejection Report\", \"col\": 4}}, {\"id\": \"quality-30\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Parameter Failure Report\", \"col\": 4}}, {\"id\": \"quality-31\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Rejection Trend Report\", \"col\": 4}}, {\"id\": \"quality-32\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Top Problematic RM Items Report\", \"col\": 4}}, {\"id\": \"quality-33\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Management / Oversight</h4>\", \"col\": 12}}, {\"id\": \"quality-34\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Dashboard\", \"col\": 4}}, {\"id\": \"quality-35\", \"type\": \"card\", \"data\": {\"card_name\": \"Inspection history\", \"col\": 12}}, {\"id\": \"fg-standard-review\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"FG Standard Review\", \"col\": 3}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "check-circle",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Quality",
+ "links": [
+  {
+   "type": "Card Break",
+   "label": "Inspection history",
+   "link_count": 1
+  },
+  {
+   "type": "Link",
+   "label": "All Quality Inspections",
+   "link_type": "DocType",
+   "link_to": "Quality Inspection",
+   "is_query_report": 0
+  }
+ ],
+ "module": "Calco Quality",
+ "name": "Quality",
+ "number_cards": [
+  {
+   "label": "New RM Requests - Pending Document & Sample Verification",
+   "number_card_name": "New RM Requests - Pending Document & Sample Verification"
+  },
+  {
+   "label": "New RM Requests - Pending Quality Review",
+   "number_card_name": "New RM Requests - Pending Quality Review"
+  },
+  {
+   "label": "New Supplier Requests - Pending Quality Review",
+   "number_card_name": "New Supplier Requests - Pending Quality Review"
+  }
+ ],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Quality Manager"
+  },
+  {
+   "role": "Quality User"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "label": "Incoming Quality Inspections",
+   "link_to": "Quality Inspection",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[[\"Quality Inspection\", \"inspection_type\", \"=\", \"Incoming\"]]"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "icon": "shield",
+   "label": "RM QC Decision",
+   "link_to": "RM QC Decision",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "RM Deviation Approval",
+   "link_to": "RM Deviation Approval",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "green",
+   "doc_view": "List",
+   "icon": "badge-check",
+   "label": "RM Release Note",
+   "link_to": "RM Release Note",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "RM Testing Standard",
+   "link_to": "RM Testing Standard",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "In-Process QC / Checkpoints",
+   "link_to": "Work Order",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[[\"Work Order\", \"custom_ipqc_model\", \"=\", \"parallel-ipqc-v1\"], [\"Work Order\", \"docstatus\", \"=\", 1]]"
+  },
+  {
+   "label": "In-Process Quality Inspections",
+   "link_to": "Quality Inspection",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[[\"Quality Inspection\", \"custom_work_order_qc_stage\", \"=\", \"In-Process QC\"]]"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "icon": "check-square",
+   "label": "Quality Action",
+   "link_to": "Quality Action",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Final FG Quality Inspection",
+   "link_to": "Quality Inspection",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[[\"Quality Inspection\", \"custom_work_order_qc_stage\", \"=\", \"Final QC\"]]"
+  },
+  {
+   "color": "green",
+   "doc_view": "List",
+   "icon": "check-check",
+   "label": "Final QC Release",
+   "link_to": "Final QC Release",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Dispatch Clearance",
+   "link_to": "Dispatch Clearance",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "blue",
+   "doc_view": "List",
+   "icon": "package",
+   "label": "Batch Quality Records",
+   "link_to": "Batch",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Certificates of Analysis",
+   "link_to": "COA Record",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "cyan",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "Inspection Parameters",
+   "link_to": "Quality Inspection Parameter",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "cyan",
+   "doc_view": "List",
+   "icon": "list",
+   "label": "Inspection Templates",
+   "link_to": "Quality Inspection Template",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "indigo",
+   "doc_view": "Tree",
+   "icon": "book-open",
+   "label": "Quality Procedure",
+   "link_to": "Quality Procedure",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "red",
+   "doc_view": "List",
+   "icon": "alert-circle",
+   "label": "Non Conformance",
+   "link_to": "Non Conformance",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "green",
+   "doc_view": "List",
+   "icon": "target",
+   "label": "Quality Goal",
+   "link_to": "Quality Goal",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Supplier CAPA Request",
+   "link_to": "Supplier CAPA Request",
+   "type": "DocType",
+   "doc_view": "List",
+   "color": "blue",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "indigo",
+   "icon": "bar-chart",
+   "label": "Supplier Performance Analytics",
+   "link_to": "supplier-performance-analytics",
+   "type": "Page",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "blue",
+   "icon": "bar-chart",
+   "label": "Supplier-wise RM Rejection Report",
+   "link_to": "Supplier-wise RM Rejection Report",
+   "type": "Report",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "red",
+   "icon": "bar-chart-2",
+   "label": "RM Parameter Failure Report",
+   "link_to": "RM Parameter Failure Report",
+   "type": "Report",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "orange",
+   "icon": "trending-up",
+   "label": "RM Rejection Trend Report",
+   "link_to": "RM Rejection Trend Report",
+   "type": "Report",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "cyan",
+   "icon": "alert-triangle",
+   "label": "Top Problematic RM Items Report",
+   "link_to": "Top Problematic RM Items Report",
+   "type": "Report",
+   "stats_filter": "[]"
+  },
+  {
+   "color": "blue",
+   "icon": "bar-chart-3",
+   "label": "Quality Dashboard",
+   "link_to": "quality-dashboard",
+   "type": "Page",
+   "stats_filter": "[]"
+  },
+  {
+   "label": "FG Standard Review",
+   "type": "Page",
+   "link_to": "fg-standard-review",
+   "color": "Grey"
+  }
+ ],
+ "title": "Quality",
+ "type": "Workspace"
+}

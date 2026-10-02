@@ -1,0 +1,2 @@
+"""Complaint CAPA doctypes."""
+

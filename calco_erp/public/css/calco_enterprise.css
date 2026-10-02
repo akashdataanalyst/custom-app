@@ -1,0 +1,309 @@
+/*
+ * Calco Enterprise UI - theme layer for Frappe 16 desk
+ * Everything is scoped to html.calco-ent, which calco_enterprise.js adds only
+ * for users who have the "Calco New UI" role. Remove the role (or the class)
+ * and the desk returns to the current look. Dark theme is left untouched.
+ */
+
+html.calco-ent:not([data-theme="dark"]) {
+	--ce-shell: #12263a;
+	--ce-shell-2: #2c4258;
+	--ce-shell-text: #b8c4d0;
+	--ce-ground: #f3f5f7;
+	--ce-panel: #ffffff;
+	--ce-border: #d5dadf;
+	--ce-border-soft: #e8ebee;
+	--ce-ink: #1d2b3a;
+	--ce-muted: #55606c;
+	--ce-accent: #0b5cab;
+	--ce-accent-hover: #094a8a;
+	--ce-head: #f7f8fa;
+	--ce-positive: #1e7145;
+	--ce-warning: #8a5300;
+	--ce-negative: #b3261e;
+	--ce-shell-h: 48px;
+	--ce-tabs-h: 44px;
+
+	/* Frappe design tokens */
+	--font-stack: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+	--primary: var(--ce-accent);
+	--primary-color: var(--ce-accent);
+	--btn-primary: var(--ce-accent);
+	--bg-color: var(--ce-ground);
+	--fg-color: var(--ce-panel);
+	--card-bg: var(--ce-panel);
+	--modal-bg: var(--ce-panel);
+	--navbar-bg: var(--ce-panel);
+	--text-color: var(--ce-ink);
+	--text-light: var(--ce-muted);
+	--text-muted: var(--ce-muted);
+	--heading-color: var(--ce-ink);
+	--border-color: var(--ce-border);
+	--dark-border-color: #8c97a3;
+	--table-border-color: var(--ce-border-soft);
+	--control-bg: #ffffff;
+	--subtle-fg: var(--ce-head);
+	--subtle-accent: var(--ce-head);
+	--surface-gray-1: var(--ce-head);
+	--surface-menu-bar: var(--ce-panel);
+	--border-radius-sm: 2px;
+	--border-radius: 3px;
+	--border-radius-md: 3px;
+	--border-radius-lg: 4px;
+	--border-radius-xl: 4px;
+	--border-radius-2xl: 4px;
+	--shadow-sm: none;
+	--shadow-base: none;
+	--card-shadow: none;
+}
+
+html.calco-ent:not([data-theme="dark"]) body {
+	font-family: var(--font-stack);
+	font-size: 14px;
+	background: var(--ce-ground);
+	color: var(--ce-ink);
+	padding-top: var(--ce-shell-h);
+}
+
+/* ---------- Structure (applies in light and dark theme) ---------- */
+html.calco-ent body { padding-top: 0; }
+html.calco-ent .main-section { padding-top: 48px; }
+html.calco-ent .body-sidebar-container .body-sidebar { top: 48px; height: calc(100vh - 48px); }
+html.calco-ent .page-head { top: 44px; }
+
+/* ---------- Shell bar (fixed, full width) ---------- */
+.calco-ent-shell { display: none; }
+html.calco-ent .calco-ent-shell {
+	position: fixed; top: 0; left: 0; right: 0; z-index: 1030;
+	height: var(--ce-shell-h, 48px); box-sizing: border-box; padding: 0 24px;
+	display: flex; align-items: center; gap: 16px;
+	background: #12263a; color: #ffffff;
+	font-family: "Segoe UI", sans-serif;
+}
+html.calco-ent .calco-ent-shell .ce-logo { height: 28px; width: auto; background: #ffffff; border-radius: 3px; padding: 2px 6px; box-sizing: border-box; }
+html.calco-ent .calco-ent-shell .ce-name { font-size: 15px; font-weight: 600; letter-spacing: 0.01em; color: #ffffff; text-decoration: none; }
+html.calco-ent .calco-ent-shell .ce-rule { width: 1px; height: 20px; background: #3a4c5e; }
+html.calco-ent .calco-ent-shell .ce-product { font-size: 14px; color: #b8c4d0; }
+html.calco-ent .calco-ent-shell .ce-grow { flex: 1 1 0; }
+html.calco-ent .calco-ent-shell .ce-search {
+	display: flex; align-items: center; gap: 8px; width: 420px; max-width: 40vw; height: 32px;
+	padding: 0 10px; border: 0; border-radius: 3px; background: #ffffff; color: #55606c;
+	font: inherit; font-size: 14px; text-align: left; cursor: text;
+}
+html.calco-ent .calco-ent-shell .ce-search kbd { margin-left: auto; font-family: monospace; font-size: 11px; color: #55606c; background: #f3f5f7; border: 1px solid #d5dadf; border-radius: 3px; padding: 0 5px; box-shadow: none; }
+html.calco-ent .calco-ent-shell .ce-icon-btn {
+	width: 36px; height: 36px; border: 0; border-radius: 3px; background: transparent; color: #ffffff;
+	display: inline-flex; align-items: center; justify-content: center; cursor: pointer;
+}
+html.calco-ent .calco-ent-shell .ce-icon-btn:hover,
+html.calco-ent .calco-ent-shell .ce-icon-btn:focus-visible { background: #2c4258; outline: none; }
+html.calco-ent .calco-ent-shell .ce-text-btn { height: 32px; padding: 0 10px; border: 1px solid #3a4c5e; border-radius: 3px; background: transparent; color: #ffffff; font: inherit; font-size: 13px; cursor: pointer; }
+html.calco-ent .calco-ent-shell .ce-text-btn:hover { background: #2c4258; }
+
+/* ---------- Workspace tabs ---------- */
+.calco-ent-tabs { display: none; }
+html.calco-ent .main-section > header { position: sticky; top: 0; z-index: 1010; }
+html.calco-ent .calco-ent-tabs {
+	display: flex; align-items: stretch; gap: 0; height: var(--ce-tabs-h, 44px); box-sizing: border-box;
+	padding: 0 12px; background: #ffffff; border-bottom: 1px solid #d5dadf; overflow-x: auto; overflow-y: hidden;
+	scrollbar-width: none;
+}
+html.calco-ent .calco-ent-tabs::-webkit-scrollbar { display: none; }
+html.calco-ent .calco-ent-tabs .ce-tab {
+	display: inline-flex; align-items: center; gap: 6px; padding: 0 11px; white-space: nowrap;
+	border: 0; border-bottom: 3px solid transparent; background: transparent;
+	font: inherit; font-size: 14px; color: #1d2b3a; text-decoration: none; cursor: pointer;
+}
+html.calco-ent .calco-ent-tabs .ce-tab:hover { color: #0b5cab; }
+html.calco-ent .calco-ent-tabs .ce-tab:focus-visible { outline: 2px solid #0b5cab; outline-offset: -2px; }
+html.calco-ent .calco-ent-tabs .ce-tab.is-active { color: #0b5cab; font-weight: 600; border-bottom-color: #0b5cab; }
+html.calco-ent .calco-ent-tabs .ce-count { font-size: 12px; font-weight: 600; padding: 0 6px; border-radius: 8px; background: #b3261e; color: #ffffff; }
+html.calco-ent .ce-menu {
+	position: fixed; z-index: 1040; min-width: 220px; padding: 4px 0; background: #ffffff;
+	border: 1px solid #d5dadf; border-radius: 4px; box-shadow: 0 4px 16px rgba(18, 38, 58, 0.16);
+}
+html.calco-ent .ce-menu a { display: flex; align-items: center; height: 36px; padding: 0 14px; font-size: 14px; color: #1d2b3a; text-decoration: none; }
+html.calco-ent .ce-menu a:hover, html.calco-ent .ce-menu a:focus-visible { background: #f3f5f7; color: #0b5cab; outline: none; }
+html.calco-ent .ce-menu .ce-menu-head { padding: 8px 14px 4px; font-size: 12px; font-weight: 600; color: #55606c; }
+
+/* ---------- Existing chrome: sidebar, page head, old brand bar ---------- */
+html.calco-ent .calco-operational-brandbar { display: none !important; }
+html.calco-ent:not([data-theme="dark"]) .body-sidebar-container .body-sidebar {
+	top: var(--ce-shell-h); height: calc(100vh - var(--ce-shell-h));
+	background: #ffffff; border-right: 1px solid var(--ce-border);
+}
+html.calco-ent:not([data-theme="dark"]) .body-sidebar .standard-sidebar-item { border-radius: 3px; }
+html.calco-ent:not([data-theme="dark"]) .body-sidebar .standard-sidebar-item.active-sidebar { background: #e8f0f9; }
+html.calco-ent:not([data-theme="dark"]) .body-sidebar .standard-sidebar-item.active-sidebar .sidebar-item-label { color: var(--ce-accent); font-weight: 600; }
+
+html.calco-ent:not([data-theme="dark"]) .page-head {
+	top: var(--ce-tabs-h);
+	background: #ffffff; border-bottom: 1px solid var(--ce-border);
+}
+html.calco-ent:not([data-theme="dark"]) .page-head .title-text,
+html.calco-ent:not([data-theme="dark"]) .page-title .title-text { font-size: 20px; font-weight: 600; letter-spacing: 0; color: var(--ce-ink); }
+html.calco-ent:not([data-theme="dark"]) .page-container,
+html.calco-ent:not([data-theme="dark"]) .main-section,
+html.calco-ent:not([data-theme="dark"]) #body { background: var(--ce-ground); }
+
+/* ---------- Buttons, inputs, indicators ---------- */
+html.calco-ent:not([data-theme="dark"]) .btn { border-radius: 3px; font-weight: 600; box-shadow: none; }
+html.calco-ent:not([data-theme="dark"]) .btn-primary,
+html.calco-ent:not([data-theme="dark"]) .btn-primary:active { background: var(--ce-accent); border-color: var(--ce-accent); color: #ffffff; }
+html.calco-ent:not([data-theme="dark"]) .btn-primary:hover,
+html.calco-ent:not([data-theme="dark"]) .btn-primary:focus { background: var(--ce-accent-hover); border-color: var(--ce-accent-hover); }
+html.calco-ent:not([data-theme="dark"]) .btn-default,
+html.calco-ent:not([data-theme="dark"]) .btn-secondary { background: #ffffff; border: 1px solid var(--ce-accent); color: var(--ce-accent); }
+html.calco-ent:not([data-theme="dark"]) .btn-default:hover,
+html.calco-ent:not([data-theme="dark"]) .btn-secondary:hover { background: #e8f0f9; }
+html.calco-ent:not([data-theme="dark"]) .form-control,
+html.calco-ent:not([data-theme="dark"]) .input-with-feedback,
+html.calco-ent:not([data-theme="dark"]) .awesomplete input {
+	background: #ffffff; border: 1px solid #8c97a3; border-radius: 3px; color: var(--ce-ink); box-shadow: none;
+}
+html.calco-ent:not([data-theme="dark"]) .form-control:focus { border-color: var(--ce-accent); box-shadow: 0 0 0 1px var(--ce-accent); }
+html.calco-ent:not([data-theme="dark"]) .form-control[disabled],
+html.calco-ent:not([data-theme="dark"]) .like-disabled-input { background: var(--ce-head); border-color: var(--ce-border); }
+html.calco-ent:not([data-theme="dark"]) .control-label { color: var(--ce-muted); font-size: 13px; }
+html.calco-ent:not([data-theme="dark"]) .frappe-control a,
+html.calco-ent:not([data-theme="dark"]) .list-row .list-subject a,
+html.calco-ent:not([data-theme="dark"]) .ce-block__content .ce-paragraph a { color: var(--ce-accent); }
+html.calco-ent:not([data-theme="dark"]) .body-sidebar a,
+html.calco-ent:not([data-theme="dark"]) .widget a,
+html.calco-ent:not([data-theme="dark"]) .dropdown-menu a,
+html.calco-ent:not([data-theme="dark"]) .btn { text-decoration: none; }
+html.calco-ent:not([data-theme="dark"]) .indicator-pill { border-radius: 3px; font-weight: 600; }
+
+/* ---------- Workspace widgets become flat tiles ---------- */
+html.calco-ent:not([data-theme="dark"]) [id^="page-Workspaces"] .layout-main-section,
+html.calco-ent:not([data-theme="dark"]) #page-desktop .layout-main-section { background: transparent; border: 0; }
+html.calco-ent:not([data-theme="dark"]) .widget {
+	border: 1px solid var(--ce-border) !important; border-left: 1px solid var(--ce-border) !important;
+	border-radius: 4px !important; box-shadow: none !important; background: #ffffff;
+}
+html.calco-ent:not([data-theme="dark"]) .widget:hover { border-color: var(--ce-accent) !important; }
+html.calco-ent:not([data-theme="dark"]) .widget .widget-title { font-size: 15px; font-weight: 600; color: var(--ce-ink); }
+html.calco-ent:not([data-theme="dark"]) .widget .widget-subtitle { font-size: 13px; color: var(--ce-muted); }
+html.calco-ent:not([data-theme="dark"]) .widget.number-widget-box .widget-body .number { font-weight: 300; font-size: 34px; color: var(--ce-ink); }
+html.calco-ent:not([data-theme="dark"]) .widget .widget-head svg,
+html.calco-ent:not([data-theme="dark"]) .widget .widget-head .icon { color: var(--ce-accent); stroke: currentColor; }
+html.calco-ent:not([data-theme="dark"]) .ce-block__content h1,
+html.calco-ent:not([data-theme="dark"]) .ce-block__content h2,
+html.calco-ent:not([data-theme="dark"]) .ce-block__content .h4,
+html.calco-ent:not([data-theme="dark"]) .ce-header { font-size: 16px; font-weight: 600; color: var(--ce-ink); }
+
+/* ---------- List view as a data table ---------- */
+html.calco-ent:not([data-theme="dark"]) .frappe-list,
+html.calco-ent:not([data-theme="dark"]) .layout-main-section { background: #ffffff; border: 1px solid var(--ce-border); border-radius: 4px; box-shadow: none; }
+html.calco-ent:not([data-theme="dark"]) .list-row-head { background: var(--ce-head); border-top: 0; border-bottom: 1px solid var(--ce-border); color: var(--ce-muted); font-weight: 600; }
+html.calco-ent:not([data-theme="dark"]) .list-row-head .list-subject,
+html.calco-ent:not([data-theme="dark"]) .list-row-head .list-row-col { color: var(--ce-muted); font-weight: 600; }
+html.calco-ent:not([data-theme="dark"]) .list-row { border-bottom: 1px solid var(--ce-border-soft); }
+html.calco-ent:not([data-theme="dark"]) .list-row:hover { background: #f3f7fc; }
+html.calco-ent:not([data-theme="dark"]) .list-row .list-subject a { color: var(--ce-accent); font-weight: 600; }
+
+/* ---------- Forms ---------- */
+html.calco-ent:not([data-theme="dark"]) .form-layout,
+html.calco-ent:not([data-theme="dark"]) .form-page { background: #ffffff; border-radius: 4px; }
+html.calco-ent:not([data-theme="dark"]) .form-section .section-head,
+html.calco-ent:not([data-theme="dark"]) .form-dashboard-section .section-head { font-size: 15px; font-weight: 600; color: var(--ce-ink); }
+html.calco-ent:not([data-theme="dark"]) .form-tabs-list { background: #ffffff; border-bottom: 1px solid var(--ce-border); }
+html.calco-ent:not([data-theme="dark"]) .form-tabs .nav-link.active { color: var(--ce-accent); border-bottom: 3px solid var(--ce-accent); font-weight: 600; }
+html.calco-ent:not([data-theme="dark"]) .grid-heading-row { background: var(--ce-head); color: var(--ce-muted); font-weight: 600; }
+html.calco-ent:not([data-theme="dark"]) .form-grid { border-radius: 3px; border-color: var(--ce-border); }
+
+/* ---------- Reports / datatable ---------- */
+html.calco-ent:not([data-theme="dark"]) .datatable .dt-header .dt-cell { background: var(--ce-head); color: var(--ce-muted); font-weight: 600; }
+html.calco-ent:not([data-theme="dark"]) .datatable .dt-cell { border-color: var(--ce-border-soft); }
+
+/* ---------- Modals and menus ---------- */
+html.calco-ent:not([data-theme="dark"]) .modal-content { border-radius: 4px; border: 1px solid var(--ce-border); }
+html.calco-ent:not([data-theme="dark"]) .dropdown-menu { border-radius: 4px; border: 1px solid var(--ce-border); box-shadow: 0 4px 16px rgba(18, 38, 58, 0.16); }
+
+/* =====================================================================
+ * My Home page (/desk/calco-home). Not scoped to html.calco-ent so the
+ * page is usable even for users still on the classic look.
+ * ===================================================================== */
+.calco-home { font-family: "Segoe UI", sans-serif; color: #1d2b3a; display: flex; flex-direction: column; gap: 24px; padding: 8px 0 32px; }
+.calco-home h2 { margin: 0 0 10px; font-size: 16px; font-weight: 600; color: #1d2b3a; }
+.calco-home .ch-grid { display: grid; gap: 12px; }
+.calco-home .ch-flow { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.calco-home .ch-split { grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.calco-home .ch-dash { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.calco-home .ch-tile {
+	display: flex; flex-direction: column; min-height: 148px; box-sizing: border-box; padding: 14px 16px;
+	background: #ffffff; border: 1px solid #d5dadf; border-radius: 4px; color: #1d2b3a; text-decoration: none; text-align: left;
+	font: inherit; cursor: pointer;
+}
+.calco-home .ch-tile:hover, .calco-home .ch-tile:focus-visible { border-color: #0b5cab; outline: none; text-decoration: none; color: #1d2b3a; }
+.calco-home .ch-tile.is-small { min-height: 0; }
+.calco-home .ch-tile-title { font-size: 15px; font-weight: 600; }
+.calco-home .ch-tile-sub { font-size: 13px; color: #55606c; }
+.calco-home .ch-tile-grow { flex: 1 1 0; min-height: 12px; }
+.calco-home .ch-num-row { display: flex; align-items: baseline; gap: 8px; }
+.calco-home .ch-num { font-size: 40px; font-weight: 300; line-height: 1; }
+.calco-home .ch-num.is-clear { color: #1e7145; }
+.calco-home .ch-num.is-open { color: #1d2b3a; }
+.calco-home .ch-unit, .calco-home .ch-foot { font-size: 12.5px; color: #55606c; }
+.calco-home .ch-foot { margin-top: 6px; }
+.calco-home .ch-panel { background: #ffffff; border: 1px solid #d5dadf; border-radius: 4px; display: flex; flex-direction: column; }
+.calco-home .ch-panel-head { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 16px; }
+.calco-home .ch-panel-head h2 { margin: 0; flex: 1 1 0; }
+.calco-home .ch-link { color: #0b5cab; font-weight: 600; text-decoration: none; background: none; border: 0; padding: 0; font: inherit; font-weight: 600; cursor: pointer; }
+.calco-home .ch-link:hover { text-decoration: underline; }
+.calco-home table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.calco-home th { height: 34px; padding: 0 12px; text-align: left; font-weight: 600; color: #55606c; background: #f7f8fa; border-top: 1px solid #d5dadf; border-bottom: 1px solid #d5dadf; white-space: nowrap; }
+.calco-home td { height: 38px; padding: 0 12px; border-bottom: 1px solid #e8ebee; }
+.calco-home th:first-child, .calco-home td:first-child { padding-left: 16px; }
+.calco-home th:last-child, .calco-home td:last-child { padding-right: 16px; text-align: right; }
+.calco-home .ch-mono { font-family: monospace; font-size: 12.5px; }
+.calco-home .ch-status { color: #8a5300; font-weight: 600; white-space: nowrap; }
+.calco-home .ch-muted { color: #55606c; }
+.calco-home .ch-empty { padding: 20px 16px; color: #55606c; font-size: 13.5px; }
+.calco-home .ch-list a, .calco-home .ch-list button { display: flex; align-items: center; width: 100%; height: 40px; padding: 0 16px; border: 0; border-top: 1px solid #e8ebee; background: none; color: #0b5cab; font: inherit; font-weight: 600; text-align: left; text-decoration: none; cursor: pointer; }
+.calco-home .ch-list a:hover, .calco-home .ch-list button:hover { background: #f3f7fc; }
+.calco-home .ch-side { display: flex; flex-direction: column; gap: 16px; }
+@media (max-width: 1100px) {
+	.calco-home .ch-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.calco-home .ch-split { grid-template-columns: minmax(0, 1fr); }
+	.calco-home .ch-dash { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.calco-home .ch-table-wrap { overflow-x: auto; }
+}
+@media (max-width: 768px) {
+	html.calco-ent .calco-ent-shell { padding: 0 12px; gap: 10px; }
+	html.calco-ent .calco-ent-shell .ce-product, html.calco-ent .calco-ent-shell .ce-rule, html.calco-ent .calco-ent-shell .ce-name { display: none; }
+	html.calco-ent .calco-ent-shell .ce-search { width: auto; flex: 1 1 0; max-width: none; }
+	html.calco-ent .calco-ent-tabs { padding: 0 8px; }
+	html.calco-ent .calco-ent-tabs .ce-tab { min-height: 44px; }
+}
+/* Integration: current workspace content/sidebar and native actions remain intact. */
+html.calco-ent .calco-home-unified-banner { display:none; }
+.calco-enterprise-restore {position:fixed;bottom:12px;right:18px;z-index:1030;}
+.calco-home .ch-metrics {grid-template-columns:repeat(2,minmax(0,1fr));}
+.calco-home .ch-metrics .ch-tile {min-height:114px;gap:8px;}
+.calco-home .ch-table-wrap {overflow-x:auto;max-width:100%;}
+.calco-home .ch-num {font-variant-numeric:tabular-nums;}
+html.calco-ent .ce-search {min-width:100px;}
+html.calco-ent .ce-search kbd {margin-left:auto;}
+html.calco-ent .ce-navigation-error {padding:10px;}
+html[data-theme="dark"] .calco-home {color:var(--text-color);}
+html[data-theme="dark"] .calco-home h2,
+html[data-theme="dark"] .calco-home .ch-num,
+html[data-theme="dark"] .calco-home .ch-tile {color:var(--text-color);}
+html[data-theme="dark"] .calco-home .ch-panel,
+html[data-theme="dark"] .calco-home .ch-tile,
+html[data-theme="dark"] .calco-home th {background:var(--fg-color);border-color:var(--border-color);}
+html[data-theme="dark"] .calco-home .ch-unit,
+html[data-theme="dark"] .calco-home .ch-empty,
+html[data-theme="dark"] .calco-home th {color:var(--text-muted);}
+html[data-theme="dark"] .calco-home .ch-link,
+html[data-theme="dark"] .calco-home .ch-list button {color:var(--text-color);}
+html[data-theme="dark"].calco-ent .calco-ent-tabs {background:var(--fg-color);border-color:var(--border-color);}
+html[data-theme="dark"].calco-ent .calco-ent-tabs .ce-tab {color:var(--text-color);}
+@media(max-width:700px){.calco-home .ch-metrics,.calco-home .ch-dash{grid-template-columns:minmax(0,1fr);}html.calco-ent .ce-search kbd{display:none;}}
+@media print {html.calco-ent body{padding-top:0!important;}.calco-ent-shell,.calco-ent-tabs,.calco-enterprise-restore{display:none!important;}html.calco-ent .page-head{top:0;}}
+
+@media print { html.calco-ent .main-section { padding-top: 0 !important; } }
+
+/* Native sidebar drawer stays above workspace tabs and inside the viewport. */
+html.calco-ent .notifications-list { height: calc(100vh - 48px); }

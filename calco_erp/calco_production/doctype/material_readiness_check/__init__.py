@@ -1,0 +1,2 @@
+"""Material Readiness Check doctype."""
+

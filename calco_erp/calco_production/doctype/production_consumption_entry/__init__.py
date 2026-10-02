@@ -1,0 +1,1 @@
+"""Production Consumption Entry doctype."""

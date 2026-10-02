@@ -1,0 +1,1 @@
+"""FG Testing Method doctype."""

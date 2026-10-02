@@ -1,0 +1,38 @@
+{
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequence", "event_time",
+  "f1_set_percent", "f1_actual_kg", "f2_set_percent", "f2_actual_kg",
+  "f3_set_percent", "f3_actual_kg", "f4_set_percent", "f4_actual_kg",
+  "f5_set_percent", "f5_actual_kg", "f6_set_percent", "f6_actual_kg",
+  "set_throughput_kg_hr", "actual_throughput_kg_hr",
+  "shift", "entered_by", "entered_on", "observation"
+ ],
+ "fields": [
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sr. No.","read_only":1},
+  {"fieldname":"event_time","fieldtype":"Datetime","label":"Time","read_only":1},
+  {"fieldname":"f1_set_percent","fieldtype":"Float","label":"Feeder 1 Set %","precision":"6","read_only":1},
+  {"fieldname":"f1_actual_kg","fieldtype":"Float","label":"Feeder 1 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"f2_set_percent","fieldtype":"Float","label":"Feeder 2 Set %","precision":"6","read_only":1},
+  {"fieldname":"f2_actual_kg","fieldtype":"Float","label":"Feeder 2 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"f3_set_percent","fieldtype":"Float","label":"Feeder 3 Set %","precision":"6","read_only":1},
+  {"fieldname":"f3_actual_kg","fieldtype":"Float","label":"Feeder 3 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"f4_set_percent","fieldtype":"Float","label":"Feeder 4 Set %","precision":"6","read_only":1},
+  {"fieldname":"f4_actual_kg","fieldtype":"Float","label":"Feeder 4 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"f5_set_percent","fieldtype":"Float","label":"Feeder 5 Set %","precision":"6","read_only":1},
+  {"fieldname":"f5_actual_kg","fieldtype":"Float","label":"Feeder 5 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"f6_set_percent","fieldtype":"Float","label":"Feeder 6 Set %","precision":"6","read_only":1},
+  {"fieldname":"f6_actual_kg","fieldtype":"Float","label":"Feeder 6 Actual Kg","precision":"6","read_only":1},
+  {"fieldname":"set_throughput_kg_hr","fieldtype":"Float","label":"Set Throughput (kg/hr)","precision":"6","read_only":1},
+  {"fieldname":"actual_throughput_kg_hr","fieldtype":"Float","label":"Actual Throughput (kg/hr)","precision":"6","read_only":1},
+  {"fieldname":"shift","fieldtype":"Link","label":"Shift","options":"Shift Type","read_only":1},
+  {"fieldname":"entered_by","fieldtype":"Link","label":"Entered By","options":"User","read_only":1},
+  {"fieldname":"entered_on","fieldtype":"Datetime","label":"Entered On","read_only":1},
+  {"fieldname":"observation","fieldtype":"Small Text","label":"Observation / Remarks","read_only":1}
+ ],
+ "istable": 1,
+ "module": "Calco Production",
+ "name": "Shift Feeder Setting"
+}

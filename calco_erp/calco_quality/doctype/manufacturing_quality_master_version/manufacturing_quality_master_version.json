@@ -1,0 +1,221 @@
+{
+ "doctype": "DocType",
+ "name": "Manufacturing Quality Master Version",
+ "module": "Calco Quality",
+ "autoname": "field:version_key",
+ "engine": "InnoDB",
+ "track_changes": 1,
+ "field_order": [
+  "version_key",
+  "master_kind",
+  "fg_item",
+  "production_line",
+  "is_active",
+  "business_revision",
+  "issue_date_text",
+  "material_status",
+  "source_file",
+  "source_sha256",
+  "source_sheet",
+  "source_row",
+  "source_version",
+  "source_fingerprint",
+  "payload_hash",
+  "payload",
+  "review_notes",
+  "approval_reference",
+  "supersedes",
+  "imported_by",
+  "imported_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "version_key",
+   "fieldtype": "Data",
+   "label": "Version Identity",
+   "read_only": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "master_kind",
+   "fieldtype": "Select",
+   "label": "Master Kind",
+   "read_only": 1,
+   "options": "FG Standard\nControl Plan",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "fg_item",
+   "fieldtype": "Link",
+   "label": "FG Item",
+   "read_only": 1,
+   "options": "Item",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "production_line",
+   "fieldtype": "Link",
+   "label": "Production Line",
+   "read_only": 1,
+   "options": "Workstation",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Active Source Version",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "business_revision",
+   "fieldtype": "Data",
+   "label": "Source Business Revision",
+   "read_only": 1
+  },
+  {
+   "fieldname": "issue_date_text",
+   "fieldtype": "Data",
+   "label": "Source Issue Date (Original)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "material_status",
+   "fieldtype": "Data",
+   "label": "Source Material Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_file",
+   "fieldtype": "Data",
+   "label": "Source Workbook",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_sha256",
+   "fieldtype": "Data",
+   "label": "Source Workbook SHA-256",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_sheet",
+   "fieldtype": "Data",
+   "label": "Source Sheet",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_row",
+   "fieldtype": "Int",
+   "label": "Source Row",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_version",
+   "fieldtype": "Data",
+   "label": "Import Policy Version",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_fingerprint",
+   "fieldtype": "Data",
+   "label": "Source Row Fingerprint",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payload_hash",
+   "fieldtype": "Data",
+   "label": "Version Payload SHA-256",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payload",
+   "fieldtype": "Code",
+   "label": "Preserved Specifications / Controls",
+   "read_only": 1,
+   "options": "JSON"
+  },
+  {
+   "fieldname": "review_notes",
+   "fieldtype": "Small Text",
+   "label": "Property / Activation Review Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "approval_reference",
+   "fieldtype": "Small Text",
+   "label": "Source Approval Reference",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supersedes",
+   "fieldtype": "Link",
+   "label": "Supersedes",
+   "read_only": 1,
+   "options": "Manufacturing Quality Master Version"
+  },
+  {
+   "fieldname": "imported_by",
+   "fieldtype": "Link",
+   "label": "Imported By",
+   "read_only": 1,
+   "options": "User"
+  },
+  {
+   "fieldname": "imported_on",
+   "fieldtype": "Datetime",
+   "label": "Imported On",
+   "read_only": 1
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "create": 1,
+   "write": 1
+  },
+  {
+   "role": "Quality Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "create": 1,
+   "write": 1
+  },
+  {
+   "role": "Quality User",
+   "read": 1,
+   "report": 1,
+   "print": 1
+  },
+  {
+   "role": "Production Head",
+   "read": 1,
+   "report": 1,
+   "print": 1
+  },
+  {
+   "role": "Production Engineer",
+   "read": 1,
+   "report": 1,
+   "print": 1
+  },
+  {
+   "role": "Manufacturing Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1
+  },
+  {
+   "role": "Manufacturing User",
+   "read": 1,
+   "report": 1,
+   "print": 1
+  }
+ ]
+}

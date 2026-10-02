@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "creation": "2026-06-06 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "bar-chart",
+ "idx": 0,
+ "modified": "2026-06-06 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Calco Quality",
+ "name": "supplier-performance-analytics",
+ "owner": "Administrator",
+ "page_name": "supplier-performance-analytics",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Supplier Performance Analytics"
+}

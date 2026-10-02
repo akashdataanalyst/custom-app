@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "requirement_section",
+  "week_start_date",
+  "week_end_date",
+  "status",
+  "pull_sales_orders",
+  "remarks",
+  "journey_section",
+  "journey_tracker_html",
+  "summary_section",
+  "total_demand_qty",
+  "total_net_required_qty",
+  "items_section",
+  "items"
+ ],
+ "fields": [
+  {"fieldname": "naming_series", "fieldtype": "Data", "label": "Series", "default": "PRQ-.YYYY.-", "hidden": 1},
+  {"fieldname": "requirement_section", "fieldtype": "Section Break", "label": "Requirement Details"},
+  {"fieldname": "week_start_date", "fieldtype": "Date", "label": "Week Start Date", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "week_end_date", "fieldtype": "Date", "label": "Week End Date", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Draft\nOpen\nPlanned\nClosed", "default": "Draft", "in_list_view": 1},
+  {"fieldname": "pull_sales_orders", "fieldtype": "Check", "label": "Pull Sales Orders", "default": 1},
+  {"fieldname": "remarks", "fieldtype": "Small Text", "label": "Remarks"},
+  {"fieldname": "journey_section", "fieldtype": "Section Break", "label": "Production Journey"},
+  {"fieldname": "journey_tracker_html", "fieldtype": "HTML", "label": "Production Journey"},
+  {"fieldname": "summary_section", "fieldtype": "Section Break", "label": "Requirement Summary"},
+  {"fieldname": "total_demand_qty", "fieldtype": "Float", "label": "Total Demand Qty", "read_only": 1},
+  {"fieldname": "total_net_required_qty", "fieldtype": "Float", "label": "Total Net Required Qty", "read_only": 1},
+  {"fieldname": "items_section", "fieldtype": "Section Break", "label": "Requirement Lines"},
+  {"fieldname": "items", "fieldtype": "Table", "label": "Requirement Lines", "options": "Production Requirement Item", "reqd": 1}
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Production",
+ "name": "Production Requirement",
+ "permissions": [
+  {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "report": 1, "export": 1, "share": 1, "print": 1, "email": 1},
+  {"role": "Production Manager", "read": 1, "write": 1, "create": 1, "report": 1, "export": 1, "print": 1},
+  {"role": "Production Engineer", "read": 1, "write": 1, "create": 1, "report": 1, "print": 1}
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name"
+}

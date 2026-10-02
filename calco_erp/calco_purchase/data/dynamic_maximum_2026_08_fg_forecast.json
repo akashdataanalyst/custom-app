@@ -1,0 +1,2424 @@
+{
+  "version": "1.0.4",
+  "planning_month": "2026-08",
+  "source": {
+    "file": "August FG Forecast.xlsx",
+    "sha256": "CEF9870D86DD23314C837EA57F5D77F95D8F6DCF81FA78A8A0B2CC3F6B77BD12",
+    "explosion_file": "02_FG_Forecast_Explosion.csv"
+  },
+  "rows": [
+    {
+      "item_code": "500C2031",
+      "quantity": 500.0,
+      "bom": "BOM-500C2031-001",
+      "components": [
+        {
+          "item_code": "H350FG",
+          "qty_per_unit": 0.6749
+        },
+        {
+          "item_code": "G508",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD304",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD202",
+          "qty_per_unit": 0.02
+        },
+        {
+          "item_code": "AM650N",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "POB1",
+          "qty_per_unit": 0.0001
+        }
+      ]
+    },
+    {
+      "item_code": "500C2192A",
+      "quantity": 4000.0,
+      "bom": "BOM-500C2192A-001",
+      "components": [
+        {
+          "item_code": "M12RR",
+          "qty_per_unit": 0.783986
+        },
+        {
+          "item_code": "TALC 1090",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD304",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.012
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 2E-06
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 1E-05
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 2E-06
+        }
+      ]
+    },
+    {
+      "item_code": "500C3031",
+      "quantity": 6000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "501C3283",
+      "quantity": 10000.0,
+      "bom": "BOM-501C3283-001",
+      "components": [
+        {
+          "item_code": "M12RR",
+          "qty_per_unit": 0.7365
+        },
+        {
+          "item_code": "B-72",
+          "qty_per_unit": 0.25
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.0025
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD304",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "620D3031UV",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C0001E2",
+      "quantity": 500.0,
+      "bom": "BOM-710C0001E2-001",
+      "components": [
+        {
+          "item_code": "711M006N",
+          "qty_per_unit": 0.955
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PE6269",
+          "qty_per_unit": 0.04
+        }
+      ]
+    },
+    {
+      "item_code": "710C0031",
+      "quantity": 35400.0,
+      "bom": "BOM-710C0031-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.543
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD305",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "JE25 OG",
+          "qty_per_unit": 0.45
+        }
+      ]
+    },
+    {
+      "item_code": "710C0031A",
+      "quantity": 26000.0,
+      "bom": "BOM-710C0031A-001",
+      "components": [
+        {
+          "item_code": "H8202L",
+          "qty_per_unit": 1.0
+        }
+      ]
+    },
+    {
+      "item_code": "710C0031ST",
+      "quantity": 500.0,
+      "bom": "BOM-710C0031ST-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.895
+        },
+        {
+          "item_code": "AD305",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.1
+        }
+      ]
+    },
+    {
+      "item_code": "710C0033",
+      "quantity": 2000.0,
+      "bom": "BOM-710C0033-001",
+      "components": [
+        {
+          "item_code": "JE28",
+          "qty_per_unit": 1.0
+        }
+      ]
+    },
+    {
+      "item_code": "710C0081A",
+      "quantity": 2500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C1031",
+      "quantity": 13500.0,
+      "bom": "BOM-710C1031-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.8349
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "710C2081",
+      "quantity": 5000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C2092F1",
+      "quantity": 1000.0,
+      "bom": "BOM-710C2092F1-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.561994
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD417",
+          "qty_per_unit": 0.21
+        },
+        {
+          "item_code": "AD405",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.02
+        },
+        {
+          "item_code": "PR01",
+          "qty_per_unit": 1E-06
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 5E-06
+        }
+      ]
+    },
+    {
+      "item_code": "710C2283F4",
+      "quantity": 13000.0,
+      "bom": "BOM-710C2283F4-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.67099914
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.12
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 2E-06
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 3E-06
+        },
+        {
+          "item_code": "PG01",
+          "qty_per_unit": 1E-06
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PR01",
+          "qty_per_unit": 2.6E-06
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "710C2301F",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C2311F",
+      "quantity": 2000.0,
+      "bom": "BOM-710C2311F-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.4167
+        },
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0005
+        },
+        {
+          "item_code": "PR03",
+          "qty_per_unit": 0.0067
+        },
+        {
+          "item_code": "PO04",
+          "qty_per_unit": 0.0051
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PY03",
+          "qty_per_unit": 0.0015
+        }
+      ]
+    },
+    {
+      "item_code": "710C2383F10",
+      "quantity": 2000.0,
+      "bom": "BOM-710C2383F10-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.5784914
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 2E-06
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 3E-06
+        },
+        {
+          "item_code": "PG01",
+          "qty_per_unit": 1E-06
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PR01",
+          "qty_per_unit": 2.6E-06
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0005
+        }
+      ]
+    },
+    {
+      "item_code": "710C2383F11",
+      "quantity": 4000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C2383F2A",
+      "quantity": 8000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C2383F3HS",
+      "quantity": 2000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710C2383F4",
+      "quantity": 22000.0,
+      "bom": "BOM-710C2383F4-001",
+      "components": [
+        {
+          "item_code": "JE25SD",
+          "qty_per_unit": 0.4134914
+        },
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.12
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD807",
+          "qty_per_unit": 0.004
+        },
+        {
+          "item_code": "AD810",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD801",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD805",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 2E-06
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 3E-06
+        },
+        {
+          "item_code": "PG01",
+          "qty_per_unit": 1E-06
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PR01",
+          "qty_per_unit": 2.6E-06
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0005
+        }
+      ]
+    },
+    {
+      "item_code": "710C2383F6",
+      "quantity": 2000.0,
+      "bom": "BOM-710C2383F6-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.6184914
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.12
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 2E-06
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 3E-06
+        },
+        {
+          "item_code": "PG01",
+          "qty_per_unit": 1E-06
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PR01",
+          "qty_per_unit": 2.6E-06
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0005
+        }
+      ]
+    },
+    {
+      "item_code": "710C2383F9",
+      "quantity": 5000.0,
+      "bom": "BOM-710C2383F9-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.618819
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.12
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 3.1E-05
+        },
+        {
+          "item_code": "PY02",
+          "qty_per_unit": 0.00015
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "710C3001E2",
+      "quantity": 6000.0,
+      "bom": "BOM-710C3001E2-001",
+      "components": [
+        {
+          "item_code": "711M006N",
+          "qty_per_unit": 0.515
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PE6269",
+          "qty_per_unit": 0.03
+        },
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.15
+        }
+      ]
+    },
+    {
+      "item_code": "710C3001F",
+      "quantity": 2000.0,
+      "bom": "BOM-710C3001F-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.426
+        },
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PE0800",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "AD411",
+          "qty_per_unit": 0.13
+        }
+      ]
+    },
+    {
+      "item_code": "710C3001N",
+      "quantity": 1000.0,
+      "bom": "BOM-710C3001N-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.664
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.31
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.015
+        }
+      ]
+    },
+    {
+      "item_code": "710C3001UV",
+      "quantity": 8500.0,
+      "bom": "BOM-710C3001UV-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.643
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.31
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD501",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD502",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PE0800",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "710C3031",
+      "quantity": 144800.0,
+      "bom": "BOM-710C3031-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.5279
+        },
+        {
+          "item_code": "JE25 OG",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.315
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0001
+        }
+      ]
+    },
+    {
+      "item_code": "710C3031F1",
+      "quantity": 4000.0,
+      "bom": "BOM-710C3031F1-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.4455
+        },
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD417",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        }
+      ]
+    },
+    {
+      "item_code": "710C3033",
+      "quantity": 9000.0,
+      "bom": "BOM-710C3033-001",
+      "components": [
+        {
+          "item_code": "JE25 OG",
+          "qty_per_unit": 0.695
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.0005
+        }
+      ]
+    },
+    {
+      "item_code": "710C4031",
+      "quantity": 1100.0,
+      "bom": "BOM-710C4031-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.5934
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.4
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0006
+        }
+      ]
+    },
+    {
+      "item_code": "710C5001",
+      "quantity": 1500.0,
+      "bom": "BOM-710C5001-001",
+      "components": [
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.4905
+        },
+        {
+          "item_code": "G249",
+          "qty_per_unit": 0.5
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD807",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD801",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD804",
+          "qty_per_unit": 0.0005
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.003
+        }
+      ]
+    },
+    {
+      "item_code": "710C5001P",
+      "quantity": 3000.0,
+      "bom": "BOM-710C5001P-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.219
+        },
+        {
+          "item_code": "711M006SN",
+          "qty_per_unit": 0.25
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.51
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.016
+        }
+      ]
+    },
+    {
+      "item_code": "710C5031",
+      "quantity": 50.0,
+      "bom": "BOM-710C5031-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.4709
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.51
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.01
+        }
+      ]
+    },
+    {
+      "item_code": "710D2011F",
+      "quantity": 2000.0,
+      "bom": "BOM-710D2011F-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.4969
+        },
+        {
+          "item_code": "JEMB",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "AD417",
+          "qty_per_unit": 0.11
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.22
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0005
+        },
+        {
+          "item_code": "PR03",
+          "qty_per_unit": 0.0094
+        },
+        {
+          "item_code": "PO04",
+          "qty_per_unit": 0.0028
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 0.0007
+        },
+        {
+          "item_code": "PY03",
+          "qty_per_unit": 0.0017
+        }
+      ]
+    },
+    {
+      "item_code": "710D3001F4",
+      "quantity": 250.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "710D3086F",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C0001F",
+      "quantity": 2000.0,
+      "bom": "BOM-711C0001F-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.8055
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD411",
+          "qty_per_unit": 0.14
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.05
+        }
+      ]
+    },
+    {
+      "item_code": "711C0002",
+      "quantity": 31200.0,
+      "bom": "BOM-711C0002-001",
+      "components": [
+        {
+          "item_code": "711M006N",
+          "qty_per_unit": 0.714
+        },
+        {
+          "item_code": "711M004",
+          "qty_per_unit": 0.25
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PE6269",
+          "qty_per_unit": 0.03
+        }
+      ]
+    },
+    {
+      "item_code": "711C0092",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C1001",
+      "quantity": 5000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C1001A",
+      "quantity": 17000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C2001F",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C2001MT",
+      "quantity": 1500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C3001HF",
+      "quantity": 24500.0,
+      "bom": "BOM-711C3001HF-001",
+      "components": [
+        {
+          "item_code": "711M004",
+          "qty_per_unit": 0.54
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "PMX",
+          "qty_per_unit": 0.01
+        },
+        {
+          "item_code": "L/OLD",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.05
+        }
+      ]
+    },
+    {
+      "item_code": "711C3001M",
+      "quantity": 24500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C3002",
+      "quantity": 41000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711C3005",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "711D1001F",
+      "quantity": 10000.0,
+      "bom": "BOM-711D1001F-001",
+      "components": [
+        {
+          "item_code": "711M006N",
+          "qty_per_unit": 0.729
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.006
+        },
+        {
+          "item_code": "AD411",
+          "qty_per_unit": 0.11
+        }
+      ]
+    },
+    {
+      "item_code": "711D1004",
+      "quantity": 6000.0,
+      "bom": "BOM-711D1004-001",
+      "components": [
+        {
+          "item_code": "711M006SB",
+          "qty_per_unit": 0.8295
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.0025
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.003
+        }
+      ]
+    },
+    {
+      "item_code": "712D2001F-4",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "712D2094F-4",
+      "quantity": 1000.0,
+      "bom": "BOM-712D2094F-4-001",
+      "components": [
+        {
+          "item_code": "H8202NLB",
+          "qty_per_unit": 0.47063
+        },
+        {
+          "item_code": "711M006SN",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "G249",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "AD803G",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "AD404",
+          "qty_per_unit": 0.11
+        },
+        {
+          "item_code": "AD807",
+          "qty_per_unit": 0.0044
+        },
+        {
+          "item_code": "AD810",
+          "qty_per_unit": 0.007
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0022
+        },
+        {
+          "item_code": "AD801",
+          "qty_per_unit": 0.0022
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD802",
+          "qty_per_unit": 0.0005
+        },
+        {
+          "item_code": "AD805",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PT83",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 7E-05
+        }
+      ]
+    },
+    {
+      "item_code": "720C0001F",
+      "quantity": 300.0,
+      "bom": "BOM-720C0001F-001",
+      "components": [
+        {
+          "item_code": "721M003",
+          "qty_per_unit": 0.803
+        },
+        {
+          "item_code": "AD411",
+          "qty_per_unit": 0.14
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PE0800",
+          "qty_per_unit": 0.05
+        }
+      ]
+    },
+    {
+      "item_code": "720C0031",
+      "quantity": 300.0,
+      "bom": "BOM-720C0031-001",
+      "components": [
+        {
+          "item_code": "A45",
+          "qty_per_unit": 0.995
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "720C0031A",
+      "quantity": 14000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "720C1031",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "720C3002HS",
+      "quantity": 4000.0,
+      "bom": "BOM-720C3002HS-001",
+      "components": [
+        {
+          "item_code": "721M003",
+          "qty_per_unit": 0.655
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "720C3031",
+      "quantity": 6500.0,
+      "bom": "BOM-720C3031-001",
+      "components": [
+        {
+          "item_code": "A45",
+          "qty_per_unit": 0.6593
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.33
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0002
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.0015
+        }
+      ]
+    },
+    {
+      "item_code": "720C3034",
+      "quantity": 3000.0,
+      "bom": "BOM-720C3034-001",
+      "components": [
+        {
+          "item_code": "A45",
+          "qty_per_unit": 0.6893
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "POB2",
+          "qty_per_unit": 0.0002
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.0015
+        }
+      ]
+    },
+    {
+      "item_code": "720C4031HS",
+      "quantity": 3000.0,
+      "bom": "BOM-720C4031HS-001",
+      "components": [
+        {
+          "item_code": "A45",
+          "qty_per_unit": 0.563
+        },
+        {
+          "item_code": "G249",
+          "qty_per_unit": 0.43
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "720C5031",
+      "quantity": 1050.0,
+      "bom": "BOM-720C5031-001",
+      "components": [
+        {
+          "item_code": "A45",
+          "qty_per_unit": 0.49399
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.5
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "POB1",
+          "qty_per_unit": 1E-05
+        }
+      ]
+    },
+    {
+      "item_code": "720D3035HS",
+      "quantity": 2000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "721C0001",
+      "quantity": 1750.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "721C1081",
+      "quantity": 5000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "721C2001F",
+      "quantity": 6500.0,
+      "bom": "BOM-721C2001F-001",
+      "components": [
+        {
+          "item_code": "721M001",
+          "qty_per_unit": 0.554
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.24
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD411",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "PE0800",
+          "qty_per_unit": 0.05
+        }
+      ]
+    },
+    {
+      "item_code": "721C3001",
+      "quantity": 1600.0,
+      "bom": "BOM-721C3001-001",
+      "components": [
+        {
+          "item_code": "721M001",
+          "qty_per_unit": 0.418
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.23
+        },
+        {
+          "item_code": "KEMOLIT KF4",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.004
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "WX",
+          "qty_per_unit": 0.25
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD201",
+          "qty_per_unit": 0.005
+        }
+      ]
+    },
+    {
+      "item_code": "721C3002",
+      "quantity": 1000.0,
+      "bom": "BOM-721C3002-001",
+      "components": [
+        {
+          "item_code": "721M001",
+          "qty_per_unit": 0.624
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.33
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PE0800",
+          "qty_per_unit": 0.04
+        }
+      ]
+    },
+    {
+      "item_code": "721C3004",
+      "quantity": 1000.0,
+      "bom": "BOM-721C3004-001",
+      "components": [
+        {
+          "item_code": "721M001",
+          "qty_per_unit": 0.656
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "721C3005F",
+      "quantity": 500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "721C5001",
+      "quantity": 1000.0,
+      "bom": "BOM-721C5001-001",
+      "components": [
+        {
+          "item_code": "721M003",
+          "qty_per_unit": 0.452
+        },
+        {
+          "item_code": "G568",
+          "qty_per_unit": 0.5
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD301",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "PA0002",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.04
+        }
+      ]
+    },
+    {
+      "item_code": "730C0001",
+      "quantity": 500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C0032",
+      "quantity": 42750.0,
+      "bom": "BOM-730C0032-001",
+      "components": [
+        {
+          "item_code": "L10XM",
+          "qty_per_unit": 1.0
+        }
+      ]
+    },
+    {
+      "item_code": "730C0035",
+      "quantity": 500.0,
+      "bom": "BOM-730C0035-001",
+      "components": [
+        {
+          "item_code": "L09XM",
+          "qty_per_unit": 1.0
+        }
+      ]
+    },
+    {
+      "item_code": "730C0036",
+      "quantity": 5000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C1001",
+      "quantity": 1500.0,
+      "bom": "BOM-730C1001-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.6005
+        },
+        {
+          "item_code": "L/OLD",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD203",
+          "qty_per_unit": 0.01
+        },
+        {
+          "item_code": "PE44882",
+          "qty_per_unit": 0.025
+        }
+      ]
+    },
+    {
+      "item_code": "730C1031",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C2001F",
+      "quantity": 6000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C2031",
+      "quantity": 21500.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C2091",
+      "quantity": 4000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C2091K",
+      "quantity": 12000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C3001",
+      "quantity": 9000.0,
+      "bom": "BOM-730C3001-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.6935
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "730C3001A",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C3001F",
+      "quantity": 8700.0,
+      "bom": "BOM-730C3001F-001",
+      "components": [
+        {
+          "item_code": "L10XM",
+          "qty_per_unit": 0.5535
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD414",
+          "qty_per_unit": 0.14
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.002
+        }
+      ]
+    },
+    {
+      "item_code": "730C3031",
+      "quantity": 4000.0,
+      "bom": "BOM-730C3031-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.205
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.31
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD203",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "L10XM",
+          "qty_per_unit": 0.4735
+        }
+      ]
+    },
+    {
+      "item_code": "730C3091F1",
+      "quantity": 2000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730C3093",
+      "quantity": 1000.0,
+      "bom": "BOM-730C3093-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.6855
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PT02",
+          "qty_per_unit": 0.01
+        }
+      ]
+    },
+    {
+      "item_code": "730C3381F",
+      "quantity": 2000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730D3001L",
+      "quantity": 500.0,
+      "bom": "BOM-730D3001L-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.6751
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD602",
+          "qty_per_unit": 0.005
+        },
+        {
+          "item_code": "PT02",
+          "qty_per_unit": 0.01
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.0019
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 0.004
+        }
+      ]
+    },
+    {
+      "item_code": "730D3031",
+      "quantity": 500.0,
+      "bom": "BOM-730D3031-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.614
+        },
+        {
+          "item_code": "M1000R",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "H-10",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD203",
+          "qty_per_unit": 0.03
+        }
+      ]
+    },
+    {
+      "item_code": "730D3091",
+      "quantity": 1000.0,
+      "bom": null,
+      "components": []
+    },
+    {
+      "item_code": "730D3392",
+      "quantity": 5000.0,
+      "bom": "BOM-730D3392-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.625
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.16
+        },
+        {
+          "item_code": "B-72",
+          "qty_per_unit": 0.15
+        },
+        {
+          "item_code": "PT01",
+          "qty_per_unit": 0.06
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        }
+      ]
+    },
+    {
+      "item_code": "731C3001",
+      "quantity": 2500.0,
+      "bom": "BOM-731C3001-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.319
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.3
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PE44882",
+          "qty_per_unit": 0.025
+        },
+        {
+          "item_code": "WX",
+          "qty_per_unit": 0.35
+        }
+      ]
+    },
+    {
+      "item_code": "731C3001F",
+      "quantity": 2000.0,
+      "bom": "BOM-731C3001F-001",
+      "components": [
+        {
+          "item_code": "P080M",
+          "qty_per_unit": 0.474
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.156
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "AD414",
+          "qty_per_unit": 0.079
+        },
+        {
+          "item_code": "BP0800",
+          "qty_per_unit": 0.002
+        },
+        {
+          "item_code": "WX",
+          "qty_per_unit": 0.286
+        }
+      ]
+    },
+    {
+      "item_code": "740C1101",
+      "quantity": 2000.0,
+      "bom": "BOM-740C1101-001",
+      "components": [
+        {
+          "item_code": "L10XM",
+          "qty_per_unit": 0.36
+        },
+        {
+          "item_code": "M1000R",
+          "qty_per_unit": 0.36
+        },
+        {
+          "item_code": "HR 181",
+          "qty_per_unit": 0.165
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "AD103",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "TALC 1090",
+          "qty_per_unit": 0.1
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 0.01
+        }
+      ]
+    },
+    {
+      "item_code": "740C2181",
+      "quantity": 4000.0,
+      "bom": "BOM-740C2181-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.532637
+        },
+        {
+          "item_code": "730M001",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "L10XM",
+          "qty_per_unit": 0.05
+        },
+        {
+          "item_code": "TALC 1090",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "AD203",
+          "qty_per_unit": 0.01
+        },
+        {
+          "item_code": "PT02",
+          "qty_per_unit": 0.001
+        },
+        {
+          "item_code": "PB02",
+          "qty_per_unit": 0.00032
+        },
+        {
+          "item_code": "PC01",
+          "qty_per_unit": 4.3E-05
+        }
+      ]
+    },
+    {
+      "item_code": "740C5001",
+      "quantity": 1000.0,
+      "bom": "BOM-740C5001-001",
+      "components": [
+        {
+          "item_code": "L08XM",
+          "qty_per_unit": 0.154
+        },
+        {
+          "item_code": "730M001",
+          "qty_per_unit": 0.2
+        },
+        {
+          "item_code": "G534",
+          "qty_per_unit": 0.5
+        },
+        {
+          "item_code": "AD303",
+          "qty_per_unit": 0.003
+        },
+        {
+          "item_code": "AD101",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "PE5302",
+          "qty_per_unit": 0.04
+        },
+        {
+          "item_code": "AD102",
+          "qty_per_unit": 0.0015
+        },
+        {
+          "item_code": "L/OLD",
+          "qty_per_unit": 0.1
+        }
+      ]
+    },
+    {
+      "item_code": "910D2032",
+      "quantity": 2000.0,
+      "bom": null,
+      "components": []
+    }
+  ]
+}

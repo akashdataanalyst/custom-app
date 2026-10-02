@@ -1,0 +1,1 @@
+"""Quality dashboard page."""

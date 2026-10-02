@@ -1,0 +1,1 @@
+"""Supplier CAPA Request doctype."""

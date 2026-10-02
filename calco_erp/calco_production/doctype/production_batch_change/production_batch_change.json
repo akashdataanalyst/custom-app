@@ -1,0 +1,93 @@
+{
+  "doctype": "DocType",
+  "name": "Production Batch Change",
+  "module": "Calco Production",
+  "autoname": "hash",
+  "track_changes": 1,
+  "field_order": [
+    "work_order",
+    "job_card",
+    "original_batch",
+    "old_batch",
+    "new_batch",
+    "reason",
+    "changed_by",
+    "changed_on"
+  ],
+  "fields": [
+    {
+      "fieldname": "work_order",
+      "label": "Work Order",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "reqd": 1,
+      "options": "Work Order"
+    },
+    {
+      "fieldname": "job_card",
+      "label": "Job Card",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "reqd": 1,
+      "options": "Job Card"
+    },
+    {
+      "fieldname": "original_batch",
+      "label": "Original Generated Batch",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "reqd": 0
+    },
+    {
+      "fieldname": "old_batch",
+      "label": "Previous Batch",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "reqd": 0
+    },
+    {
+      "fieldname": "new_batch",
+      "label": "Physical FG Batch",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "reqd": 1,
+      "options": "Batch"
+    },
+    {
+      "fieldname": "reason",
+      "label": "Reason",
+      "fieldtype": "Small Text",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "changed_by",
+      "label": "Changed By",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "reqd": 1,
+      "options": "User"
+    },
+    {
+      "fieldname": "changed_on",
+      "label": "Server Timestamp",
+      "fieldtype": "Datetime",
+      "read_only": 1,
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Production Head",
+      "read": 1
+    },
+    {
+      "role": "Manufacturing Manager",
+      "read": 1
+    },
+    {
+      "role": "System Manager",
+      "read": 1
+    }
+  ]
+}

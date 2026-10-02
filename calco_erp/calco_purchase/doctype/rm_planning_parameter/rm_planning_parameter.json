@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item_code",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "preferred_supplier",
+  "supplier_type_section",
+  "daily_avg_consumption_low",
+  "daily_avg_consumption_peak",
+  "current_season",
+  "manual_lead_time_days",
+  "safety_days",
+  "review_period_days",
+  "minimum_order_qty",
+  "purchase_pack_size",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preferred_supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Preferred Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "supplier_type_section",
+   "fieldtype": "Section Break",
+   "label": "Planning Parameters"
+  },
+  {
+   "fieldname": "daily_avg_consumption_low",
+   "fieldtype": "Float",
+   "label": "Daily Avg Consumption Low",
+   "precision": "3"
+  },
+  {
+   "fieldname": "daily_avg_consumption_peak",
+   "fieldtype": "Float",
+   "label": "Daily Avg Consumption Peak",
+   "precision": "3"
+  },
+  {
+   "default": "Normal",
+   "fieldname": "current_season",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Current Season",
+   "options": "Low\nNormal\nPeak",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manual_lead_time_days",
+   "fieldtype": "Float",
+   "label": "Manual Lead Time Days",
+   "precision": "2"
+  },
+  {
+   "fieldname": "safety_days",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Safety Days",
+   "precision": "2"
+  },
+  {
+   "fieldname": "review_period_days",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Review Period Days",
+   "precision": "2"
+  },
+  {
+   "fieldname": "minimum_order_qty",
+   "fieldtype": "Float",
+   "label": "Minimum Order Qty",
+   "precision": "3"
+  },
+  {
+   "fieldname": "purchase_pack_size",
+   "fieldtype": "Float",
+   "label": "Purchase Pack Size",
+   "precision": "3"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Purchase",
+ "name": "RM Planning Parameter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock User",
+   "share": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "item_code,preferred_supplier,current_season",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item_code"
+}

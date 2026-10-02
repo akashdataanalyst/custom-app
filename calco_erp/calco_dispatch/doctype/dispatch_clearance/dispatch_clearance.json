@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "delivery_note",
+  "item_code",
+  "batch_no",
+  "final_qc_release",
+  "coa_record",
+  "status",
+  "cleared_by",
+  "cleared_on",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "delivery_note",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Delivery Note",
+   "options": "Delivery Note",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Batch No",
+   "options": "Batch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "final_qc_release",
+   "fieldtype": "Link",
+   "label": "Final QC Release",
+   "options": "Final QC Release",
+   "reqd": 1
+  },
+  {
+   "fieldname": "coa_record",
+   "fieldtype": "Link",
+   "label": "COA Record",
+   "options": "COA Record"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Pending\nCleared\nBlocked",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cleared_by",
+   "fieldtype": "Link",
+   "label": "Cleared By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cleared_on",
+   "fieldtype": "Datetime",
+   "label": "Cleared On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "module": "Calco Dispatch",
+ "name": "Dispatch Clearance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "delivery_note,item_code,batch_no,final_qc_release",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "delivery_note"
+}

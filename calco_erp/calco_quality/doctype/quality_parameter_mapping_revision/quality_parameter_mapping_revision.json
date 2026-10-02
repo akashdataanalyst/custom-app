@@ -1,0 +1,121 @@
+{
+  "doctype": "DocType",
+  "name": "Quality Parameter Mapping Revision",
+  "module": "Calco Quality",
+  "autoname": "field:revision_key",
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "field_order": [
+    "revision_key",
+    "alias",
+    "alias_key",
+    "target_parameter",
+    "is_active",
+    "reason",
+    "reference",
+    "approved_by",
+    "approved_on",
+    "supersedes",
+    "fingerprint"
+  ],
+  "fields": [
+    {
+      "fieldname": "revision_key",
+      "fieldtype": "Data",
+      "label": "Revision Identity",
+      "read_only": 1,
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "alias",
+      "fieldtype": "Data",
+      "label": "Source Parameter",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "alias_key",
+      "fieldtype": "Data",
+      "label": "Normalized Alias",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "target_parameter",
+      "fieldtype": "Link",
+      "label": "Canonical Parameter",
+      "read_only": 1,
+      "options": "Quality Inspection Parameter",
+      "reqd": 1
+    },
+    {
+      "fieldname": "is_active",
+      "fieldtype": "Check",
+      "label": "Active",
+      "read_only": 1
+    },
+    {
+      "fieldname": "reason",
+      "fieldtype": "Small Text",
+      "label": "Reason",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "reference",
+      "fieldtype": "Data",
+      "label": "Approval Reference",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "approved_by",
+      "fieldtype": "Link",
+      "label": "Approved By",
+      "read_only": 1,
+      "options": "User",
+      "reqd": 1
+    },
+    {
+      "fieldname": "approved_on",
+      "fieldtype": "Datetime",
+      "label": "Approved On",
+      "read_only": 1,
+      "reqd": 1
+    },
+    {
+      "fieldname": "supersedes",
+      "fieldtype": "Link",
+      "label": "Supersedes",
+      "read_only": 1,
+      "options": "Quality Parameter Mapping Revision"
+    },
+    {
+      "fieldname": "fingerprint",
+      "fieldtype": "Data",
+      "label": "Evidence Fingerprint",
+      "read_only": 1,
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Quality Manager",
+      "read": 1,
+      "create": 1,
+      "write": 1,
+      "report": 1
+    },
+    {
+      "role": "Quality User",
+      "read": 1,
+      "report": 1
+    },
+    {
+      "role": "System Manager",
+      "read": 1,
+      "report": 1
+    }
+  ]
+}

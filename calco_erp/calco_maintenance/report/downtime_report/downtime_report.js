@@ -1,0 +1,32 @@
+frappe.query_reports["Downtime Report"] = {
+  filters: [
+    {
+      fieldname: "from_date",
+      label: "From Date",
+      fieldtype: "Date",
+      default: frappe.datetime.add_days(frappe.datetime.get_today(), -179),
+      reqd: 1,
+    },
+    {
+      fieldname: "to_date",
+      label: "To Date",
+      fieldtype: "Date",
+      default: frappe.datetime.get_today(),
+      reqd: 1,
+    },
+    {
+      fieldname: "machine",
+      label: "Machine",
+      fieldtype: "Link",
+      options: "Maintenance Equipment",
+    },
+    {
+      fieldname: "group_by",
+      label: "Group By",
+      fieldtype: "Select",
+      options: "Machine\nDate\nMonth",
+      default: "Machine",
+      reqd: 1,
+    },
+  ],
+};

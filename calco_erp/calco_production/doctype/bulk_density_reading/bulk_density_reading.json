@@ -1,0 +1,33 @@
+{
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequence", "event_datetime", "rm_item", "rm_item_name", "rm_batch", "feeder_no",
+  "w1_kg", "w2_kg", "bulk_density_kg_l", "observation", "shift", "recorded_by", "recorded_on",
+  "confirmed", "confirmed_by", "confirmed_on", "correction_of_reading", "correction_reason"
+ ],
+ "fields": [
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sr. No.","read_only":1},
+  {"fieldname":"event_datetime","fieldtype":"Datetime","label":"Event Time","read_only":1},
+  {"fieldname":"rm_item","fieldtype":"Link","label":"RM Item","options":"Item","read_only":1},
+  {"fieldname":"rm_item_name","fieldtype":"Data","label":"RM Description","read_only":1},
+  {"fieldname":"rm_batch","fieldtype":"Link","label":"RM Batch","options":"Batch","read_only":1},
+  {"fieldname":"feeder_no","fieldtype":"Select","label":"Feeder No.","options":"\n1\n2\n3\n4\n5\n6","read_only":1},
+  {"fieldname":"w1_kg","fieldtype":"Float","label":"Empty Weight of Equipment W1 (Kg)","precision":"6","read_only":1},
+  {"fieldname":"w2_kg","fieldtype":"Float","label":"Filled Equipment + Material W2 (Kg)","precision":"6","read_only":1},
+  {"fieldname":"bulk_density_kg_l","fieldtype":"Float","label":"Bulk Density (Kg/Ltr)","precision":"6","read_only":1},
+  {"fieldname":"observation","fieldtype":"Small Text","label":"Observation","read_only":1},
+  {"fieldname":"shift","fieldtype":"Data","label":"Shift","read_only":1},
+  {"fieldname":"recorded_by","fieldtype":"Link","label":"Recorded By","options":"User","read_only":1},
+  {"fieldname":"recorded_on","fieldtype":"Datetime","label":"Recorded On","read_only":1},
+  {"fieldname":"confirmed","fieldtype":"Check","label":"Confirmed","default":"0","read_only":1},
+  {"fieldname":"confirmed_by","fieldtype":"Link","label":"Confirmed By","options":"User","read_only":1},
+  {"fieldname":"confirmed_on","fieldtype":"Datetime","label":"Confirmed On","read_only":1},
+  {"fieldname":"correction_of_reading","fieldtype":"Data","label":"Correction Of Reading","read_only":1},
+  {"fieldname":"correction_reason","fieldtype":"Small Text","label":"Reading Correction Reason","read_only":1}
+ ],
+ "istable": 1,
+ "module": "Calco Production",
+ "name": "Bulk Density Reading"
+}

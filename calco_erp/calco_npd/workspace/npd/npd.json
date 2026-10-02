@@ -1,0 +1,45 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\":\"npd-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>NPD</b></span>\",\"col\":12}},{\"id\":\"npd-mdg-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master Data Governance Queues</b></span>\",\"col\":12}},{\"id\":\"npd-rm-pending-technical-review\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New RM Requests - Pending Technical Review\",\"col\":6}},{\"id\":\"npd-rm-pending-document-verification\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New RM Requests - Pending Document & Sample Verification\",\"col\":6}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "flask",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "NPD",
+ "links": [],
+ "module": "Calco NPD",
+ "name": "NPD",
+ "number_cards": [
+  {
+   "label": "New RM Requests - Pending Technical Review",
+   "number_card_name": "New RM Requests - Pending Technical Review"
+  },
+  {
+   "label": "New RM Requests - Pending Document & Sample Verification",
+   "number_card_name": "New RM Requests - Pending Document & Sample Verification"
+  }
+ ],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Technical User"
+  }
+ ],
+ "sequence_id": 10.0,
+ "shortcuts": [],
+ "title": "NPD",
+ "type": "Workspace"
+}

@@ -1,0 +1,611 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "naming_series:",
+  "creation": "2026-06-06 18:30:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "naming_series",
+    "status",
+    "journey_section",
+    "journey_tracker_html",
+    "supplier_section",
+    "source_rm_request",
+    "source_rm_code",
+    "source_rm_name",
+    "source_category",
+    "source_stock_uom",
+    "expected_purchase_rate",
+    "expected_lead_time_days",
+    "expected_moq",
+    "expected_purchase_pack_size",
+    "commercial_remarks",
+    "supplier_source",
+    "supplier_name",
+    "proposed_supplier_name",
+    "supplier_type",
+    "document_governance_version",
+    "supplier_origin",
+    "msme_status",
+    "tax_tds_declaration_required",
+    "nda_required",
+    "code_of_conduct_required",
+    "payment_terms",
+    "lead_time_days",
+    "supplier_rating",
+    "effective_date",
+    "expiry_date",
+    "request_items_section",
+    "supplier_request_items",
+    "quality_review_section",
+    "certificates_checked",
+    "quality_audit_required",
+    "supplier_quality_remarks",
+    "supplier_quality_decision",
+    "purchase_review_section",
+    "supplier_purchase_lead_time",
+    "supplier_purchase_moq",
+    "supplier_purchase_pack_size",
+    "supplier_purchase_payment_terms",
+    "default_currency",
+    "incoterm",
+    "freight_delivery_terms",
+    "commercial_terms",
+    "supplier_purchase_remarks",
+    "supplier_purchase_decision",
+    "supplier_master_data_section",
+    "proposed_address_line1",
+    "proposed_address_line2",
+    "proposed_city",
+    "proposed_state",
+    "proposed_country",
+    "proposed_pincode",
+    "primary_contact_name",
+    "primary_contact_email",
+    "primary_contact_mobile",
+    "bank_account_name",
+    "bank",
+    "bank_account_no",
+    "bank_branch_code",
+    "supplier_documents_section",
+    "supplier_documents",
+    "supplier_rm_documents_section",
+    "supplier_rm_documents",
+    "management_review_section",
+    "strategic_supplier",
+    "risk_remarks",
+    "final_approval_decision",
+    "erp_section",
+    "created_supplier",
+    "created_matrix_rows",
+    "created_planning_parameters",
+    "erp_creation_completed",
+    "creation_log"
+  ],
+  "fields": [
+    {
+      "default": "SUP-REQ-.YYYY.-",
+      "fieldname": "naming_series",
+      "fieldtype": "Select",
+      "hidden": 1,
+      "label": "Series",
+      "options": "SUP-REQ-.YYYY.-"
+    },
+    {
+      "default": "Draft",
+      "fieldname": "status",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Status",
+      "read_only": 1
+    },
+    {
+      "fieldname": "supplier_section",
+      "fieldtype": "Section Break",
+      "label": "Request Summary"
+    },
+    {
+      "fieldname": "source_rm_request",
+      "fieldtype": "Link",
+      "label": "Linked RM Request",
+      "options": "New RM Request",
+      "read_only": 1,
+      "hidden": 1
+    },
+    {
+      "fieldname": "source_rm_code",
+      "fieldtype": "Data",
+      "label": "RM Code",
+      "read_only": 1
+    },
+    {
+      "fieldname": "source_rm_name",
+      "fieldtype": "Data",
+      "label": "RM Name",
+      "read_only": 1
+    },
+    {
+      "fieldname": "source_category",
+      "fieldtype": "Data",
+      "label": "Category",
+      "read_only": 1
+    },
+    {
+      "fieldname": "source_stock_uom",
+      "fieldtype": "Data",
+      "label": "Stock UOM",
+      "read_only": 1
+    },
+    {
+      "fieldname": "expected_purchase_rate",
+      "fieldtype": "Float",
+      "label": "Expected Purchase Rate",
+      "precision": "3",
+      "read_only": 1
+    },
+    {
+      "fieldname": "expected_lead_time_days",
+      "fieldtype": "Float",
+      "label": "Expected Lead Time Days",
+      "precision": "2",
+      "read_only": 1
+    },
+    {
+      "fieldname": "expected_moq",
+      "fieldtype": "Float",
+      "label": "Expected MOQ",
+      "precision": "3",
+      "read_only": 1
+    },
+    {
+      "fieldname": "expected_purchase_pack_size",
+      "fieldtype": "Float",
+      "label": "Expected Purchase Pack Size",
+      "precision": "3",
+      "read_only": 1
+    },
+    {
+      "fieldname": "commercial_remarks",
+      "fieldtype": "Small Text",
+      "label": "Commercial Remarks",
+      "read_only": 1
+    },
+    {
+      "default": "Existing Supplier",
+      "fieldname": "supplier_source",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Supplier Source",
+      "options": "Existing Supplier\nProposed Supplier"
+    },
+    {
+      "fieldname": "supplier_name",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Existing / Resolved Supplier",
+      "options": "Supplier"
+    },
+    {
+      "depends_on": "eval:doc.supplier_source==='Proposed Supplier'",
+      "fieldname": "proposed_supplier_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Proposed Supplier Name",
+      "mandatory_depends_on": "eval:doc.supplier_source==='Proposed Supplier' && !doc.supplier_name"
+    },
+    {
+      "fieldname": "supplier_type",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Supplier Type",
+      "options": "Local\nOverseas\nTrader\nManufacturer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "document_governance_version",
+      "fieldtype": "Int",
+      "hidden": 1,
+      "label": "Document Governance Version",
+      "read_only": 1
+    },
+    {
+      "default": "Domestic",
+      "fieldname": "supplier_origin",
+      "fieldtype": "Select",
+      "label": "Supplier Origin",
+      "options": "Domestic\nImport"
+    },
+    {
+      "default": "Not Applicable",
+      "fieldname": "msme_status",
+      "fieldtype": "Select",
+      "label": "MSME Status",
+      "options": "Yes\nNo\nNot Applicable"
+    },
+    {
+      "default": "0",
+      "fieldname": "tax_tds_declaration_required",
+      "fieldtype": "Check",
+      "label": "Tax / TDS Declaration Required"
+    },
+    {
+      "default": "0",
+      "fieldname": "nda_required",
+      "fieldtype": "Check",
+      "label": "NDA Required"
+    },
+    {
+      "default": "0",
+      "fieldname": "code_of_conduct_required",
+      "fieldtype": "Check",
+      "label": "Code of Conduct Required"
+    },
+    {
+      "fieldname": "payment_terms",
+      "fieldtype": "Data",
+      "label": "Payment Terms"
+    },
+    {
+      "fieldname": "lead_time_days",
+      "fieldtype": "Float",
+      "label": "Lead Time Days",
+      "precision": "2"
+    },
+    {
+      "fieldname": "supplier_rating",
+      "fieldtype": "Float",
+      "label": "Supplier Rating",
+      "precision": "2"
+    },
+    {
+      "fieldname": "effective_date",
+      "fieldtype": "Date",
+      "label": "Effective Date"
+    },
+    {
+      "fieldname": "expiry_date",
+      "fieldtype": "Date",
+      "label": "Expiry Date"
+    },
+    {
+      "fieldname": "request_items_section",
+      "fieldtype": "Section Break",
+      "label": "Requested RM Coverage"
+    },
+    {
+      "fieldname": "supplier_request_items",
+      "fieldtype": "Table",
+      "label": "Supplier Request Items",
+      "options": "Supplier Request Item",
+      "reqd": 1
+    },
+    {
+      "depends_on": "eval:doc.status==='Quality Review'",
+      "fieldname": "quality_review_section",
+      "fieldtype": "Section Break",
+      "label": "Quality Review"
+    },
+    {
+      "fieldname": "certificates_checked",
+      "fieldtype": "Small Text",
+      "label": "Certificates Checked"
+    },
+    {
+      "fieldname": "quality_audit_required",
+      "fieldtype": "Select",
+      "label": "Quality Audit Required?",
+      "options": "\nYes\nNo"
+    },
+    {
+      "fieldname": "supplier_quality_remarks",
+      "fieldtype": "Small Text",
+      "label": "Quality Remarks"
+    },
+    {
+      "fieldname": "supplier_quality_decision",
+      "fieldtype": "Select",
+      "label": "Quality Decision",
+      "options": "\nApproved\nRejected"
+    },
+    {
+      "depends_on": "eval:doc.status==='Purchase Review'",
+      "fieldname": "purchase_review_section",
+      "fieldtype": "Section Break",
+      "label": "Purchase Review"
+    },
+    {
+      "fieldname": "supplier_purchase_lead_time",
+      "fieldtype": "Float",
+      "label": "Lead Time",
+      "precision": "2"
+    },
+    {
+      "fieldname": "supplier_purchase_moq",
+      "fieldtype": "Float",
+      "label": "MOQ",
+      "precision": "3"
+    },
+    {
+      "fieldname": "supplier_purchase_pack_size",
+      "fieldtype": "Float",
+      "label": "Pack Size",
+      "precision": "3"
+    },
+    {
+      "fieldname": "supplier_purchase_payment_terms",
+      "fieldtype": "Data",
+      "label": "Payment Terms"
+    },
+    {
+      "fieldname": "default_currency",
+      "fieldtype": "Link",
+      "label": "Currency",
+      "options": "Currency"
+    },
+    {
+      "fieldname": "incoterm",
+      "fieldtype": "Link",
+      "label": "Freight / Delivery Term",
+      "options": "Incoterm"
+    },
+    {
+      "fieldname": "freight_delivery_terms",
+      "fieldtype": "Small Text",
+      "label": "Freight / Delivery Remarks"
+    },
+    {
+      "fieldname": "commercial_terms",
+      "fieldtype": "Small Text",
+      "label": "Commercial Terms"
+    },
+    {
+      "fieldname": "supplier_purchase_remarks",
+      "fieldtype": "Small Text",
+      "label": "Purchase Remarks"
+    },
+    {
+      "fieldname": "supplier_purchase_decision",
+      "fieldtype": "Select",
+      "label": "Purchase Decision",
+      "options": "\nApproved\nRejected"
+    },
+    {
+      "depends_on": "eval:['Purchase Review','Management Review'].includes(doc.status)",
+      "fieldname": "supplier_master_data_section",
+      "fieldtype": "Section Break",
+      "label": "Supplier Master Data"
+    },
+    {
+      "fieldname": "proposed_address_line1",
+      "fieldtype": "Data",
+      "label": "Address Line 1"
+    },
+    {
+      "fieldname": "proposed_address_line2",
+      "fieldtype": "Data",
+      "label": "Address Line 2"
+    },
+    {
+      "fieldname": "proposed_city",
+      "fieldtype": "Data",
+      "label": "City / Town"
+    },
+    {
+      "fieldname": "proposed_state",
+      "fieldtype": "Data",
+      "label": "State / Province"
+    },
+    {
+      "fieldname": "proposed_country",
+      "fieldtype": "Link",
+      "label": "Country",
+      "options": "Country"
+    },
+    {
+      "fieldname": "proposed_pincode",
+      "fieldtype": "Data",
+      "label": "Postal Code"
+    },
+    {
+      "fieldname": "primary_contact_name",
+      "fieldtype": "Data",
+      "label": "Primary Contact Name"
+    },
+    {
+      "fieldname": "primary_contact_email",
+      "fieldtype": "Data",
+      "label": "Primary Contact Email",
+      "options": "Email"
+    },
+    {
+      "fieldname": "primary_contact_mobile",
+      "fieldtype": "Data",
+      "label": "Primary Contact Mobile",
+      "options": "Phone"
+    },
+    {
+      "fieldname": "bank_account_name",
+      "fieldtype": "Data",
+      "label": "Bank Account Name"
+    },
+    {
+      "fieldname": "bank",
+      "fieldtype": "Link",
+      "label": "Bank",
+      "options": "Bank"
+    },
+    {
+      "fieldname": "bank_account_no",
+      "fieldtype": "Data",
+      "label": "Bank Account Number"
+    },
+    {
+      "fieldname": "bank_branch_code",
+      "fieldtype": "Data",
+      "label": "Bank Branch / IFSC Code"
+    },
+    {
+      "depends_on": "eval:['Purchase Review','Management Review'].includes(doc.status)",
+      "fieldname": "supplier_documents_section",
+      "fieldtype": "Section Break",
+      "label": "Supplier Documents"
+    },
+    {
+      "fieldname": "supplier_documents",
+      "fieldtype": "Table",
+      "label": "Supplier Documents",
+      "options": "Supplier Governance Document"
+    },
+    {
+      "depends_on": "eval:['Quality Review','Purchase Review','Management Review'].includes(doc.status)",
+      "fieldname": "supplier_rm_documents_section",
+      "fieldtype": "Section Break",
+      "label": "Supplier-RM Documents"
+    },
+    {
+      "fieldname": "supplier_rm_documents",
+      "fieldtype": "Table",
+      "label": "Supplier-RM Documents",
+      "options": "Supplier Governance Document"
+    },
+    {
+      "depends_on": "eval:doc.status==='Management Review'",
+      "fieldname": "management_review_section",
+      "fieldtype": "Section Break",
+      "label": "Management Review"
+    },
+    {
+      "fieldname": "strategic_supplier",
+      "fieldtype": "Select",
+      "label": "Strategic Supplier?",
+      "options": "\nYes\nNo"
+    },
+    {
+      "fieldname": "risk_remarks",
+      "fieldtype": "Small Text",
+      "label": "Risk Remarks"
+    },
+    {
+      "fieldname": "final_approval_decision",
+      "fieldtype": "Select",
+      "label": "Final Approval Decision",
+      "options": "\nApproved\nRejected"
+    },
+    {
+      "fieldname": "journey_section",
+      "fieldtype": "Section Break",
+      "label": "Request Journey"
+    },
+    {
+      "fieldname": "journey_tracker_html",
+      "fieldtype": "HTML",
+      "label": "Journey Tracker",
+      "read_only": 1
+    },
+    {
+      "depends_on": "eval:['ERP Creation','Completed'].includes(doc.status)",
+      "fieldname": "erp_section",
+      "fieldtype": "Section Break",
+      "label": "Governance Outputs"
+    },
+    {
+      "fieldname": "created_supplier",
+      "fieldtype": "Link",
+      "label": "Created Supplier",
+      "options": "Supplier",
+      "read_only": 1
+    },
+    {
+      "fieldname": "created_matrix_rows",
+      "fieldtype": "Small Text",
+      "label": "Created Matrix Rows",
+      "read_only": 1
+    },
+    {
+      "fieldname": "created_planning_parameters",
+      "fieldtype": "Small Text",
+      "label": "Created Planning Parameters",
+      "read_only": 1
+    },
+    {
+      "default": "0",
+      "fieldname": "erp_creation_completed",
+      "fieldtype": "Check",
+      "hidden": 1,
+      "label": "ERP Creation Completed",
+      "read_only": 1
+    },
+    {
+      "fieldname": "creation_log",
+      "fieldtype": "Small Text",
+      "label": "Creation Log",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "module": "Calco Purchase",
+  "name": "New Supplier Request",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Quality Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Quality User",
+      "share": 1
+    },
+    {
+      "create": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Purchase Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "Management Reviewer",
+      "share": 1
+    }
+  ],
+  "quick_entry": 1,
+  "search_fields": "supplier_name,proposed_supplier_name,supplier_type,payment_terms",
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "title_field": "supplier_name"
+}

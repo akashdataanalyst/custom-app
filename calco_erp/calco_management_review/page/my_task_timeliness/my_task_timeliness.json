@@ -1,0 +1,14 @@
+{
+  "doctype": "Page",
+  "name": "my-task-timeliness",
+  "page_name": "my-task-timeliness",
+  "title": "My Task Timeliness",
+  "module": "Calco Management Review",
+  "standard": "Yes",
+  "system_page": 0,
+  "roles": [
+    {
+      "role": "All"
+    }
+  ]
+}

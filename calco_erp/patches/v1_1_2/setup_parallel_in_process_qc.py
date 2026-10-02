@@ -1,0 +1,1 @@
+from calco_erp.calco_production.in_process_quality_setup import execute

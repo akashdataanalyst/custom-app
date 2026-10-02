@@ -1,0 +1,194 @@
+{
+  "doctype": "DocType",
+  "name": "Production Batch Closure",
+  "module": "Calco Production",
+  "field_order": [
+    "company",
+    "work_order",
+    "job_card",
+    "parent_batch",
+    "status",
+    "physical_end_event",
+    "final_release",
+    "final_closure_confirmed",
+    "materials",
+    "measurement_reference",
+    "source_snapshot",
+    "revision",
+    "supersedes",
+    "correction_reason",
+    "recorded_by",
+    "recorded_on",
+    "fingerprint"
+  ],
+  "fields": [
+    {
+      "fieldname": "company",
+      "label": "Company",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Company",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "work_order",
+      "label": "Work Order",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Work Order",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "job_card",
+      "label": "Production Run",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Job Card",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "parent_batch",
+      "label": "Parent Production Batch",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Batch",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "status",
+      "label": "Closure State",
+      "fieldtype": "Select",
+      "read_only": 1,
+      "options": "Physical End Confirmed\nFinal Consumption Confirmed\nManagement Review Required\nBatch Closed",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "physical_end_event",
+      "label": "Physical End Evidence",
+      "fieldtype": "Long Text",
+      "read_only": 1,
+      "no_copy": 1,
+      "hidden": 1,
+      "permlevel": 1
+    },
+    {
+      "fieldname": "final_release",
+      "label": "Final FG Release",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "Final QC Release",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "final_closure_confirmed",
+      "label": "Explicit Final Closure",
+      "fieldtype": "Check",
+      "read_only": 1,
+      "no_copy": 1
+    },
+    {
+      "fieldname": "materials",
+      "label": "Physical Consumption",
+      "fieldtype": "Table",
+      "read_only": 1,
+      "options": "Production Closure Material",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "measurement_reference",
+      "label": "Confirmation Reference",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "no_copy": 1
+    },
+    {
+      "fieldname": "source_snapshot",
+      "label": "Run Evidence",
+      "fieldtype": "Long Text",
+      "read_only": 1,
+      "no_copy": 1,
+      "hidden": 1,
+      "permlevel": 1
+    },
+    {
+      "fieldname": "revision",
+      "label": "Evidence Version",
+      "fieldtype": "Int",
+      "read_only": 1,
+      "no_copy": 1
+    },
+    {
+      "fieldname": "supersedes",
+      "label": "Supersedes",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "no_copy": 1,
+      "options": "Production Batch Closure"
+    },
+    {
+      "fieldname": "correction_reason",
+      "label": "Correction Reason",
+      "fieldtype": "Small Text",
+      "read_only": 1,
+      "no_copy": 1
+    },
+    {
+      "fieldname": "recorded_by",
+      "label": "Recorded By",
+      "fieldtype": "Link",
+      "read_only": 1,
+      "options": "User",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "recorded_on",
+      "label": "Recorded On",
+      "fieldtype": "Datetime",
+      "read_only": 1,
+      "no_copy": 1
+    },
+    {
+      "fieldname": "fingerprint",
+      "label": "Evidence Fingerprint",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "no_copy": 1,
+      "hidden": 1,
+      "permlevel": 1
+    }
+  ],
+  "track_changes": 1,
+  "allow_rename": 0,
+  "istable": 0,
+  "autoname": "hash",
+  "permissions": [
+    {
+      "role": "Production Engineer",
+      "read": 1
+    },
+    {
+      "role": "Production Head",
+      "read": 1
+    },
+    {
+      "role": "Manufacturing Manager",
+      "read": 1
+    },
+    {
+      "role": "Manufacturing Manager",
+      "permlevel": 1,
+      "read": 1
+    },
+    {
+      "role": "Accounts Manager",
+      "read": 1,
+      "permlevel": 0
+    },
+    {
+      "role": "Accounts Manager",
+      "read": 1,
+      "permlevel": 1
+    }
+  ],
+  "is_submittable": 0
+}

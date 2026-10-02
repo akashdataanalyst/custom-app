@@ -1,0 +1,131 @@
+{
+ "doctype": "DocType",
+ "name": "Shift Production Output Reading",
+ "module": "Calco Production",
+ "istable": 1,
+ "editable_grid": 0,
+ "track_changes": 1,
+ "field_order": [
+  "sequence",
+  "reading_time",
+  "cumulative_qty",
+  "uom",
+  "entered_by",
+  "entered_on",
+  "correction_of",
+  "correction_reason",
+  "calculation_version",
+  "logical_shift",
+  "source_revision",
+  "shift_qty",
+  "components_json",
+  "event_type",
+  "source_pool_json"
+ ],
+ "fields": [
+  {
+   "fieldname": "sequence",
+   "label": "Run Sequence",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "reading_time",
+   "label": "Reading Time",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "cumulative_qty",
+   "label": "Cumulative Output",
+   "fieldtype": "Float",
+   "precision": "6",
+   "read_only": 1,
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "uom",
+   "label": "UOM",
+   "fieldtype": "Link",
+   "options": "UOM",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "entered_by",
+   "label": "Entered By",
+   "fieldtype": "Link",
+   "options": "User",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "entered_on",
+   "label": "Entered On",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "correction_of",
+   "label": "Correction Of Reading",
+   "fieldtype": "Link",
+   "options": "Shift Production Output Reading",
+   "read_only": 1
+  },
+  {
+   "fieldname": "correction_reason",
+   "label": "Correction Reason",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculation_version",
+   "fieldtype": "Data",
+   "label": "Calculation Version",
+   "read_only": 1
+  },
+  {
+   "fieldname": "logical_shift",
+   "fieldtype": "Data",
+   "label": "Logical Shift",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_revision",
+   "fieldtype": "Int",
+   "label": "Source Revision",
+   "read_only": 1
+  },
+  {
+   "fieldname": "shift_qty",
+   "fieldtype": "Float",
+   "label": "Shift Output",
+   "read_only": 1
+  },
+  {
+   "fieldname": "components_json",
+   "fieldtype": "Long Text",
+   "label": "Component Evidence",
+   "read_only": 1
+  },
+  {
+   "fieldname": "event_type",
+   "fieldtype": "Data",
+   "label": "Event Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_pool_json",
+   "fieldtype": "Long Text",
+   "label": "Unique Output Source Evidence",
+   "read_only": 1
+  }
+ ],
+ "permissions": []
+}

@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-03-20 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "automation_section",
+  "auto_create_pm_tickets",
+  "default_pm_ticket_priority",
+  "default_ticket_owner",
+  "daily_summary_section",
+  "send_daily_summary_email",
+  "summary_email_recipients",
+  "last_daily_summary_sent_on",
+  "last_automation_run_on",
+  "whatsapp_section",
+  "enable_whatsapp_alerts",
+  "whatsapp_provider",
+  "whatsapp_webhook_url",
+  "whatsapp_auth_token",
+  "whatsapp_recipients",
+  "last_whatsapp_summary_sent_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "automation_section",
+   "fieldtype": "Section Break",
+   "label": "Automation"
+  },
+  {
+   "default": "1",
+   "fieldname": "auto_create_pm_tickets",
+   "fieldtype": "Check",
+   "label": "Auto Create PM Tickets"
+  },
+  {
+   "default": "Yellow",
+   "fieldname": "default_pm_ticket_priority",
+   "fieldtype": "Select",
+   "label": "Default PM Ticket Priority",
+   "options": "\nRed\nYellow\nGreen"
+  },
+  {
+   "fieldname": "default_ticket_owner",
+   "fieldtype": "Link",
+   "label": "Default Ticket Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "daily_summary_section",
+   "fieldtype": "Section Break",
+   "label": "Daily Summary Email"
+  },
+  {
+   "default": "1",
+   "fieldname": "send_daily_summary_email",
+   "fieldtype": "Check",
+   "label": "Send Daily Summary Email"
+  },
+  {
+   "description": "Enter one or more email addresses separated by commas, semicolons, or new lines.",
+   "fieldname": "summary_email_recipients",
+   "fieldtype": "Small Text",
+   "label": "Summary Email Recipients"
+  },
+  {
+   "fieldname": "last_daily_summary_sent_on",
+   "fieldtype": "Date",
+   "label": "Last Daily Summary Sent On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_automation_run_on",
+   "fieldtype": "Datetime",
+   "label": "Last Automation Run On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "whatsapp_section",
+   "fieldtype": "Section Break",
+   "label": "WhatsApp Alerts"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_whatsapp_alerts",
+   "fieldtype": "Check",
+   "label": "Enable WhatsApp Alerts"
+  },
+  {
+   "fieldname": "whatsapp_provider",
+   "fieldtype": "Data",
+   "label": "WhatsApp Provider"
+  },
+  {
+   "fieldname": "whatsapp_webhook_url",
+   "fieldtype": "Data",
+   "label": "WhatsApp Webhook URL"
+  },
+  {
+   "fieldname": "whatsapp_auth_token",
+   "fieldtype": "Password",
+   "label": "WhatsApp Auth Token"
+  },
+  {
+   "description": "Enter one or more WhatsApp recipients separated by commas, semicolons, or new lines.",
+   "fieldname": "whatsapp_recipients",
+   "fieldtype": "Small Text",
+   "label": "WhatsApp Recipients"
+  },
+  {
+   "fieldname": "last_whatsapp_summary_sent_on",
+   "fieldtype": "Date",
+   "label": "Last WhatsApp Summary Sent On",
+   "read_only": 1
+  }
+ ],
+ "icon": "settings",
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "istable": 0,
+ "module": "Calco Maintenance",
+ "name": "Maintenance Automation Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 0,
+ "search_fields": "summary_email_recipients,whatsapp_provider,whatsapp_recipients",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

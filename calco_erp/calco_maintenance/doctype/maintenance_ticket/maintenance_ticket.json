@@ -1,0 +1,309 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "raised_on",
+  "raised_by",
+  "location",
+  "equipment",
+  "machine_name",
+  "pm_plan",
+  "maintenance_type",
+  "problem_description",
+  "priority",
+  "status",
+  "due_date",
+  "is_overdue",
+  "delay_hours",
+  "inspection_details_section",
+  "inspection_done_by",
+  "inspection_time",
+  "inspection_observation",
+  "spare_required",
+  "spare_details",
+  "spare_request_section",
+  "requested_spare_item",
+  "requested_spare_qty",
+  "execution_details_section",
+  "actual_start_time",
+  "actual_end_time",
+  "work_done",
+  "closure_details_section",
+  "resolved_confirmation",
+  "closure_remarks",
+  "ticket_owner",
+  "responsible_role",
+  "attachment"
+ ],
+ "fields": [
+  {
+   "default": "MNT-.YYYY.-.#####",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "MNT-.YYYY.-.#####",
+   "reqd": 1
+  },
+  {
+   "fieldname": "raised_on",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Raised On",
+   "reqd": 1
+  },
+  {
+   "fieldname": "raised_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raised By",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Equipment",
+   "options": "Maintenance Equipment"
+  },
+  {
+   "fieldname": "machine_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Machine Name",
+   "options": "Maintenance Equipment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pm_plan",
+   "fieldtype": "Link",
+   "label": "Preventive Maintenance Plan",
+   "options": "Preventive Maintenance Plan"
+  },
+  {
+   "default": "Breakdown",
+   "fieldname": "maintenance_type",
+   "fieldtype": "Select",
+   "label": "Maintenance Type",
+   "options": "\nBreakdown\nPreventive"
+  },
+  {
+   "fieldname": "problem_description",
+   "fieldtype": "Small Text",
+   "label": "Problem Description",
+   "reqd": 1
+  },
+  {
+   "default": "Yellow",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Priority",
+   "options": "Red\nYellow\nGreen",
+   "reqd": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nInspection\nSpare Required\nSpare Available\nIn Progress\nCompleted\nClosed",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Due Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "is_overdue",
+   "fieldtype": "Check",
+   "label": "Overdue",
+   "read_only": 1
+  },
+  {
+   "fieldname": "delay_hours",
+   "fieldtype": "Float",
+   "label": "Delay Hours",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "inspection_details_section",
+   "fieldtype": "Section Break",
+   "label": "Inspection Details"
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "inspection_done_by",
+   "fieldtype": "Link",
+   "label": "Inspection Done By",
+   "options": "User",
+   "read_only_depends_on": "eval:!doc.status || doc.status!=\"Inspection\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "inspection_time",
+   "fieldtype": "Datetime",
+   "label": "Inspection Time",
+   "read_only_depends_on": "eval:!doc.status || doc.status!=\"Inspection\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "inspection_observation",
+   "fieldtype": "Small Text",
+   "label": "Inspection Observation",
+   "read_only_depends_on": "eval:!doc.status || doc.status!=\"Inspection\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "spare_required",
+   "fieldtype": "Check",
+   "label": "Spare Required",
+   "read_only_depends_on": "eval:!doc.status || doc.status!=\"Inspection\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"Inspection\" || doc.status==\"Spare Required\" || doc.status==\"Spare Available\" || doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "spare_details",
+   "fieldtype": "Small Text",
+   "label": "Spare Details",
+   "read_only_depends_on": "eval:!doc.status || doc.status!=\"Inspection\""
+  },
+  {
+   "depends_on": "eval:doc.machine_name",
+   "fieldname": "spare_request_section",
+   "fieldtype": "Section Break",
+   "label": "Spare Request"
+  },
+  {
+   "depends_on": "eval:doc.machine_name",
+   "fieldname": "requested_spare_item",
+   "fieldtype": "Link",
+   "label": "Requested Spare Item",
+   "options": "Item"
+  },
+  {
+   "default": "1",
+   "depends_on": "eval:doc.machine_name",
+   "fieldname": "requested_spare_qty",
+   "fieldtype": "Float",
+   "label": "Requested Spare Qty"
+  },
+  {
+   "depends_on": "eval:doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "execution_details_section",
+   "fieldtype": "Section Break",
+   "label": "Execution Details"
+  },
+  {
+   "depends_on": "eval:doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "actual_start_time",
+   "fieldtype": "Datetime",
+   "label": "Actual Start Time",
+   "read_only_depends_on": "eval:doc.status==\"Closed\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "actual_end_time",
+   "fieldtype": "Datetime",
+   "label": "Actual End Time",
+   "read_only_depends_on": "eval:doc.status==\"Closed\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"In Progress\" || doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "work_done",
+   "fieldtype": "Small Text",
+   "label": "Work Done",
+   "read_only_depends_on": "eval:doc.status==\"Closed\""
+  },
+  {
+   "depends_on": "eval:doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "closure_details_section",
+   "fieldtype": "Section Break",
+   "label": "Closure Details"
+  },
+  {
+   "depends_on": "eval:doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "resolved_confirmation",
+   "fieldtype": "Check",
+   "label": "Resolved Confirmation"
+  },
+  {
+   "depends_on": "eval:doc.status==\"Completed\" || doc.status==\"Closed\"",
+   "fieldname": "closure_remarks",
+   "fieldtype": "Small Text",
+   "label": "Closure Remarks"
+  },
+  {
+   "fieldname": "ticket_owner",
+   "fieldtype": "Link",
+   "label": "Ticket Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "responsible_role",
+   "fieldtype": "Data",
+   "label": "Responsible Role"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  }
+ ],
+ "istable": 0,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Maintenance",
+ "name": "Maintenance Ticket",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "location,equipment,machine_name,raised_by,ticket_owner,pm_plan",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "machine_name"
+}

@@ -1,0 +1,2 @@
+"""Dispatch Clearance doctype."""
+

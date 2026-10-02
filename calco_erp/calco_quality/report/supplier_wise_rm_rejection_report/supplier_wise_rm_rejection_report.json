@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2026-03-21 00:00:00.000000",
+ "disable_prepared_report": 1,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2026-03-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Calco Quality",
+ "name": "Supplier-wise RM Rejection Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "RM Inward Validation",
+ "report_name": "Supplier-wise RM Rejection Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Quality Manager"
+  },
+  {
+   "role": "Quality User"
+  }
+ ]
+}

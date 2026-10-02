@@ -1,0 +1,14 @@
+{
+  "doctype": "Page",
+  "name": "calco-home",
+  "page_name": "calco-home",
+  "title": "My Home",
+  "module": "Calco Production",
+  "standard": "Yes",
+  "system_page": 0,
+  "roles": [
+    {
+      "role": "Calco New UI"
+    }
+  ]
+}

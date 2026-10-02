@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:machine_code",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "machine_code",
+  "machine_name",
+  "location",
+  "department",
+  "criticality",
+  "active",
+  "equipment_code",
+  "equipment_name",
+  "equipment_type",
+  "equipment_group",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "machine_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Machine Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "machine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Machine Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "criticality",
+   "fieldtype": "Select",
+   "label": "Criticality",
+   "options": "\nLow\nMedium\nHigh\nCritical"
+  },
+  {
+   "default": "1",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "equipment_code",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Equipment Code"
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Equipment Name"
+  },
+  {
+   "fieldname": "equipment_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Type"
+  },
+  {
+   "fieldname": "equipment_group",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Group"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Maintenance",
+ "name": "Maintenance Equipment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "machine_code,machine_name,equipment_code,equipment_name,equipment_type,equipment_group,location,department",
+ "show_name_in_global_search": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "machine_name"
+}

@@ -1,0 +1,20 @@
+{
+  "version": "manufacturing-masters-20260915-v1",
+  "sources": {
+    "mpds": {
+      "file": "MPDS (1).xlsx",
+      "sheet": "Line2",
+      "sha256": "cdb3f73599ee8e4dd1a1d9b893e980120cf17425b8314c465c70cf574d6ed1ec"
+    },
+    "fg_standard": {
+      "file": "FG Standard Updated.xlsx",
+      "sheet": "Sheet1",
+      "sha256": "8c14d6168f9143e1860071cd218c68e63eeb2e1571800bff0feee2bbfaa5b924"
+    },
+    "control_plan": {
+      "file": "Control Plan Updated.xlsx",
+      "sheet": "Sheet1",
+      "sha256": "22c5a967792f6c73484a8da76f4177ab2cf98b1656eb347f42591e2ca8cc47e2"
+    }
+  }
+}

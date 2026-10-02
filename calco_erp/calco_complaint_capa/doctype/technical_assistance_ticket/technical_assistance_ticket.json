@@ -1,0 +1,193 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "complaint_date",
+  "status",
+  "delivery_note",
+  "item_code",
+  "fg_batch_no",
+  "issue_summary",
+  "batch_production_record",
+  "work_order",
+  "stock_entry",
+  "dispatch_clearance",
+  "final_qc_release",
+  "final_quality_inspection",
+  "coa_record",
+  "moisture",
+  "mfi",
+  "ash",
+  "density",
+  "traceability_notes",
+  "rm_batches"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "complaint_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Complaint Date",
+   "reqd": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nUnder Review\nClosed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "delivery_note",
+   "fieldtype": "Link",
+   "label": "Delivery Note",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FG Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fg_batch_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FG Batch",
+   "options": "Batch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_summary",
+   "fieldtype": "Small Text",
+   "label": "Issue Summary"
+  },
+  {
+   "fieldname": "batch_production_record",
+   "fieldtype": "Link",
+   "label": "Batch Production Record",
+   "options": "Batch Production Record",
+   "read_only": 1
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work Order",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stock_entry",
+   "fieldtype": "Link",
+   "label": "Manufacture Stock Entry",
+   "options": "Stock Entry",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dispatch_clearance",
+   "fieldtype": "Link",
+   "label": "Dispatch Clearance",
+   "options": "Dispatch Clearance",
+   "read_only": 1
+  },
+  {
+   "fieldname": "final_qc_release",
+   "fieldtype": "Link",
+   "label": "Final QC Release",
+   "options": "Final QC Release",
+   "read_only": 1
+  },
+  {
+   "fieldname": "final_quality_inspection",
+   "fieldtype": "Link",
+   "label": "Final Quality Inspection",
+   "options": "Quality Inspection",
+   "read_only": 1
+  },
+  {
+   "fieldname": "coa_record",
+   "fieldtype": "Link",
+   "label": "COA Record",
+   "options": "COA Record",
+   "read_only": 1
+  },
+  {
+   "fieldname": "moisture",
+   "fieldtype": "Float",
+   "label": "Moisture",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mfi",
+   "fieldtype": "Float",
+   "label": "MFI",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ash",
+   "fieldtype": "Float",
+   "label": "Ash",
+   "read_only": 1
+  },
+  {
+   "fieldname": "density",
+   "fieldtype": "Float",
+   "label": "Density",
+   "read_only": 1
+  },
+  {
+   "fieldname": "traceability_notes",
+   "fieldtype": "Small Text",
+   "label": "Traceability Notes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rm_batches",
+   "fieldtype": "Table",
+   "label": "RM Batch Traceability",
+   "options": "Complaint Traceability Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Complaint CAPA",
+ "name": "Technical Assistance Ticket",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "customer,item_code,fg_batch_no,delivery_note,batch_production_record,work_order",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "fg_batch_no"
+}
+

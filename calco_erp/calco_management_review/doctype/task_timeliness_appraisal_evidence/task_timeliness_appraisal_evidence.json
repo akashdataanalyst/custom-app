@@ -1,0 +1,183 @@
+{
+ "doctype": "DocType",
+ "name": "Task Timeliness Appraisal Evidence",
+ "module": "Calco Management Review",
+ "istable": 1,
+ "editable_grid": 0,
+ "field_order": [
+  "period_start",
+  "period_end",
+  "period_source",
+  "calculated_on",
+  "calculated_by",
+  "governed_user",
+  "policy_version",
+  "total_due",
+  "on_time",
+  "late",
+  "overdue",
+  "pending",
+  "unknown_completion",
+  "manual_other",
+  "missing_due",
+  "cancelled",
+  "review_required",
+  "source_json",
+  "fingerprint",
+  "native_row_fingerprint",
+  "finalized_on",
+  "finalized_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "period_start",
+   "label": "Period Start",
+   "fieldtype": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "period_end",
+   "label": "Period End",
+   "fieldtype": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "period_source",
+   "label": "Period Authority",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_on",
+   "label": "Calculated On",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_by",
+   "label": "Calculated By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User"
+  },
+  {
+   "fieldname": "governed_user",
+   "label": "Governed User",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User"
+  },
+  {
+   "fieldname": "policy_version",
+   "label": "Policy Version",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_due",
+   "label": "Total Due",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "on_time",
+   "label": "On Time",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "late",
+   "label": "Late",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "overdue",
+   "label": "Overdue",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "pending",
+   "label": "Pending",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "unknown_completion",
+   "label": "Unknown Completion",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "manual_other",
+   "label": "Manual Other",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "missing_due",
+   "label": "Missing Due",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "cancelled",
+   "label": "Cancelled",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "review_required",
+   "label": "Review Required",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "in_list_view": 0
+  },
+  {
+   "fieldname": "source_json",
+   "label": "Source Json",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "hidden": 1
+  },
+  {
+   "fieldname": "fingerprint",
+   "label": "Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "hidden": 1
+  },
+  {
+   "fieldname": "native_row_fingerprint",
+   "label": "Native Row Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "hidden": 1
+  },
+  {
+   "fieldname": "finalized_on",
+   "label": "Finalized On",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "finalized_by",
+   "label": "Finalized By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User"
+  }
+ ],
+ "permissions": [],
+ "track_changes": 0
+}

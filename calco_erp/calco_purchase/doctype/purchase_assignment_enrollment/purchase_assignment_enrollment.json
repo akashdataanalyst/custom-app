@@ -1,0 +1,84 @@
+{
+  "doctype": "DocType",
+  "name": "Purchase Assignment Enrollment",
+  "module": "Calco Purchase",
+  "engine": "InnoDB",
+  "autoname": "Prompt",
+  "track_changes": 1,
+  "allow_rename": 0,
+  "field_order": [
+    "reference_doctype",
+    "reference_name",
+    "enrolled_on",
+    "enrolled_by",
+    "reason",
+    "policy_version",
+    "activation_boundary"
+  ],
+  "fields": [
+    {
+      "fieldname": "reference_doctype",
+      "label": "Reference Doctype",
+      "fieldtype": "Link",
+      "reqd": 1,
+      "read_only": 1,
+      "options": "DocType"
+    },
+    {
+      "fieldname": "reference_name",
+      "label": "Reference Name",
+      "fieldtype": "Dynamic Link",
+      "reqd": 1,
+      "read_only": 1,
+      "options": "reference_doctype"
+    },
+    {
+      "fieldname": "enrolled_on",
+      "label": "Enrolled On",
+      "fieldtype": "Datetime",
+      "reqd": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "enrolled_by",
+      "label": "Enrolled By",
+      "fieldtype": "Link",
+      "reqd": 1,
+      "read_only": 1,
+      "options": "User"
+    },
+    {
+      "fieldname": "reason",
+      "label": "Reason",
+      "fieldtype": "Small Text",
+      "reqd": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "policy_version",
+      "label": "Policy Version",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "activation_boundary",
+      "label": "Activation Boundary",
+      "fieldtype": "Datetime",
+      "reqd": 1,
+      "read_only": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "report": 1
+    },
+    {
+      "role": "Purchase Manager",
+      "read": 1,
+      "report": 1
+    }
+  ]
+}

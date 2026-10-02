@@ -1,0 +1,42 @@
+{% set item_name = frappe.db.get_value("Item", doc.item_code, "item_name") %}
+<div class="coa-sheet">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom: 14px;">
+    <img src="/assets/calco_erp/images/calco-logo-official.svg" alt="Calco PolyTechnik Pvt Ltd" style="height:48px; width:auto;">
+    <div>
+      <div class="coa-title">Certificate of Analysis</div>
+      <div class="coa-subtitle">Calco PolyTechnik Pvt Ltd</div>
+    </div>
+  </div>
+
+  <div class="coa-meta"><strong>FG Item:</strong> {{ doc.item_code }}{% if item_name %} - {{ item_name }}{% endif %}</div>
+  <div class="coa-meta"><strong>Batch Number:</strong> {{ doc.batch_no }}</div>
+  <div class="coa-meta"><strong>Issue Date:</strong> {{ frappe.utils.format_datetime(doc.issue_date) if doc.issue_date else "" }}</div>
+  <div class="coa-meta"><strong>Final QC Release:</strong> {{ doc.final_qc_release }}</div>
+
+  <table class="coa-table">
+    <thead>
+      <tr>
+        <th>QC Parameter</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Moisture</td>
+        <td>{{ doc.moisture }}</td>
+      </tr>
+      <tr>
+        <td>MFI</td>
+        <td>{{ doc.mfi }}</td>
+      </tr>
+      <tr>
+        <td>Ash</td>
+        <td>{{ doc.ash }}</td>
+      </tr>
+      <tr>
+        <td>Density</td>
+        <td>{{ doc.density }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

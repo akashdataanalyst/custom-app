@@ -1,0 +1,49 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\": \"management-review-header\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Management Review</b></span>\", \"col\": 12}}, {\"id\": \"management-review-mdg-header\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Master Data Governance Queues</b></span>\", \"col\": 12}}, {\"id\": \"management-review-supplier-pending-management-review\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"New Supplier Requests - Pending Management Review\", \"col\": 6}}, {\"id\": \"calco-task-timeliness-management-review\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Task Timeliness\", \"col\": 3}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "bar-chart",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Management Review",
+ "links": [],
+ "module": "Calco Management Review",
+ "name": "Management Review",
+ "number_cards": [
+  {
+   "label": "New Supplier Requests - Pending Management Review",
+   "number_card_name": "New Supplier Requests - Pending Management Review"
+  }
+ ],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Management Reviewer"
+  }
+ ],
+ "sequence_id": 9.0,
+ "shortcuts": [
+  {
+   "label": "Task Timeliness",
+   "type": "Report",
+   "link_to": "Task Timeliness by Employee",
+   "doc_view": "",
+   "color": "Blue"
+  }
+ ],
+ "title": "Management Review",
+ "type": "Workspace"
+}

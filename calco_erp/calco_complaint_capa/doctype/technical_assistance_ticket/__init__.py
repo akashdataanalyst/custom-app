@@ -1,0 +1,2 @@
+"""Technical Assistance Ticket doctype."""
+

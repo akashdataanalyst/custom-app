@@ -1,0 +1,309 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "purchase_receipt",
+  "purchase_receipt_item",
+  "purchase_order",
+  "supplier",
+  "item_code",
+  "item_name",
+  "batch_no",
+  "warehouse",
+  "quality_inspection",
+  "rm_qc_decision",
+  "qc_status",
+  "received_qty",
+  "accepted_qty",
+  "rejected_qty",
+  "approved_qty",
+  "rate",
+  "amount",
+  "rejection_reason_from_qc",
+  "failed_parameters",
+  "deviation_reason",
+  "justification_for_acceptance",
+  "risk_assessment",
+  "proposed_usage_restriction",
+  "corrective_action",
+  "deviation_attachment",
+  "approval_status",
+  "operations_head",
+  "approval_date",
+  "approval_remarks",
+  "supplier_capa_request"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_receipt",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Purchase Receipt",
+   "options": "Purchase Receipt",
+   "reqd": 1
+  },
+  {
+   "fieldname": "purchase_receipt_item",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Purchase Receipt Item",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "label": "Purchase Order",
+   "options": "Purchase Order",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Batch No",
+   "options": "Batch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quality_inspection",
+   "fieldtype": "Link",
+   "label": "Quality Inspection",
+   "options": "Quality Inspection",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "rm_qc_decision",
+   "fieldtype": "Link",
+   "label": "RM QC Decision",
+   "options": "RM QC Decision",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qc_status",
+   "fieldtype": "Data",
+   "label": "QC Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "received_qty",
+   "fieldtype": "Float",
+   "label": "Received Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "accepted_qty",
+   "fieldtype": "Float",
+   "label": "Accepted Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rejected_qty",
+   "fieldtype": "Float",
+   "label": "Rejected Qty",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "approved_qty",
+   "fieldtype": "Float",
+   "label": "Approved Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rejection_reason_from_qc",
+   "fieldtype": "Small Text",
+   "label": "Rejection Reason From QC",
+   "read_only": 1
+  },
+  {
+   "fieldname": "failed_parameters",
+   "fieldtype": "Long Text",
+   "label": "Failed Parameters",
+   "read_only": 1
+  },
+  {
+   "fieldname": "deviation_reason",
+   "fieldtype": "Text",
+   "label": "Deviation Reason"
+  },
+  {
+   "fieldname": "justification_for_acceptance",
+   "fieldtype": "Text",
+   "label": "Justification For Acceptance"
+  },
+  {
+   "fieldname": "risk_assessment",
+   "fieldtype": "Text",
+   "label": "Risk Assessment"
+  },
+  {
+   "fieldname": "proposed_usage_restriction",
+   "fieldtype": "Text",
+   "label": "Proposed Usage Restriction"
+  },
+  {
+   "fieldname": "corrective_action",
+   "fieldtype": "Text",
+   "label": "Corrective Action"
+  },
+  {
+   "fieldname": "deviation_attachment",
+   "fieldtype": "Attach",
+   "label": "Deviation Attachment"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Approval Status",
+   "options": "Draft\nPending Operations Approval\nApproved\nRejected",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "operations_head",
+   "fieldtype": "Link",
+   "label": "Operations Head",
+   "options": "User"
+  },
+  {
+   "fieldname": "approval_date",
+   "fieldtype": "Datetime",
+   "label": "Approval Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "approval_remarks",
+   "fieldtype": "Text",
+   "label": "Approval Remarks"
+  },
+  {
+   "fieldname": "supplier_capa_request",
+   "fieldtype": "Link",
+   "label": "Supplier CAPA Request",
+   "options": "Supplier CAPA Request",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "module": "Calco Quality",
+ "name": "RM Deviation Approval",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Operations Head",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 0,
+ "search_fields": "purchase_receipt,purchase_order,item_code,batch_no,quality_inspection,supplier",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item_code"
+}

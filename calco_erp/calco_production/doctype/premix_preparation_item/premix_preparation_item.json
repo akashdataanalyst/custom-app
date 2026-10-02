@@ -1,0 +1,27 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rm_code",
+  "rm_batch",
+  "allocated_qty",
+  "actual_qty"
+ ],
+ "fields": [
+  {"fieldname": "rm_code", "fieldtype": "Link", "label": "RM Code", "options": "Item", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "rm_batch", "fieldtype": "Link", "label": "RM Batch", "options": "Batch", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "allocated_qty", "fieldtype": "Float", "label": "Allocated Qty", "reqd": 1},
+  {"fieldname": "actual_qty", "fieldtype": "Float", "label": "Actual Qty", "reqd": 1}
+ ],
+ "istable": 1,
+ "links": [],
+ "module": "Calco Production",
+ "name": "Premix Preparation Item",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "idx",
+ "sort_order": "ASC"
+}
+

@@ -1,0 +1,2 @@
+"""RM QC Decision doctype."""
+

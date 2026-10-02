@@ -1,0 +1,42 @@
+{% set current_qty = frappe.db.sql("select ifnull(round(sum(actual_qty), 3), 0) from `tabStock Ledger Entry` where batch_no=%s and is_cancelled=0", (doc.name,))[0][0] %}
+<div class="barcode-label">
+  <div class="barcode-label__brand">
+    <img src="/assets/calco_erp/images/calco-logo-official.svg" alt="Calco PolyTechnik Pvt Ltd">
+    <div>
+      <div class="barcode-label__brand-name">Calco PolyTechnik Pvt Ltd</div>
+      <div class="barcode-label__title">Batch Barcode Label</div>
+    </div>
+  </div>
+  <div class="barcode-label__row"><strong>Item Code:</strong> {{ doc.item }}</div>
+  <div class="barcode-label__row"><strong>Batch No:</strong> {{ doc.batch_id or doc.name }}</div>
+  <div class="barcode-label__row"><strong>Qty:</strong> {{ current_qty }} {{ frappe.db.get_value("Item", doc.item, "stock_uom") or "Nos" }}</div>
+  <div class="barcode-label__row"><strong>Barcode:</strong> {{ doc.custom_batch_barcode or doc.name }}</div>
+  <div class="barcode-label__barcode">
+    <svg id="batch-barcode-svg"></svg>
+  </div>
+  <div class="barcode-label__text">{{ doc.custom_batch_barcode or doc.name }}</div>
+</div>
+<style>
+.barcode-label { font-family: Arial, sans-serif; color: #27272a; }
+.barcode-label__brand { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.barcode-label__brand img { height: 42px; width: auto; object-fit: contain; }
+.barcode-label__brand-name { font-size: 15px; font-weight: 700; color: #b32025; }
+.barcode-label__title { font-size: 13px; font-weight: 600; color: #5c6066; }
+.barcode-label__row { margin-bottom: 4px; }
+.barcode-label__barcode { margin-top: 10px; }
+.barcode-label__text { margin-top: 6px; font-size: 12px; font-weight: 600; }
+</style>
+<script src="/assets/frappe/node_modules/jsbarcode/dist/JsBarcode.all.min.js"></script>
+<script>
+try {
+  JsBarcode("#batch-barcode-svg", "{{ doc.custom_batch_barcode or doc.name }}", {
+    format: "CODE128",
+    height: 52,
+    width: 1.6,
+    margin: 0,
+    displayValue: false
+  });
+} catch (e) {
+  console.log("Batch barcode render skipped", e);
+}
+</script>

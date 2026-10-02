@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reading_time",
+  "shift",
+  "barrel_temperatures",
+  "rpm",
+  "torque",
+  "current",
+  "vacuum",
+  "pressure",
+  "throughput",
+  "granule_size"
+ ],
+ "fields": [
+  {"fieldname": "reading_time", "fieldtype": "Datetime", "label": "Reading Time", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "shift", "fieldtype": "Select", "label": "Shift", "options": "Shift A\nShift B", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "barrel_temperatures", "fieldtype": "Data", "label": "Barrel Temperatures", "reqd": 1},
+  {"fieldname": "rpm", "fieldtype": "Float", "label": "RPM"},
+  {"fieldname": "torque", "fieldtype": "Float", "label": "Torque"},
+  {"fieldname": "current", "fieldtype": "Float", "label": "Current"},
+  {"fieldname": "vacuum", "fieldtype": "Float", "label": "Vacuum"},
+  {"fieldname": "pressure", "fieldtype": "Float", "label": "Pressure"},
+  {"fieldname": "throughput", "fieldtype": "Float", "label": "Throughput"},
+  {"fieldname": "granule_size", "fieldtype": "Data", "label": "Granule Size"}
+ ],
+ "istable": 1,
+ "links": [],
+ "module": "Calco Production",
+ "name": "Production Run Reading",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "idx",
+ "sort_order": "ASC"
+}
+

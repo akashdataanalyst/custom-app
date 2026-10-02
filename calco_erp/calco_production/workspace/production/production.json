@@ -1,0 +1,184 @@
+{
+  "app": "calco_erp",
+  "charts": [],
+  "content": "[{\"id\": \"p-0\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Plan and prepare</h4>\", \"col\": 12}}, {\"id\": \"p-1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Production Planning Center\", \"col\": 4}}, {\"id\": \"p-2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"FG Planning Dashboard\", \"col\": 4}}, {\"id\": \"p-3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Readiness\", \"col\": 4}}, {\"id\": \"p-4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Work Order\", \"col\": 4}}, {\"id\": \"p-5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Grade Change Clearance\", \"col\": 4}}, {\"id\": \"p-6\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Execute and hand over</h4>\", \"col\": 12}}, {\"id\": \"p-7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Production Job Card\", \"col\": 4}}, {\"id\": \"p-8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Premix Run\", \"col\": 4}}, {\"id\": \"p-9\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Shift Report\", \"col\": 4}}, {\"id\": \"p-10\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"FG Delivery Note\", \"col\": 4}}, {\"id\": \"p-11\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Partial FG Lots\", \"col\": 4}}, {\"id\": \"p-12\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Final consumption and closure</h4>\", \"col\": 12}}, {\"id\": \"p-13\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Final RM Consumption / Close Batch\", \"col\": 4}}, {\"id\": \"p-14\", \"type\": \"header\", \"data\": {\"text\": \"<h4>History and parallel production</h4>\", \"col\": 12}}, {\"id\": \"p-15\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Add Consumption / RM Consumption History\", \"col\": 4}}, {\"id\": \"p-16\", \"type\": \"header\", \"data\": {\"text\": \"<h4>Monitor and report</h4>\", \"col\": 12}}, {\"id\": \"p-17\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Production Dashboard\", \"col\": 4}}, {\"id\": \"p-18\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Plant Production Dashboard\", \"col\": 4}}, {\"id\": \"p-19\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Consumption by Grade\", \"col\": 4}}, {\"id\": \"p-20\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Consumption by FG Batch\", \"col\": 4}}, {\"id\": \"p-21\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"RM Consumption by Production Line\", \"col\": 4}}, {\"id\": \"p-advanced\", \"type\": \"card\", \"data\": {\"card_name\": \"Advanced / authorized review\", \"col\": 12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "factory",
+  "indicator_color": "blue",
+  "is_hidden": 0,
+  "label": "Production",
+  "links": [
+    {
+      "type": "Card Break",
+      "label": "Advanced / authorized review"
+    },
+    {
+      "type": "Link",
+      "label": "Batch Closure / Reconciliation Review",
+      "link_type": "DocType",
+      "link_to": "Production Batch Closure"
+    },
+    {
+      "type": "Link",
+      "label": "BOM / Manufacturing Setup",
+      "link_type": "DocType",
+      "link_to": "BOM"
+    }
+  ],
+  "module": "Calco Production",
+  "name": "Production",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "shortcuts": [
+    {
+      "type": "Page",
+      "label": "Production Planning Center",
+      "link_to": "production-planning-center",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Page",
+      "label": "FG Planning Dashboard",
+      "link_to": "fg-planning-dashboard",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "Material Readiness",
+      "link_to": "Material Readiness Check",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "Work Order",
+      "link_to": "Work Order",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[[\"Work Order\", \"docstatus\", \"=\", 0]]",
+      "format": "{} open"
+    },
+    {
+      "type": "DocType",
+      "label": "Grade Change Clearance",
+      "link_to": "Grade Change Clearance",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "Production Job Card",
+      "link_to": "Job Card",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[[\"Job Card\", \"docstatus\", \"=\", 0]]",
+      "format": "{} open"
+    },
+    {
+      "type": "DocType",
+      "label": "Premix Run",
+      "link_to": "Premix Run",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "Shift Report",
+      "link_to": "Shift Report",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "FG Delivery Note",
+      "link_to": "FG Delivery Note",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[[\"FG Delivery Note\", \"docstatus\", \"=\", 0]]",
+      "format": "{} open"
+    },
+    {
+      "type": "DocType",
+      "label": "Partial FG Lots",
+      "link_to": "Partial FG Lot",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "DocType",
+      "label": "Final RM Consumption / Close Batch",
+      "link_to": "Job Card",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[[\"Job Card\", \"docstatus\", \"=\", 0]]",
+      "format": "{} open"
+    },
+    {
+      "type": "Page",
+      "label": "Add Consumption / RM Consumption History",
+      "link_to": "rm-consumption-history",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Page",
+      "label": "Production Dashboard",
+      "link_to": "production-dashboard",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Page",
+      "label": "Plant Production Dashboard",
+      "link_to": "plant-production-dashboard",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Report",
+      "label": "RM Consumption by Grade",
+      "link_to": "RM Consumption by Grade",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Report",
+      "label": "RM Consumption by FG Batch",
+      "link_to": "RM Consumption by FG Batch",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "type": "Report",
+      "label": "RM Consumption by Production Line",
+      "link_to": "RM Consumption by Production Line",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    }
+  ],
+  "roles": [],
+  "sequence_id": 1.0,
+  "title": "Production",
+  "type": "Workspace"
+}

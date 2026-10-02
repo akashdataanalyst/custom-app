@@ -1,0 +1,30 @@
+{
+ "doctype":"DocType",
+ "editable_grid":0,
+ "engine":"InnoDB",
+ "field_order":["sequence","group_sequence","parameter_group","parameter_key","display_label","input_type","specification_text","unit","applicability","actual_value","actual_numeric","comparison_result","exception_reason","exception_acknowledged","acknowledged_by","acknowledged_on"],
+ "fields":[
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sequence","read_only":1},
+  {"fieldname":"group_sequence","fieldtype":"Int","label":"Group Sequence","read_only":1},
+  {"fieldname":"parameter_group","fieldtype":"Data","label":"Parameter Group","read_only":1},
+  {"fieldname":"parameter_key","fieldtype":"Data","label":"Parameter Key","read_only":1},
+  {"fieldname":"display_label","fieldtype":"Data","label":"Parameter","read_only":1},
+  {"fieldname":"input_type","fieldtype":"Select","label":"Input Type","options":"Numeric\nText\nStatus","read_only":1},
+  {"fieldname":"specification_text","fieldtype":"Small Text","label":"Frozen Specification","read_only":1},
+  {"fieldname":"unit","fieldtype":"Data","label":"Unit","read_only":1},
+  {"fieldname":"applicability","fieldtype":"Select","label":"Applicability","options":"Blank\nSpecified\nExplicit Dash\nNot Applicable","read_only":1},
+  {"fieldname":"actual_value","fieldtype":"Data","label":"Actual Value","read_only":1},
+  {"fieldname":"actual_numeric","fieldtype":"Float","label":"Numeric Value","read_only":1,"precision":"6"},
+  {"fieldname":"comparison_result","fieldtype":"Select","label":"Comparison","options":"Not Evaluated\nWithin\nOutside","read_only":1},
+  {"fieldname":"exception_reason","fieldtype":"Small Text","label":"Exception Reason","read_only":1},
+  {"fieldname":"exception_acknowledged","fieldtype":"Check","label":"Exception Acknowledged","default":"0","read_only":1},
+  {"fieldname":"acknowledged_by","fieldtype":"Link","label":"Acknowledged By","options":"User","read_only":1},
+  {"fieldname":"acknowledged_on","fieldtype":"Datetime","label":"Acknowledged On","read_only":1}
+ ],
+ "istable":1,
+ "module":"Calco Production",
+ "name":"Process Observation Value",
+ "permissions":[],
+ "sort_field":"idx",
+ "sort_order":"ASC"
+}

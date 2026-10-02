@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "rm_item",
+  "rm_code",
+  "item_group",
+  "testing_type",
+  "quality_inspection_template",
+  "acceptable_min",
+  "acceptable_max",
+  "target_value",
+  "approval_rule",
+  "unit",
+  "test_standard",
+  "cppl_method",
+  "test_condition",
+  "revision",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "rm_item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raw Material Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rm_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RM Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "label": "Item Group",
+   "options": "Item Group",
+   "read_only": 1
+  },
+  {
+   "fieldname": "testing_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Testing Type",
+   "options": "Quality Inspection Parameter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quality_inspection_template",
+   "fieldtype": "Link",
+   "label": "Quality Inspection Template",
+   "options": "Quality Inspection Template",
+   "read_only": 1
+  },
+  {
+   "fieldname": "acceptable_min",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Acceptable Min"
+  },
+  {
+   "fieldname": "acceptable_max",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Acceptable Max"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Data",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "approval_rule",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Evaluation Type",
+   "options": "\nNumeric Range\nMinimum Only\nMaximum Only\nObservation\nObservation (Numeric Recording)\nPass / Fail\nManual Review\nReference Only"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "test_standard",
+   "fieldtype": "Data",
+   "label": "Test Standard"
+  },
+  {
+   "fieldname": "cppl_method",
+   "fieldtype": "Data",
+   "label": "CPPL Method"
+  },
+  {
+   "fieldname": "test_condition",
+   "fieldtype": "Data",
+   "label": "Test Condition"
+  },
+  {
+   "fieldname": "revision",
+   "fieldtype": "Data",
+   "label": "Revision"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Quality",
+ "name": "RM Testing Standard",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "rm_code,testing_type,rm_item",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "rm_code"
+}

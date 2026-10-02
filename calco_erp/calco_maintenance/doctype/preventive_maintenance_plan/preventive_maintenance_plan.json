@@ -1,0 +1,212 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment",
+  "equipment_code",
+  "equipment_name",
+  "equipment_type",
+  "equipment_group",
+  "frequency",
+  "due_logic",
+  "interval_days",
+  "runtime_hours_interval",
+  "activity_checklist",
+  "method",
+  "criteria",
+  "responsible_role",
+  "responsible_person",
+  "ticket_priority",
+  "target_duration_hours",
+  "last_completed_on",
+  "next_due_date",
+  "schedule_status",
+  "days_until_due",
+  "is_active",
+  "last_generated_ticket"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment",
+   "options": "Maintenance Equipment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "equipment_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_type",
+   "fieldtype": "Data",
+   "label": "Equipment Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_group",
+   "fieldtype": "Data",
+   "label": "Equipment Group",
+   "read_only": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Frequency",
+   "options": "\nDaily\nWeekly\nMonthly\nQuarterly\nHalf Yearly\nYearly\n1500 Hrs\n300 Hours / Half Yearly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_logic",
+   "fieldtype": "Select",
+   "label": "Due Logic",
+   "options": "\nCalendar\nRuntime\nHybrid\nManual",
+   "read_only": 1
+  },
+  {
+   "fieldname": "interval_days",
+   "fieldtype": "Int",
+   "label": "Interval Days",
+   "read_only": 1
+  },
+  {
+   "fieldname": "runtime_hours_interval",
+   "fieldtype": "Int",
+   "label": "Runtime Hours Interval",
+   "read_only": 1
+  },
+  {
+   "fieldname": "activity_checklist",
+   "fieldtype": "Small Text",
+   "label": "Maintenance Activity / Checklist",
+   "reqd": 1
+  },
+  {
+   "fieldname": "method",
+   "fieldtype": "Small Text",
+   "label": "Method"
+  },
+  {
+   "fieldname": "criteria",
+   "fieldtype": "Small Text",
+   "label": "Criteria"
+  },
+  {
+   "default": "Maintenance",
+   "fieldname": "responsible_role",
+   "fieldtype": "Data",
+   "label": "Responsible Role"
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Link",
+   "label": "Responsible Person",
+   "options": "User"
+  },
+  {
+   "fieldname": "ticket_priority",
+   "fieldtype": "Select",
+   "label": "Ticket Priority",
+   "options": "\nRed\nYellow\nGreen"
+  },
+  {
+   "fieldname": "target_duration_hours",
+   "fieldtype": "Float",
+   "label": "Target Duration (Hours)"
+  },
+  {
+   "fieldname": "last_completed_on",
+   "fieldtype": "Date",
+   "label": "Last Completed On"
+  },
+  {
+   "fieldname": "next_due_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Next Due Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "schedule_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Schedule Status",
+   "options": "\nUpcoming\nDue Today\nOverdue\nManual\nInactive",
+   "read_only": 1
+  },
+  {
+   "fieldname": "days_until_due",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Days Until Due",
+   "read_only": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Active"
+  },
+  {
+   "fieldname": "last_generated_ticket",
+   "fieldtype": "Link",
+   "label": "Last Generated Ticket",
+   "options": "Maintenance Ticket",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Maintenance",
+ "name": "Preventive Maintenance Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "equipment_code,equipment_name,frequency,activity_checklist,responsible_role",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "equipment_name"
+}

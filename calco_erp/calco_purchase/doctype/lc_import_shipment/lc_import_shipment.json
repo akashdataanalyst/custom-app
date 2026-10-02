@@ -1,0 +1,250 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "material_request",
+  "request_for_quotation",
+  "supplier_quotation",
+  "purchase_order",
+  "supplier",
+  "item_code",
+  "item_name",
+  "uom",
+  "qty",
+  "po_date",
+  "required_by",
+  "payment_terms",
+  "currency",
+  "overseas_supplier",
+  "status",
+  "section_break_shipment",
+  "lc_copy",
+  "bl_no",
+  "shipping_line_name",
+  "eta",
+  "etd",
+  "no_of_containers",
+  "shipment_tracking_docs",
+  "detention_days",
+  "port_of_arrival",
+  "port_of_destination"
+ ],
+ "fields": [
+  {
+   "fieldname": "material_request",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Material Request",
+   "options": "Material Request"
+  },
+  {
+   "fieldname": "request_for_quotation",
+   "fieldtype": "Link",
+   "label": "Request for Quotation",
+   "options": "Request for Quotation"
+  },
+  {
+   "fieldname": "supplier_quotation",
+   "fieldtype": "Link",
+   "label": "Supplier Quotation",
+   "options": "Supplier Quotation"
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Purchase Order",
+   "options": "Purchase Order",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "label": "Item Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "label": "Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "label": "PO Date"
+  },
+  {
+   "fieldname": "required_by",
+   "fieldtype": "Date",
+   "label": "Required By / Delivery Date"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "default": "1",
+   "fieldname": "overseas_supplier",
+   "fieldtype": "Check",
+   "label": "Overseas Supplier"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nCompleted\nCancelled",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_shipment",
+   "fieldtype": "Section Break",
+   "label": "Shipment Details"
+  },
+  {
+   "fieldname": "lc_copy",
+   "fieldtype": "Attach",
+   "label": "LC Copy",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bl_no",
+   "fieldtype": "Data",
+   "label": "BL No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shipping_line_name",
+   "fieldtype": "Data",
+   "label": "Shipping Line Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "eta",
+   "fieldtype": "Date",
+   "label": "ETA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "etd",
+   "fieldtype": "Date",
+   "label": "ETD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "no_of_containers",
+   "fieldtype": "Int",
+   "label": "No of Containers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shipment_tracking_docs",
+   "fieldtype": "Attach",
+   "label": "Shipment Tracking Docs",
+   "reqd": 1
+  },
+  {
+   "fieldname": "detention_days",
+   "fieldtype": "Int",
+   "label": "Detention Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "port_of_arrival",
+   "fieldtype": "Data",
+   "label": "Port Of Arrival",
+   "reqd": 1
+  },
+  {
+   "fieldname": "port_of_destination",
+   "fieldtype": "Data",
+   "label": "Port Of Destination",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "module": "Calco Purchase",
+ "name": "LC Import Shipment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "purchase_order,supplier,material_request,item_code,bl_no",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "purchase_order"
+}

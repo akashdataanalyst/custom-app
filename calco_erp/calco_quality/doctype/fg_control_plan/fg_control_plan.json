@@ -1,0 +1,167 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fg_item_code",
+  "parameter",
+  "applicable",
+  "size",
+  "frequency",
+  "minimum_value",
+  "maximum_value",
+  "target_value",
+  "unit",
+  "critical_test",
+  "test_type",
+  "version",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "fg_item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FG Item Code",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "parameter",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Parameter",
+   "options": "FG Testing Method",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "applicable",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Applicable"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Sample"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "minimum_value",
+   "fieldtype": "Float",
+   "label": "Minimum Value"
+  },
+  {
+   "fieldname": "maximum_value",
+   "fieldtype": "Float",
+   "label": "Maximum Value"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Data",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "default": "0",
+   "fieldname": "critical_test",
+   "fieldtype": "Check",
+   "label": "Critical Test"
+  },
+  {
+   "default": "Numeric",
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Test Type",
+   "options": "Numeric\nManual",
+   "reqd": 1
+  },
+  {
+   "default": "1.0",
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Calco Quality",
+ "name": "FG Control Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "fg_item_code,parameter,version",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "parameter"
+}

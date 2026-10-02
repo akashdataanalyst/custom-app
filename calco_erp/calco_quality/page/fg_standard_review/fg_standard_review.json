@@ -1,0 +1,19 @@
+{
+  "doctype": "Page",
+  "name": "fg-standard-review",
+  "page_name": "fg-standard-review",
+  "module": "Calco Quality",
+  "standard": "Yes",
+  "title": "FG Standard Review",
+  "roles": [
+    {
+      "role": "Quality Manager"
+    },
+    {
+      "role": "Quality User"
+    },
+    {
+      "role": "System Manager"
+    }
+  ]
+}

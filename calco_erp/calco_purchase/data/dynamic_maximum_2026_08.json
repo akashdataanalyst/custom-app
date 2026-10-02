@@ -1,0 +1,3024 @@
+{
+  "version": "1.0.4",
+  "planning_month": "2026-08",
+  "demand_days": 30,
+  "weights": {
+    "may": 0.2,
+    "june": 0.3,
+    "july": 0.5
+  },
+  "source_hashes": [
+    {
+      "file": "Incoming_Outgoing RM.xlsx",
+      "size": 445121,
+      "sha256": "143FAF01B939B660944D2D69572A1F7D4A1653F7DF922BDB9846B914C4146815"
+    },
+    {
+      "file": "August FG Forecast.xlsx",
+      "size": 10910,
+      "sha256": "CEF9870D86DD23314C837EA57F5D77F95D8F6DCF81FA78A8A0B2CC3F6B77BD12"
+    },
+    {
+      "file": "AWS_Active_Submitted_BOM_Headers.tsv",
+      "size": 49541,
+      "sha256": "24C358CC3C590A8B79CAE828104ECB9D6DD9D188B2D4780A6620A19A938D7FBB"
+    },
+    {
+      "file": "AWS_Active_Submitted_BOM_Items.tsv",
+      "size": 306156,
+      "sha256": "779D0508E8AAE01CCFCAA22BB8D30C7E8E847E14201E686452845DA8328858DF"
+    },
+    {
+      "file": "AWS_July_2026_RM_Issues_From_Stores.tsv",
+      "size": 155520,
+      "sha256": "66D1150A1BC105B9782AE64724CAD72C454C16DBAA3EEB4FF8710745590B4E4D"
+    },
+    {
+      "file": "AWS_July_2026_RM_Returns_To_Stores.tsv",
+      "size": 15976,
+      "sha256": "C6DDA91BA3B671197FABF8525CFA2D751ADCB120DF72BD5451DB0036921BF715"
+    }
+  ],
+  "rows": [
+    {
+      "item_code": "1085",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "2083",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "24FS040",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 28.5,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "300-FG",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "501M020",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "520M001",
+      "may_available": true,
+      "may_consumption": 19.039,
+      "june_available": true,
+      "june_consumption": 7.47,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "530M001",
+      "may_available": true,
+      "may_consumption": 38.25,
+      "june_available": true,
+      "june_consumption": 22.9,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "530M002",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "530M003",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "530M004",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "6202",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "711M004",
+      "may_available": true,
+      "may_consumption": 41340.0,
+      "june_available": true,
+      "june_consumption": 33443.0,
+      "july_available": true,
+      "july_consumption": 8108.0,
+      "forecast_requirement": 21030.0
+    },
+    {
+      "item_code": "711M005",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "711M006BK",
+      "may_available": true,
+      "may_consumption": 27210.0,
+      "june_available": true,
+      "june_consumption": 18767.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "711M006N",
+      "may_available": true,
+      "may_consumption": 21245.0,
+      "june_available": true,
+      "june_consumption": 14524.6,
+      "july_available": true,
+      "july_consumption": 924.0,
+      "forecast_requirement": 33134.3
+    },
+    {
+      "item_code": "711M006SB",
+      "may_available": true,
+      "may_consumption": 3312.0,
+      "june_available": true,
+      "june_consumption": 363.0,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 4977.0
+    },
+    {
+      "item_code": "711M006SM",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "711M006SN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 950.0
+    },
+    {
+      "item_code": "711M022",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "711M023",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "721M001",
+      "may_available": true,
+      "may_consumption": 12711.0,
+      "june_available": true,
+      "june_consumption": 9007.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 5549.8
+    },
+    {
+      "item_code": "721M003",
+      "may_available": true,
+      "may_consumption": 11671.0,
+      "june_available": true,
+      "june_consumption": 5096.0,
+      "july_available": true,
+      "july_consumption": 717.0,
+      "forecast_requirement": 3312.9
+    },
+    {
+      "item_code": "721M004",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "730M001",
+      "may_available": true,
+      "may_consumption": 1271.0,
+      "june_available": true,
+      "june_consumption": 242.0,
+      "july_available": true,
+      "july_consumption": 578.0,
+      "forecast_requirement": 1000.0
+    },
+    {
+      "item_code": "731M001",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "7684 KN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "790M001",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "900M045",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "900MS136",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "910M030",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "910M040",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "A24",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 81.03,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "A45",
+      "may_available": true,
+      "may_consumption": 106.0,
+      "june_available": true,
+      "june_consumption": 2595.097,
+      "july_available": true,
+      "july_consumption": 55.375,
+      "forecast_requirement": 8859.54
+    },
+    {
+      "item_code": "A45G",
+      "may_available": true,
+      "may_consumption": 5505.0,
+      "june_available": true,
+      "june_consumption": 7556.8,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "A45L",
+      "may_available": true,
+      "may_consumption": 12596.157,
+      "june_available": true,
+      "june_consumption": 9855.225,
+      "july_available": true,
+      "july_consumption": 1943.85,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD101",
+      "may_available": true,
+      "may_consumption": 548.602,
+      "june_available": true,
+      "june_consumption": 248.485,
+      "july_available": true,
+      "july_consumption": 430.925,
+      "forecast_requirement": 483.275
+    },
+    {
+      "item_code": "AD102",
+      "may_available": true,
+      "may_consumption": 206.007,
+      "june_available": true,
+      "june_consumption": 120.795,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 121.525
+    },
+    {
+      "item_code": "AD103",
+      "may_available": true,
+      "may_consumption": 180.12,
+      "june_available": true,
+      "june_consumption": 87.53,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 286.4
+    },
+    {
+      "item_code": "AD104",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD105",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD106",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD107",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD108",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD201",
+      "may_available": true,
+      "may_consumption": 931.1,
+      "june_available": true,
+      "june_consumption": 726.65,
+      "july_available": true,
+      "july_consumption": 203.0,
+      "forecast_requirement": 121.0
+    },
+    {
+      "item_code": "AD202",
+      "may_available": true,
+      "may_consumption": 138.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 10.0
+    },
+    {
+      "item_code": "AD203",
+      "may_available": true,
+      "may_consumption": 163.0,
+      "june_available": true,
+      "june_consumption": 75.0,
+      "july_available": true,
+      "july_consumption": 47.5,
+      "forecast_requirement": 90.0
+    },
+    {
+      "item_code": "AD204",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD205",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD206",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD207",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD208",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD209",
+      "may_available": true,
+      "may_consumption": 84.75,
+      "june_available": true,
+      "june_consumption": 48.3,
+      "july_available": true,
+      "july_consumption": 128.375,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD210",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 2.6,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD211",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD212",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD213",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.25,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD214",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD301",
+      "may_available": true,
+      "may_consumption": 1210.82,
+      "june_available": true,
+      "june_consumption": 625.83,
+      "july_available": true,
+      "july_consumption": 284.54,
+      "forecast_requirement": 1313.55
+    },
+    {
+      "item_code": "AD302",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD303",
+      "may_available": true,
+      "may_consumption": 252.1,
+      "june_available": true,
+      "june_consumption": 113.44,
+      "july_available": true,
+      "july_consumption": 63.67,
+      "forecast_requirement": 123.1
+    },
+    {
+      "item_code": "AD304",
+      "may_available": true,
+      "may_consumption": 80.43,
+      "june_available": true,
+      "june_consumption": 41.495,
+      "july_available": true,
+      "july_consumption": 69.265,
+      "forecast_requirement": 43.5
+    },
+    {
+      "item_code": "AD305",
+      "may_available": true,
+      "may_consumption": 71.6,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 27.0,
+      "forecast_requirement": 72.3
+    },
+    {
+      "item_code": "AD306",
+      "may_available": true,
+      "may_consumption": 0.17,
+      "june_available": true,
+      "june_consumption": 0.06,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD307",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD308",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD309",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD310",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD311",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD312",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD313",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD314",
+      "may_available": true,
+      "may_consumption": 0.375,
+      "june_available": true,
+      "june_consumption": 0.25,
+      "july_available": true,
+      "july_consumption": 1.68,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD315",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD316",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD401",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD402",
+      "may_available": true,
+      "may_consumption": 122.0,
+      "june_available": true,
+      "june_consumption": 287.6,
+      "july_available": true,
+      "july_consumption": 232.35,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD402F",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD402F1",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD403",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 2.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD404",
+      "may_available": true,
+      "may_consumption": 7789.5,
+      "june_available": true,
+      "june_consumption": 2686.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 5790.0
+    },
+    {
+      "item_code": "AD404A",
+      "may_available": true,
+      "may_consumption": 71.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 10.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD405",
+      "may_available": true,
+      "may_consumption": 10.55,
+      "june_available": true,
+      "june_consumption": 34.5,
+      "july_available": true,
+      "july_consumption": 23.88,
+      "forecast_requirement": 3.0
+    },
+    {
+      "item_code": "AD405A",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD406",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD407",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD408",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD409",
+      "may_available": true,
+      "may_consumption": 366.6,
+      "june_available": true,
+      "june_consumption": 820.2,
+      "july_available": true,
+      "july_consumption": 705.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD410",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD411",
+      "may_available": true,
+      "may_consumption": 3381.5,
+      "june_available": true,
+      "june_consumption": 1589.0,
+      "july_available": true,
+      "july_consumption": 3160.0,
+      "forecast_requirement": 2657.0
+    },
+    {
+      "item_code": "AD412",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD413",
+      "may_available": true,
+      "may_consumption": 48.0,
+      "june_available": true,
+      "june_consumption": 18.0,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD414",
+      "may_available": true,
+      "may_consumption": 3379.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 1376.0
+    },
+    {
+      "item_code": "AD415",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD416",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD417",
+      "may_available": true,
+      "may_consumption": 554.6,
+      "june_available": true,
+      "june_consumption": 1021.2,
+      "july_available": true,
+      "july_consumption": 4183.8,
+      "forecast_requirement": 1030.0
+    },
+    {
+      "item_code": "AD418",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD419",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD420",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD421",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD422",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD423",
+      "may_available": true,
+      "may_consumption": 84.8,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD424",
+      "may_available": true,
+      "may_consumption": 80.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD425",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD426",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD427",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD428",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD4814",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD501",
+      "may_available": true,
+      "may_consumption": 16.485,
+      "june_available": true,
+      "june_consumption": 8.105,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 8.5
+    },
+    {
+      "item_code": "AD502",
+      "may_available": true,
+      "may_consumption": 8.235,
+      "june_available": true,
+      "june_consumption": 0.305,
+      "july_available": true,
+      "july_consumption": 1.01,
+      "forecast_requirement": 8.5
+    },
+    {
+      "item_code": "AD503",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.9,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD601",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD602",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 2.5
+    },
+    {
+      "item_code": "AD603",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD8",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 0.135,
+      "july_available": true,
+      "july_consumption": 0.25,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD801",
+      "may_available": true,
+      "may_consumption": 6.0,
+      "june_available": true,
+      "june_consumption": 7.295,
+      "july_available": true,
+      "july_consumption": 7.061,
+      "forecast_requirement": 48.45
+    },
+    {
+      "item_code": "AD802",
+      "may_available": true,
+      "may_consumption": 3.6,
+      "june_available": true,
+      "june_consumption": 0.55,
+      "july_available": true,
+      "july_consumption": 0.054,
+      "forecast_requirement": 0.5
+    },
+    {
+      "item_code": "AD803G",
+      "may_available": true,
+      "may_consumption": 120.0,
+      "june_available": true,
+      "june_consumption": 165.0,
+      "july_available": true,
+      "july_consumption": 18.0,
+      "forecast_requirement": 100.0
+    },
+    {
+      "item_code": "AD804",
+      "may_available": true,
+      "may_consumption": 0.87,
+      "june_available": true,
+      "june_consumption": 2.055,
+      "july_available": true,
+      "july_consumption": 4.0,
+      "forecast_requirement": 0.75
+    },
+    {
+      "item_code": "AD805",
+      "may_available": true,
+      "may_consumption": 1.2,
+      "june_available": true,
+      "june_consumption": 4.4,
+      "july_available": true,
+      "july_consumption": 0.18,
+      "forecast_requirement": 23.0
+    },
+    {
+      "item_code": "AD806",
+      "may_available": true,
+      "may_consumption": 3.64,
+      "june_available": true,
+      "june_consumption": 0.45,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD807",
+      "may_available": true,
+      "may_consumption": 6.9,
+      "june_available": true,
+      "june_consumption": 9.9,
+      "july_available": true,
+      "july_consumption": 0.81,
+      "forecast_requirement": 93.9
+    },
+    {
+      "item_code": "AD808",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD809",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD810",
+      "may_available": true,
+      "may_consumption": 8.4,
+      "june_available": true,
+      "june_consumption": 11.9,
+      "july_available": true,
+      "july_consumption": 1.41,
+      "forecast_requirement": 73.0
+    },
+    {
+      "item_code": "AD811",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 12.5,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD812M",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD815",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AD816",
+      "may_available": true,
+      "may_consumption": 25.3,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AER003N",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "AM650N",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 50.0
+    },
+    {
+      "item_code": "APP",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "B-30",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "B-72",
+      "may_available": true,
+      "may_consumption": 5813.0,
+      "june_available": true,
+      "june_consumption": 4262.6,
+      "july_available": true,
+      "july_consumption": 2672.65,
+      "forecast_requirement": 3250.0
+    },
+    {
+      "item_code": "B120MN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "B220MN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 71.555,
+      "july_available": true,
+      "july_consumption": 188.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "B265MO",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "B400MN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "BP0717",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "BP0800",
+      "may_available": true,
+      "may_consumption": 34.25,
+      "june_available": true,
+      "june_consumption": 71.05,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 176.85
+    },
+    {
+      "item_code": "BP0880",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 0.2,
+      "july_available": true,
+      "july_consumption": 33.1,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "C080M",
+      "may_available": true,
+      "may_consumption": 145.0,
+      "june_available": true,
+      "june_consumption": 128.2,
+      "july_available": true,
+      "july_consumption": 40.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "C1200",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "C320MN",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "CAO",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "CO15EG",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "CS-123D",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "CS-995",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "D120MA",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "DELAMINE",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "EXFLAIR",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "FR-102",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "G249",
+      "may_available": true,
+      "may_consumption": 13014.0,
+      "june_available": true,
+      "june_consumption": 30111.0,
+      "july_available": true,
+      "july_consumption": 7291.5,
+      "forecast_requirement": 2140.0
+    },
+    {
+      "item_code": "G508",
+      "may_available": true,
+      "may_consumption": 2843.0,
+      "june_available": true,
+      "june_consumption": 974.1,
+      "july_available": true,
+      "july_consumption": 501.0,
+      "forecast_requirement": 100.0
+    },
+    {
+      "item_code": "G511",
+      "may_available": true,
+      "may_consumption": 2006.0,
+      "june_available": true,
+      "june_consumption": 724.0,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "G534",
+      "may_available": true,
+      "may_consumption": 20442.0,
+      "june_available": true,
+      "june_consumption": 26604.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 9752.0
+    },
+    {
+      "item_code": "G560",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "G568",
+      "may_available": true,
+      "may_consumption": 76281.0,
+      "june_available": true,
+      "june_consumption": 39797.6,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 79690.5
+    },
+    {
+      "item_code": "G952",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "G968",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "GBEAD",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "H-10",
+      "may_available": true,
+      "may_consumption": 33.82,
+      "june_available": true,
+      "june_consumption": 50.085,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 29.3
+    },
+    {
+      "item_code": "H-11",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 0.08,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "H110MA",
+      "may_available": true,
+      "may_consumption": 891.0,
+      "june_available": true,
+      "june_consumption": 663.375,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "H200FG",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "H350FG",
+      "may_available": true,
+      "may_consumption": 2620.5,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 200.0,
+      "forecast_requirement": 337.45
+    },
+    {
+      "item_code": "H8202L",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 6525.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 26000.0
+    },
+    {
+      "item_code": "H8202NLB",
+      "may_available": true,
+      "may_consumption": 159532.59,
+      "june_available": true,
+      "june_consumption": 68109.367,
+      "july_available": true,
+      "july_consumption": 78436.078,
+      "forecast_requirement": 140559.428
+    },
+    {
+      "item_code": "HALDWANI",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "HR 181",
+      "may_available": true,
+      "may_consumption": 643.0,
+      "june_available": true,
+      "june_consumption": 666.0,
+      "july_available": true,
+      "july_consumption": 353.0,
+      "forecast_requirement": 330.0
+    },
+    {
+      "item_code": "JE25",
+      "may_available": true,
+      "may_consumption": 990.0,
+      "june_available": true,
+      "june_consumption": 3607.0,
+      "july_available": true,
+      "july_consumption": 22436.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "JE25 OG",
+      "may_available": true,
+      "may_consumption": 36525.0,
+      "june_available": true,
+      "june_consumption": 1058.28,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 43905.0
+    },
+    {
+      "item_code": "JE25L",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "JE25SD",
+      "may_available": true,
+      "may_consumption": 875.0,
+      "june_available": true,
+      "june_consumption": 4290.0,
+      "july_available": true,
+      "july_consumption": 3049.0,
+      "forecast_requirement": 9096.811
+    },
+    {
+      "item_code": "JE28",
+      "may_available": true,
+      "may_consumption": 88.48,
+      "june_available": true,
+      "june_consumption": 97.86,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 2000.0
+    },
+    {
+      "item_code": "JEMB",
+      "may_available": true,
+      "may_consumption": 2664.0,
+      "june_available": true,
+      "june_consumption": 288.54,
+      "july_available": true,
+      "july_consumption": 1725.0,
+      "forecast_requirement": 2835.75
+    },
+    {
+      "item_code": "K102A",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "KEMOLIT KF4",
+      "may_available": true,
+      "may_consumption": 9651.5,
+      "june_available": true,
+      "june_consumption": 3359.5,
+      "july_available": true,
+      "july_consumption": 9921.5,
+      "forecast_requirement": 8530.0
+    },
+    {
+      "item_code": "KEMOLIT SL4",
+      "may_available": true,
+      "may_consumption": 2460.0,
+      "june_available": true,
+      "june_consumption": 1854.0,
+      "july_available": true,
+      "july_consumption": 3260.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L/OLD",
+      "may_available": true,
+      "may_consumption": 9722.925,
+      "june_available": true,
+      "june_consumption": 1932.385,
+      "july_available": true,
+      "july_consumption": 4205.0,
+      "forecast_requirement": 2850.0
+    },
+    {
+      "item_code": "L05XM",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L07XM",
+      "may_available": true,
+      "may_consumption": 2688.0,
+      "june_available": true,
+      "june_consumption": 723.0,
+      "july_available": true,
+      "july_consumption": 60.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L08XM",
+      "may_available": true,
+      "may_consumption": 74876.888,
+      "june_available": true,
+      "june_consumption": 54438.92,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 15499.348
+    },
+    {
+      "item_code": "L09XM",
+      "may_available": true,
+      "may_consumption": 420.0,
+      "june_available": true,
+      "june_consumption": 9000.0,
+      "july_available": true,
+      "july_consumption": 8930.0,
+      "forecast_requirement": 500.0
+    },
+    {
+      "item_code": "L10XM",
+      "may_available": true,
+      "may_consumption": 59082.6,
+      "june_available": true,
+      "june_consumption": 22755.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 50379.45
+    },
+    {
+      "item_code": "L11XM",
+      "may_available": true,
+      "may_consumption": 17000.0,
+      "june_available": true,
+      "june_consumption": 10825.0,
+      "july_available": true,
+      "july_consumption": 7.68,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L12XM",
+      "may_available": true,
+      "may_consumption": 50.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L12XMA",
+      "may_available": true,
+      "may_consumption": 50.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "L13XM",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "M-1251",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "M-1420",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "M1000R",
+      "may_available": true,
+      "may_consumption": 1200.0,
+      "june_available": true,
+      "june_consumption": 1403.1,
+      "july_available": true,
+      "july_consumption": 646.193,
+      "forecast_requirement": 745.0
+    },
+    {
+      "item_code": "M12RR",
+      "may_available": true,
+      "may_consumption": 15335.0,
+      "june_available": true,
+      "june_consumption": 9178.3,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 10500.944
+    },
+    {
+      "item_code": "M2407",
+      "may_available": true,
+      "may_consumption": 3825.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 3193.05,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "MIXROY",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "N200HV",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P-22",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P-30",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00001",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00002",
+      "may_available": true,
+      "may_consumption": 2343.0,
+      "june_available": true,
+      "june_consumption": 1472.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00003",
+      "may_available": true,
+      "may_consumption": 4105.0,
+      "june_available": true,
+      "june_consumption": 1243.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00004",
+      "may_available": true,
+      "may_consumption": 4966.0,
+      "june_available": true,
+      "june_consumption": 772.0,
+      "july_available": true,
+      "july_consumption": 463.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00005",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00006",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00007",
+      "may_available": true,
+      "may_consumption": 17580.0,
+      "june_available": true,
+      "june_consumption": 7796.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00008",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00009",
+      "may_available": true,
+      "may_consumption": 22524.0,
+      "june_available": true,
+      "june_consumption": 11725.0,
+      "july_available": true,
+      "july_consumption": 7081.3,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00010",
+      "may_available": true,
+      "may_consumption": 29571.0,
+      "june_available": true,
+      "june_consumption": 9857.0,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00011",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00012",
+      "may_available": true,
+      "may_consumption": 2908.0,
+      "june_available": true,
+      "june_consumption": 767.0,
+      "july_available": true,
+      "july_consumption": 1688.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00013",
+      "may_available": true,
+      "may_consumption": 60.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00014",
+      "may_available": true,
+      "may_consumption": 152.0,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00015",
+      "may_available": true,
+      "may_consumption": 1038.0,
+      "june_available": true,
+      "june_consumption": 36.0,
+      "july_available": true,
+      "july_consumption": 59.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00016",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00017",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P00018",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "P080M",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 948.0
+    },
+    {
+      "item_code": "P100M",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PA0001",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PA0002",
+      "may_available": true,
+      "may_consumption": 75.15,
+      "june_available": true,
+      "june_consumption": 12.8,
+      "july_available": true,
+      "july_consumption": 70.775,
+      "forecast_requirement": 51.6
+    },
+    {
+      "item_code": "PA0003",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PB01",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PB02",
+      "may_available": true,
+      "may_consumption": 62.402,
+      "june_available": true,
+      "june_consumption": 25.566,
+      "july_available": true,
+      "july_consumption": 23.028,
+      "forecast_requirement": 33.658
+    },
+    {
+      "item_code": "PB03",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PB04",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PB05",
+      "may_available": true,
+      "may_consumption": 0.262,
+      "june_available": true,
+      "june_consumption": 12.65,
+      "july_available": true,
+      "july_consumption": 12.145,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PB06HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PBR1HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PBR2HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PC01",
+      "may_available": true,
+      "may_consumption": 93.839,
+      "june_available": true,
+      "june_consumption": 141.479,
+      "july_available": true,
+      "july_consumption": 12.859,
+      "forecast_requirement": 54.852
+    },
+    {
+      "item_code": "PC02",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PC03",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PC04",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PC05",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PC06",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PD01",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE0201",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE0570",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE0800",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 800.0
+    },
+    {
+      "item_code": "PE0803",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE232130",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE232131",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE252158",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE252169",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE262201",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE44882",
+      "may_available": true,
+      "may_consumption": 42.5,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 100.0
+    },
+    {
+      "item_code": "PE522156",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PE5302",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 2956.4,
+      "july_available": true,
+      "july_consumption": 0.0,
+      "forecast_requirement": 1669.0
+    },
+    {
+      "item_code": "PE6269",
+      "may_available": true,
+      "may_consumption": 6462.5,
+      "june_available": true,
+      "june_consumption": 2422.0,
+      "july_available": true,
+      "july_consumption": 1185.5,
+      "forecast_requirement": 1136.0
+    },
+    {
+      "item_code": "PG01",
+      "may_available": true,
+      "may_consumption": 4.131,
+      "june_available": true,
+      "june_consumption": 1.835,
+      "july_available": true,
+      "july_consumption": 2.142,
+      "forecast_requirement": 0.039
+    },
+    {
+      "item_code": "PG02HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PG03HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PMX",
+      "may_available": true,
+      "may_consumption": 1592.5,
+      "june_available": true,
+      "june_consumption": 1317.0,
+      "july_available": true,
+      "july_consumption": 744.2,
+      "forecast_requirement": 245.0
+    },
+    {
+      "item_code": "PO01",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PO02",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PO03",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PO04",
+      "may_available": true,
+      "may_consumption": 12.8,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 15.8
+    },
+    {
+      "item_code": "PO05",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PO81",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PO82",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "POB1",
+      "may_available": true,
+      "may_consumption": 0.703,
+      "june_available": true,
+      "june_consumption": 3.022,
+      "july_available": true,
+      "july_consumption": 0.19,
+      "forecast_requirement": 0.061
+    },
+    {
+      "item_code": "POB2",
+      "may_available": true,
+      "may_consumption": 15.885,
+      "june_available": true,
+      "june_consumption": 9.91,
+      "july_available": true,
+      "july_consumption": 5.94,
+      "forecast_requirement": 18.395
+    },
+    {
+      "item_code": "POB3",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PP01",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PP02",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PP03",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PR01",
+      "may_available": true,
+      "may_consumption": 0.807,
+      "june_available": true,
+      "june_consumption": 0.481,
+      "july_available": true,
+      "july_consumption": 0.702,
+      "forecast_requirement": 0.102
+    },
+    {
+      "item_code": "PR02",
+      "may_available": true,
+      "may_consumption": 11.9,
+      "june_available": true,
+      "june_consumption": 0.034,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PR03",
+      "may_available": true,
+      "may_consumption": 32.866,
+      "june_available": true,
+      "june_consumption": 0.018,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 32.2
+    },
+    {
+      "item_code": "PR04",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PR05",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PR06",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PR07",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PT-84",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PT01",
+      "may_available": true,
+      "may_consumption": 602.99,
+      "june_available": true,
+      "june_consumption": 600.113,
+      "july_available": true,
+      "july_consumption": 24.215,
+      "forecast_requirement": 520.0
+    },
+    {
+      "item_code": "PT02",
+      "may_available": true,
+      "may_consumption": 92.94,
+      "june_available": true,
+      "june_consumption": 187.69,
+      "july_available": true,
+      "july_consumption": 68.85,
+      "forecast_requirement": 19.0
+    },
+    {
+      "item_code": "PT03",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PT04",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PT05",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PT83",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 1.0
+    },
+    {
+      "item_code": "PV01",
+      "may_available": true,
+      "may_consumption": 0.642,
+      "june_available": true,
+      "june_consumption": 0.509,
+      "july_available": true,
+      "july_consumption": 0.642,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY01",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY02",
+      "may_available": true,
+      "may_consumption": 7.127,
+      "june_available": true,
+      "june_consumption": 9.811,
+      "july_available": true,
+      "july_consumption": 25.146,
+      "forecast_requirement": 0.873
+    },
+    {
+      "item_code": "PY03",
+      "may_available": true,
+      "may_consumption": 5.6,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 6.4
+    },
+    {
+      "item_code": "PY04",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY05",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY06",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY07",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY08",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY10HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "PY11HS",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "QH1200",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "SAN-300N",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": true,
+      "june_consumption": 185.0,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "SM-200",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "T435TM",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "T551",
+      "may_available": true,
+      "may_consumption": 25.5,
+      "june_available": true,
+      "june_consumption": 9.0,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "TALC 1090",
+      "may_available": true,
+      "may_consumption": 2628.0,
+      "june_available": true,
+      "june_consumption": 313.0,
+      "july_available": true,
+      "july_consumption": 738.7,
+      "forecast_requirement": 1800.0
+    },
+    {
+      "item_code": "TH6085",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    },
+    {
+      "item_code": "WX",
+      "may_available": true,
+      "may_consumption": 9016.0,
+      "june_available": true,
+      "june_consumption": 2500.0,
+      "july_available": true,
+      "july_consumption": 1000.0,
+      "forecast_requirement": 1847.0
+    },
+    {
+      "item_code": "Y35GR",
+      "may_available": false,
+      "may_consumption": null,
+      "june_available": false,
+      "june_consumption": null,
+      "july_available": false,
+      "july_consumption": null,
+      "forecast_requirement": 0.0
+    }
+  ]
+}

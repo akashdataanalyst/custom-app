@@ -1,0 +1,7 @@
+{
+  "file": "FG Standard Updated.xlsx",
+  "sha256": "74dbe59b6271ffbff5a4c07d3e10d18836683095782eee4856d4f3f5eed6e706",
+  "sheet": "Sheet1",
+  "scope": "FG Standard only",
+  "status_policy": "Preserve source labels; do not promote PreLaunch to Production; current specification authority updated per user clarification."
+}

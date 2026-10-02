@@ -1,0 +1,14 @@
+include requirements.txt
+include *.md
+recursive-include calco_erp *.css
+recursive-include calco_erp *.csv
+recursive-include calco_erp *.html
+recursive-include calco_erp *.ico
+recursive-include calco_erp *.js
+recursive-include calco_erp *.json
+recursive-include calco_erp *.md
+recursive-include calco_erp *.png
+recursive-include calco_erp *.py
+recursive-include calco_erp *.svg
+recursive-include calco_erp *.txt
+recursive-exclude calco_erp *.pyc

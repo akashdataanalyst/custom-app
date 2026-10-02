@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "creation": "2026-06-06 18:30:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "proposed_rm_code",
+  "linked_rm_request",
+  "material_category",
+  "msds_required",
+  "rohs_required",
+  "reach_required",
+  "ul_required",
+  "trial_approval_required",
+  "approval_status",
+  "supplier_rating",
+  "lead_time",
+  "payment_terms",
+  "effective_date",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "proposed_rm_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Proposed RM Code"
+  },
+  {
+   "fieldname": "linked_rm_request",
+   "fieldtype": "Link",
+   "label": "Linked RM Request",
+   "options": "New RM Request",
+   "read_only": 1
+  },
+  {
+   "fieldname": "material_category",
+   "fieldtype": "Data",
+   "label": "Material Category"
+  },
+  {
+   "default": "0",
+   "fieldname": "msds_required",
+   "fieldtype": "Check",
+   "label": "MSDS Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "rohs_required",
+   "fieldtype": "Check",
+   "label": "RoHS Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "reach_required",
+   "fieldtype": "Check",
+   "label": "REACH Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "ul_required",
+   "fieldtype": "Check",
+   "label": "UL Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "trial_approval_required",
+   "fieldtype": "Check",
+   "label": "Trial Approval Required"
+  },
+  {
+   "default": "Approved",
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Approval Status",
+   "options": "Approved\nConditional Approval\nBlocked\nUnder Evaluation\nExpired",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_rating",
+   "fieldtype": "Float",
+   "label": "Supplier Rating",
+   "precision": "2"
+  },
+  {
+   "fieldname": "lead_time",
+   "fieldtype": "Float",
+   "label": "Lead Time",
+   "precision": "2"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "label": "Effective Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "module": "Calco Purchase",
+ "name": "Supplier Request Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

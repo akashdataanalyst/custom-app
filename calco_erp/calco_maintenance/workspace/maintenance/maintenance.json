@@ -1,0 +1,171 @@
+{
+ "app": "calco_erp",
+ "charts": [],
+ "content": "[{\"id\":\"maintenance-quick-access-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"maintenance-ticket-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Ticket\",\"col\":3}},{\"id\":\"maintenance-inspection-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Inspection\",\"col\":3}},{\"id\":\"maintenance-job-card-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Job Card\",\"col\":3}},{\"id\":\"material-request-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Material Request\",\"col\":3}},{\"id\":\"qpcr-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"QPCR\",\"col\":3}},{\"id\":\"maintenance-spacer-1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"maintenance-status-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Breakdown Status Overview</b></span>\",\"col\":12}},{\"id\":\"open-tickets-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Tickets\",\"col\":4}},{\"id\":\"inspection-pending-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Inspection Pending\",\"col\":4}},{\"id\":\"spare-pending-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Spare Pending\",\"col\":4}},{\"id\":\"in-progress-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"In Progress\",\"col\":4}},{\"id\":\"completed-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed\",\"col\":4}},{\"id\":\"overdue-tickets-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Overdue Tickets\",\"col\":4}},{\"id\":\"maintenance-spacer-2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"maintenance-pm-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Preventive Maintenance</b></span>\",\"col\":12}},{\"id\":\"pm-due-today-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"PM Due Today\",\"col\":4}},{\"id\":\"pm-overdue-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"PM Overdue\",\"col\":4}},{\"id\":\"pm-completed-today-card\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"PM Completed Today\",\"col\":4}},{\"id\":\"maintenance-spacer-3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"maintenance-views-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Useful Views</b></span>\",\"col\":12}},{\"id\":\"machine-wise-breakdown-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Machine-wise Breakdown\",\"col\":4}},{\"id\":\"ticket-aging-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ticket Aging\",\"col\":4}},{\"id\":\"downtime-report-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Downtime Report\",\"col\":4}},{\"id\":\"mttr-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"MTTR\",\"col\":4}},{\"id\":\"mtbf-shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"MTBF\",\"col\":4}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Maintenance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance Ticket",
+   "link_count": 0,
+   "link_to": "Maintenance Ticket",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Request",
+   "link_count": 0,
+   "link_to": "Material Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Calco Maintenance",
+ "name": "Maintenance",
+ "number_cards": [
+  {
+   "label": "Open Tickets",
+   "number_card_name": "Open Tickets"
+  },
+  {
+   "label": "Inspection Pending",
+   "number_card_name": "Inspection Pending"
+  },
+  {
+   "label": "Spare Pending",
+   "number_card_name": "Spare Pending"
+  },
+  {
+   "label": "In Progress",
+   "number_card_name": "In Progress"
+  },
+  {
+   "label": "Completed",
+   "number_card_name": "Completed"
+  },
+  {
+   "label": "Overdue Tickets",
+   "number_card_name": "Overdue Tickets"
+  },
+  {
+   "label": "PM Due Today",
+   "number_card_name": "PM Due Today"
+  },
+  {
+   "label": "PM Overdue",
+   "number_card_name": "PM Overdue"
+  },
+  {
+   "label": "PM Completed Today",
+   "number_card_name": "PM Completed Today"
+  }
+ ],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "blue",
+   "doc_view": "List",
+   "icon": "tool",
+   "label": "Maintenance Ticket",
+   "link_to": "Maintenance Ticket",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "format": "{} Pending",
+   "icon": "list",
+   "label": "Maintenance Inspection",
+   "link_to": "Maintenance Ticket",
+   "stats_filter": "[[\"Maintenance Ticket\", \"status\", \"=\", \"Inspection\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "blue",
+   "doc_view": "List",
+   "format": "{} Active",
+   "icon": "list",
+   "label": "Maintenance Job Card",
+   "link_to": "Maintenance Ticket",
+   "stats_filter": "[[\"Maintenance Ticket\", \"status\", \"=\", \"In Progress\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "yellow",
+   "doc_view": "List",
+   "icon": "tool",
+   "label": "Material Request",
+   "link_to": "Material Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "red",
+   "doc_view": "List",
+   "format": "{} Pending",
+   "icon": "list",
+   "label": "QPCR",
+   "link_to": "Maintenance Ticket",
+   "stats_filter": "[[\"Maintenance Ticket\", \"status\", \"=\", \"Completed\"], [\"Maintenance Ticket\", \"resolved_confirmation\", \"=\", 0]]",
+   "type": "DocType"
+  },
+  {
+   "color": "blue",
+   "icon": "bar-chart-2",
+   "label": "Machine-wise Breakdown",
+   "link_to": "Machine-wise Breakdown Report",
+   "type": "Report"
+  },
+  {
+   "color": "orange",
+   "doc_view": "List",
+   "format": "{} Active",
+   "icon": "list",
+   "label": "Ticket Aging",
+   "link_to": "Maintenance Ticket",
+   "stats_filter": "[[\"Maintenance Ticket\", \"status\", \"not in\", [\"Closed\"]]]",
+   "type": "DocType"
+  },
+  {
+   "color": "yellow",
+   "icon": "clock",
+   "label": "Downtime Report",
+   "link_to": "Downtime Report",
+   "type": "Report"
+  },
+  {
+   "color": "green",
+   "icon": "bar-chart",
+   "label": "MTTR",
+   "link_to": "MTTR Report",
+   "type": "Report"
+  },
+  {
+   "color": "cyan",
+   "icon": "trending-up",
+   "label": "MTBF",
+   "link_to": "MTBF Report",
+   "type": "Report"
+  }
+ ],
+ "title": "Maintenance",
+ "type": "Workspace"
+}

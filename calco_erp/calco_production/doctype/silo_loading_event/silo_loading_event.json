@@ -1,0 +1,33 @@
+{
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "sequence", "event_datetime", "batch_no", "bags_loaded", "kg_loaded",
+  "cumulative_bags", "cumulative_kg", "below_max_level", "observation",
+  "shift", "entered_by", "entered_on", "supervisor_reviewed", "reviewed_by", "reviewed_on"
+ ],
+ "fields": [
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sr. No.","read_only":1},
+  {"fieldname":"event_datetime","fieldtype":"Datetime","label":"Event Time","read_only":1},
+  {"fieldname":"batch_no","fieldtype":"Link","label":"Batch / Lot","options":"Batch","read_only":1},
+  {"fieldname":"bags_loaded","fieldtype":"Float","label":"Bags Loaded","read_only":1},
+  {"fieldname":"kg_loaded","fieldtype":"Float","label":"Kg Loaded","read_only":1},
+  {"fieldname":"cumulative_bags","fieldtype":"Float","label":"Cum. Bags","read_only":1},
+  {"fieldname":"cumulative_kg","fieldtype":"Float","label":"Cum. Kg","read_only":1},
+  {"fieldname":"below_max_level","fieldtype":"Select","label":"Below Max Level","options":"Yes\nNo","read_only":1},
+  {"fieldname":"observation","fieldtype":"Small Text","label":"Observation","read_only":1},
+  {"fieldname":"shift","fieldtype":"Data","label":"Shift","read_only":1},
+  {"fieldname":"entered_by","fieldtype":"Link","label":"Entered By","options":"User","read_only":1},
+  {"fieldname":"entered_on","fieldtype":"Datetime","label":"Entered On","read_only":1},
+  {"fieldname":"supervisor_reviewed","fieldtype":"Check","label":"Supervisor Reviewed","read_only":1},
+  {"fieldname":"reviewed_by","fieldtype":"Link","label":"Reviewed By","options":"User","read_only":1},
+  {"fieldname":"reviewed_on","fieldtype":"Datetime","label":"Reviewed On","read_only":1}
+ ],
+ "istable": 1,
+ "module": "Calco Production",
+ "name": "Silo Loading Event",
+ "permissions": [],
+ "sort_field": "idx",
+ "sort_order": "ASC"
+}

@@ -1,0 +1,150 @@
+{
+  "actions": [],
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "rm_code",
+    "rm_batch_no",
+    "available_batch_qty",
+    "rm_qty_consumed",
+    "category",
+    "challan_invoice_no",
+    "remarks",
+    "issued_qty",
+    "prior_actual_qty",
+    "provisional_qty",
+    "remaining_wip_qty",
+    "accounted_qty",
+    "additional_actual_qty",
+    "final_actual_qty",
+    "stock_delta"
+  ],
+  "fields": [
+    {
+      "fieldname": "rm_code",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "RM Code",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "rm_batch_no",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "RM Batch No",
+      "options": null,
+      "reqd": 1,
+      "read_only": 1
+    },
+    {
+      "fieldname": "available_batch_qty",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Available Batch Qty",
+      "precision": "3",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode !== 'Final Confirmation'"
+    },
+    {
+      "fieldname": "rm_qty_consumed",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "RM Qty Consumed",
+      "precision": "3",
+      "reqd": 1,
+      "depends_on": "eval:parent.consumption_mode !== 'Final Confirmation'"
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Category",
+      "depends_on": "eval:parent.consumption_mode !== 'Final Confirmation'"
+    },
+    {
+      "fieldname": "challan_invoice_no",
+      "fieldtype": "Data",
+      "label": "Challan / Invoice No",
+      "depends_on": "eval:parent.consumption_mode !== 'Final Confirmation'"
+    },
+    {
+      "fieldname": "remarks",
+      "fieldtype": "Small Text",
+      "label": "Remarks"
+    },
+    {
+      "fieldname": "issued_qty",
+      "label": "Issued / Opening WIP",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "prior_actual_qty",
+      "label": "Previously Confirmed Actual",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "provisional_qty",
+      "label": "Provisional WIP Relief",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "remaining_wip_qty",
+      "label": "Remaining Physical WIP",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "accounted_qty",
+      "label": "Net Qty Already Relieved",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "additional_actual_qty",
+      "label": "Consumed Qty (Additional Actual)",
+      "fieldtype": "Data",
+      "read_only": 0,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "final_actual_qty",
+      "label": "Resulting Final Actual",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    },
+    {
+      "fieldname": "stock_delta",
+      "label": "Unresolved Stock Quantity",
+      "fieldtype": "Data",
+      "read_only": 1,
+      "depends_on": "eval:parent.consumption_mode === 'Final Confirmation'",
+      "no_copy": 1
+    }
+  ],
+  "istable": 1,
+  "links": [],
+  "module": "Calco Production",
+  "name": "Production Consumption RM Item",
+  "permissions": [],
+  "quick_entry": 1,
+  "sort_field": "idx",
+  "sort_order": "ASC"
+}

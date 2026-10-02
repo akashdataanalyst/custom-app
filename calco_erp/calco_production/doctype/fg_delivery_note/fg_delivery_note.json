@@ -1,0 +1,475 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "naming_series:",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "compounding_job_card",
+  "job_card",
+  "work_order",
+  "company",
+  "item_code",
+  "grade_name",
+  "parent_batch",
+  "handover_date",
+  "status",
+  "breakdown",
+  "bags",
+  "kg_per_bag",
+  "prime_fg_qty",
+  "loose_qty",
+  "spy_qty",
+  "tpy_qty",
+  "samples_qty",
+  "metal_separator_qty",
+  "others_qty",
+  "others_reason",
+  "total_output_qty",
+  "remarks",
+  "is_final",
+  "correction_reason",
+  "acknowledgements",
+  "production_by",
+  "production_on",
+  "qa_by",
+  "qa_on",
+  "stores_by",
+  "stores_on",
+  "qa_observation",
+  "receipt_links",
+  "partial_fg_lot",
+  "fg_batch",
+  "manufacture_entry",
+  "evidence_section",
+  "handover_version",
+  "output_fingerprint",
+  "output_cutoff",
+  "output_evidence",
+  "audit_events",
+  "amended_from",
+  "pmx_qty",
+  "settlement_summary"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Series",
+   "default": "FGD-.YYYY.-",
+   "hidden": 1
+  },
+  {
+   "fieldname": "compounding_job_card",
+   "fieldtype": "Link",
+   "label": "Compounding Job Card",
+   "options": "Job Card",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "job_card",
+   "fieldtype": "Link",
+   "label": "Legacy Production Job Card",
+   "options": "Production Job Card",
+   "depends_on": "eval:!doc.compounding_job_card"
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "read_only": 1,
+   "options": "Work Order",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "read_only": 1,
+   "options": "Company",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Code",
+   "read_only": 1,
+   "options": "Item",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "grade_name",
+   "fieldtype": "Data",
+   "label": "Grade Name",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "parent_batch",
+   "fieldtype": "Link",
+   "label": "Production Run / Parent Batch",
+   "read_only": 1,
+   "options": "Batch",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "handover_date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nFG Quarantine\nProduction Submitted\nQA Accepted\nStores Received\nCancelled\nReversal Pending",
+   "default": "Draft",
+   "read_only": 1,
+   "in_list_view": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "breakdown",
+   "fieldtype": "Section Break",
+   "label": "Physical Handover (Kg)"
+  },
+  {
+   "fieldname": "bags",
+   "fieldtype": "Int",
+   "label": "No. of Bags",
+   "default": "0"
+  },
+  {
+   "fieldname": "kg_per_bag",
+   "fieldtype": "Float",
+   "label": "Kg per Bag",
+   "default": "25",
+   "precision": "6"
+  },
+  {
+   "fieldname": "prime_fg_qty",
+   "fieldtype": "Float",
+   "label": "Packed FG / Total FG Delivered",
+   "read_only": 1,
+   "precision": "6",
+   "description": "Only packed FG is received into FG Quarantine. Bags \u00d7 Kg per Bag; supported by Shift Report FG Qty.",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "loose_qty",
+   "fieldtype": "Float",
+   "label": "Loose Bag (LB)",
+   "precision": "6"
+  },
+  {
+   "fieldname": "spy_qty",
+   "fieldtype": "Float",
+   "label": "Second Pass Yield (SPY)",
+   "precision": "6"
+  },
+  {
+   "fieldname": "tpy_qty",
+   "fieldtype": "Float",
+   "label": "Third Pass Yield (TPY)",
+   "precision": "6"
+  },
+  {
+   "fieldname": "samples_qty",
+   "fieldtype": "Float",
+   "label": "Lab Samples (LS)",
+   "precision": "6"
+  },
+  {
+   "fieldname": "metal_separator_qty",
+   "fieldtype": "Float",
+   "label": "Metal Separator",
+   "precision": "6"
+  },
+  {
+   "fieldname": "others_qty",
+   "fieldtype": "Float",
+   "label": "Others",
+   "precision": "6"
+  },
+  {
+   "fieldname": "others_reason",
+   "fieldtype": "Small Text",
+   "label": "Others Description / Evidence"
+  },
+  {
+   "fieldname": "total_output_qty",
+   "fieldtype": "Float",
+   "label": "Total Handover Quantity (All Categories)",
+   "read_only": 1,
+   "precision": "6",
+   "description": "Not FG inventory or unique process output; reprocessing categories remain separate.",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "is_final",
+   "fieldtype": "Check",
+   "label": "Final Production Handover",
+   "description": "Does not end production or close the batch. Existing Physical End and final run closure remain required."
+  },
+  {
+   "fieldname": "correction_reason",
+   "fieldtype": "Small Text",
+   "label": "Correction / Cancellation Reason",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "acknowledgements",
+   "fieldtype": "Section Break",
+   "label": "Acknowledgements"
+  },
+  {
+   "fieldname": "production_by",
+   "fieldtype": "Link",
+   "label": "Production Submitted By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "production_on",
+   "fieldtype": "Datetime",
+   "label": "Production Submitted On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qa_by",
+   "fieldtype": "Link",
+   "label": "QA Accepted By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qa_on",
+   "fieldtype": "Datetime",
+   "label": "QA Accepted On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "stores_by",
+   "fieldtype": "Link",
+   "label": "Stores Received By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "stores_on",
+   "fieldtype": "Datetime",
+   "label": "Stores Received On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qa_observation",
+   "fieldtype": "Small Text",
+   "label": "QA Handover Observation",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "receipt_links",
+   "fieldtype": "Section Break",
+   "label": "Receipt and Quality"
+  },
+  {
+   "fieldname": "partial_fg_lot",
+   "fieldtype": "Link",
+   "label": "Partial FG Lot",
+   "options": "Partial FG Lot",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "fg_batch",
+   "fieldtype": "Link",
+   "label": "FG Lot Batch",
+   "options": "Batch",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "manufacture_entry",
+   "fieldtype": "Link",
+   "label": "Manufacture Stock Entry",
+   "options": "Stock Entry",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "evidence_section",
+   "fieldtype": "Section Break",
+   "label": "Controlled Evidence",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "handover_version",
+   "fieldtype": "Data",
+   "label": "Policy Version",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "output_fingerprint",
+   "fieldtype": "Data",
+   "label": "Output Fingerprint",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "output_cutoff",
+   "fieldtype": "Datetime",
+   "label": "Handover Evidence Cutoff",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "output_evidence",
+   "fieldtype": "Long Text",
+   "label": "Shift Output Evidence",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "audit_events",
+   "fieldtype": "Long Text",
+   "label": "Acknowledgement / Correction Audit",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "FG Delivery Note",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "pmx_qty",
+   "fieldtype": "Float",
+   "label": "PMX",
+   "depends_on": "eval:!doc.compounding_job_card"
+  },
+  {
+   "fieldname": "settlement_summary",
+   "fieldtype": "Small Text",
+   "label": "Material Settlement",
+   "read_only": 1,
+   "depends_on": "eval:!doc.compounding_job_card",
+   "no_copy": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "module": "Calco Production",
+ "name": "FG Delivery Note",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "print": 1,
+   "report": 1,
+   "cancel": 1,
+   "amend": 1,
+   "delete": 1
+  },
+  {
+   "role": "Production Engineer",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "print": 1,
+   "report": 1
+  },
+  {
+   "role": "Production Head",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "print": 1,
+   "report": 1,
+   "cancel": 1,
+   "amend": 1,
+   "delete": 1
+  },
+  {
+   "role": "Manufacturing Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "submit": 1,
+   "print": 1,
+   "report": 1,
+   "cancel": 1,
+   "amend": 1,
+   "delete": 1
+  },
+  {
+   "role": "Quality Manager",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Quality User",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Stock Manager",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Stock User",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Production Manager",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Quality Calco",
+   "read": 1,
+   "print": 1
+  }
+ ],
+ "quick_entry": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "",
+ "is_submittable": 1,
+ "track_changes": 1
+}

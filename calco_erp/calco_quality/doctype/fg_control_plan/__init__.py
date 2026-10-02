@@ -1,0 +1,1 @@
+"""FG Control Plan doctype."""

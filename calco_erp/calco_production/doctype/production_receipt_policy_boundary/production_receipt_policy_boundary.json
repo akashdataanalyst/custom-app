@@ -1,0 +1,159 @@
+{
+ "doctype": "DocType",
+ "name": "Production Receipt Policy Boundary",
+ "module": "Calco Production",
+ "field_order": [
+  "company",
+  "work_order",
+  "job_card",
+  "parent_batch",
+  "policy_version",
+  "policy_fingerprint",
+  "policy_snapshot",
+  "effective_from",
+  "authorized_by",
+  "authorization_reason",
+  "revision",
+  "supersedes",
+  "correction_reason",
+  "recorded_by",
+  "recorded_on",
+  "fingerprint"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "label": "Company",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Company",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "work_order",
+   "label": "Work Order",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Work Order",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "job_card",
+   "label": "Production Run",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Job Card",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "parent_batch",
+   "label": "Parent Production Batch",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Batch",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "policy_version",
+   "label": "Policy Version",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "policy_fingerprint",
+   "label": "Approved Policy Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "policy_snapshot",
+   "label": "Approved Provisional Policy",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "effective_from",
+   "label": "Prospective Effective From",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "authorized_by",
+   "label": "Authorized By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "authorization_reason",
+   "label": "Authorization Reason",
+   "fieldtype": "Small Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "revision",
+   "label": "Evidence Version",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "supersedes",
+   "label": "Supersedes",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "no_copy": 1,
+   "options": "Production Receipt Policy Boundary"
+  },
+  {
+   "fieldname": "correction_reason",
+   "label": "Correction Reason",
+   "fieldtype": "Small Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "recorded_by",
+   "label": "Recorded By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "recorded_on",
+   "label": "Recorded On",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "fingerprint",
+   "label": "Evidence Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "no_copy": 1
+  }
+ ],
+ "track_changes": 1,
+ "allow_rename": 0,
+ "istable": 0,
+ "autoname": "hash",
+ "permissions": [
+  {
+   "role": "Manufacturing Manager",
+   "read": 1
+  },
+  {
+   "role": "Accounts Manager",
+   "read": 1
+  }
+ ],
+ "is_submittable": 0
+}

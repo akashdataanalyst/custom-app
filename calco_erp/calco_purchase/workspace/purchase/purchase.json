@@ -1,0 +1,176 @@
+{
+  "app": "calco_erp",
+  "charts": [],
+  "content": "[{\"id\":\"purchase-mis\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Purchase MIS\",\"col\":12}},{\"id\":\"purchase-0\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Pending review</h4>\",\"col\":12}},{\"id\":\"purchase-1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New RM Requests - Pending Purchase Review\",\"col\":4}},{\"id\":\"purchase-2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Supplier Requests - Pending Purchase Review\",\"col\":4}},{\"id\":\"purchase-3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Approvals Pending\",\"col\":4}},{\"id\":\"purchase-4\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Planning and onboarding</h4>\",\"col\":12}},{\"id\":\"purchase-5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Planning Dashboard\",\"col\":4}},{\"id\":\"purchase-6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New RM Request\",\"col\":4}},{\"id\":\"purchase-7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Supplier Request\",\"col\":4}},{\"id\":\"purchase-8\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Purchase operations</h4>\",\"col\":12}},{\"id\":\"purchase-9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Material Request\",\"col\":4}},{\"id\":\"purchase-10\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Request for Quotation\",\"col\":4}},{\"id\":\"purchase-11\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier Quotation / Acknowledgement\",\"col\":4}},{\"id\":\"purchase-12\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Order\",\"col\":4}},{\"id\":\"purchase-13\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Receipt\",\"col\":4}},{\"id\":\"purchase-pending-purchase\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Purchase\",\"col\":4}},{\"id\":\"purchase-14\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Purchase journey</h4>\",\"col\":12}},{\"id\":\"purchase-15\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Journey / Material Traceability\",\"col\":4}},{\"id\":\"purchase-16\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Master governance</h4>\",\"col\":12}},{\"id\":\"purchase-17\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Master Data Governance Center\",\"col\":4}},{\"id\":\"purchase-18\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"RM Planning Parameter\",\"col\":4}},{\"id\":\"purchase-19\",\"type\":\"header\",\"data\":{\"text\":\"<h4>Management / Oversight</h4>\",\"col\":12}},{\"id\":\"purchase-20\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Performance Dashboard\",\"col\":4}},{\"id\":\"purchase-21\",\"type\":\"card\",\"data\":{\"card_name\":\"Accounts\",\"col\":12}}]",
+  "custom_blocks": [
+    {
+      "custom_block_name": "Purchase MIS",
+      "label": "Purchase MIS"
+    }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "shopping-cart",
+  "indicator_color": "blue",
+  "is_hidden": 0,
+  "label": "Purchase",
+  "links": [
+    {
+      "type": "Card Break",
+      "label": "Accounts",
+      "link_count": 1
+    },
+    {
+      "type": "Link",
+      "label": "Purchase Invoice",
+      "link_type": "DocType",
+      "link_to": "Purchase Invoice",
+      "is_query_report": 0
+    }
+  ],
+  "module": "Calco Purchase",
+  "name": "Purchase",
+  "number_cards": [
+    {
+      "label": "New RM Requests - Pending Purchase Review",
+      "number_card_name": "New RM Requests - Pending Purchase Review"
+    },
+    {
+      "label": "New Supplier Requests - Pending Purchase Review",
+      "number_card_name": "New Supplier Requests - Pending Purchase Review"
+    },
+    {
+      "label": "Commercial Approvals Pending",
+      "number_card_name": "Commercial Approvals Pending"
+    }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [
+    {
+      "role": "Administrator"
+    },
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "Purchase Manager"
+    },
+    {
+      "role": "Purchase User"
+    }
+  ],
+  "sequence_id": 3.0,
+  "shortcuts": [
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "RM Planning Dashboard",
+      "link_to": "rm-planning-dashboard",
+      "type": "Page",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "Red",
+      "doc_view": "List",
+      "label": "New RM Request",
+      "link_to": "New RM Request",
+      "type": "DocType",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "Purple",
+      "doc_view": "List",
+      "label": "New Supplier Request",
+      "link_to": "New Supplier Request",
+      "type": "DocType",
+      "stats_filter": "[]"
+    },
+    {
+      "label": "Material Request",
+      "link_to": "Material Request",
+      "type": "DocType",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[[\"Material Request\",\"material_request_type\",\"=\",\"Purchase\"]]"
+    },
+    {
+      "label": "Request for Quotation",
+      "link_to": "Request for Quotation",
+      "type": "DocType",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "label": "Supplier Quotation / Acknowledgement",
+      "link_to": "Supplier Quotation",
+      "type": "DocType",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "label": "Purchase Order",
+      "link_to": "Purchase Order",
+      "type": "DocType",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "label": "Purchase Receipt",
+      "link_to": "Purchase Receipt",
+      "type": "DocType",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "label": "Purchase Journey / Material Traceability",
+      "link_to": "material-traceability",
+      "type": "Page",
+      "doc_view": "List",
+      "color": "blue",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "Teal",
+      "doc_view": "List",
+      "label": "Master Data Governance Center",
+      "link_to": "master-data-governance",
+      "type": "Page",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "RM Planning Parameter",
+      "link_to": "RM Planning Parameter",
+      "type": "DocType",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "Cyan",
+      "doc_view": "List",
+      "label": "Purchase Performance Dashboard",
+      "link_to": "purchase-performance-dashboard",
+      "type": "Page",
+      "stats_filter": "[]"
+    },
+    {
+      "color": "blue",
+      "doc_view": "",
+      "label": "Pending Purchase",
+      "link_to": "Pending Purchase",
+      "report_ref_doctype": "Purchase Order",
+      "stats_filter": "[]",
+      "type": "Report"
+    }
+  ],
+  "title": "Purchase",
+  "type": "Workspace"
+}

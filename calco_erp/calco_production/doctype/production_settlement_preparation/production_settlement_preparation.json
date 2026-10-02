@@ -1,0 +1,184 @@
+{
+ "doctype": "DocType",
+ "name": "Production Settlement Preparation",
+ "module": "Calco Production",
+ "field_order": [
+  "company",
+  "work_order",
+  "job_card",
+  "parent_batch",
+  "closure",
+  "closure_version",
+  "status",
+  "quantity_evidence",
+  "lot_targets",
+  "value_evidence",
+  "exceptions",
+  "reconciliation_version",
+  "linked_adjustments",
+  "revision",
+  "supersedes",
+  "correction_reason",
+  "recorded_by",
+  "recorded_on",
+  "fingerprint"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "label": "Company",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Company",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "work_order",
+   "label": "Work Order",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Work Order",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "job_card",
+   "label": "Production Run",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Job Card",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "parent_batch",
+   "label": "Parent Production Batch",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Batch",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "closure",
+   "label": "Production Batch Closure",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "Production Batch Closure",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "closure_version",
+   "label": "Closure Version",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "status",
+   "label": "Preparation State",
+   "fieldtype": "Select",
+   "read_only": 1,
+   "options": "Prepared\nManagement Review Required\nReady for Accounts",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "quantity_evidence",
+   "label": "Quantity Resolution Evidence",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "lot_targets",
+   "label": "Resolved Lot Targets",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "value_evidence",
+   "label": "Value Conservation Evidence",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "exceptions",
+   "label": "Exceptions",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "reconciliation_version",
+   "label": "Reconciliation Engine Version",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "linked_adjustments",
+   "label": "Linked Adjustment Evidence",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "revision",
+   "label": "Evidence Version",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "supersedes",
+   "label": "Supersedes",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "no_copy": 1,
+   "options": "Production Settlement Preparation"
+  },
+  {
+   "fieldname": "correction_reason",
+   "label": "Correction Reason",
+   "fieldtype": "Small Text",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "recorded_by",
+   "label": "Recorded By",
+   "fieldtype": "Link",
+   "read_only": 1,
+   "options": "User",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "recorded_on",
+   "label": "Recorded On",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "fingerprint",
+   "label": "Evidence Fingerprint",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "no_copy": 1
+  }
+ ],
+ "track_changes": 1,
+ "allow_rename": 0,
+ "istable": 0,
+ "autoname": "hash",
+ "permissions": [
+  {
+   "role": "Accounts Manager",
+   "read": 1
+  },
+  {
+   "role": "Manufacturing Manager",
+   "read": 1
+  }
+ ],
+ "is_submittable": 0
+}

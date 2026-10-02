@@ -1,0 +1,26 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": ["sequence","event_datetime","feeder_1_pct","feeder_2_pct","feeder_3_pct","feeder_4_pct","feeder_5_pct","feeder_6_pct","total_pct","observation","shift","recorded_by","recorded_on","back_entry_reason"],
+ "fields": [
+  {"fieldname":"sequence","fieldtype":"Int","label":"Sequence","read_only":1,"in_list_view":1},
+  {"fieldname":"event_datetime","fieldtype":"Datetime","label":"Event Time","read_only":1,"in_list_view":1},
+  {"fieldname":"feeder_1_pct","fieldtype":"Percent","label":"F1 %"},
+  {"fieldname":"feeder_2_pct","fieldtype":"Percent","label":"F2 %"},
+  {"fieldname":"feeder_3_pct","fieldtype":"Percent","label":"F3 %"},
+  {"fieldname":"feeder_4_pct","fieldtype":"Percent","label":"F4 %"},
+  {"fieldname":"feeder_5_pct","fieldtype":"Percent","label":"F5 %"},
+  {"fieldname":"feeder_6_pct","fieldtype":"Percent","label":"F6 %"},
+  {"fieldname":"total_pct","fieldtype":"Percent","label":"Total %","read_only":1,"in_list_view":1},
+  {"fieldname":"observation","fieldtype":"Small Text","label":"Reason / Observation","reqd":1},
+  {"fieldname":"shift","fieldtype":"Data","label":"Shift","read_only":1},
+  {"fieldname":"recorded_by","fieldtype":"Link","label":"Recorded By","options":"User","read_only":1},
+  {"fieldname":"recorded_on","fieldtype":"Datetime","label":"Recorded On","read_only":1},
+  {"fieldname":"back_entry_reason","fieldtype":"Small Text","label":"Back Entry Reason","read_only":1}
+ ],
+ "istable": 1,
+ "module": "Calco Production",
+ "name": "Feeder Online Change"
+}

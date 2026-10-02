@@ -1,0 +1,2 @@
+"""Batch Production Record doctype."""
+

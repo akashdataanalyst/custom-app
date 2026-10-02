@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source_type",
+  "source_reference",
+  "sales_order_reference",
+  "item_code",
+  "item_name",
+  "requested_qty",
+  "fg_inventory_qty",
+  "net_required_qty",
+  "target_date",
+  "priority_rank",
+  "line_status"
+ ],
+ "fields": [
+  {"fieldname": "source_type", "fieldtype": "Select", "label": "Source Type", "options": "Sales Order\nForecast\nBalance Return", "in_list_view": 1, "reqd": 1},
+  {"fieldname": "source_reference", "fieldtype": "Data", "label": "Source Reference", "in_list_view": 1},
+  {"fieldname": "sales_order_reference", "fieldtype": "Link", "label": "Sales Order Reference", "options": "Sales Order"},
+  {"fieldname": "item_code", "fieldtype": "Link", "label": "Item Code", "options": "Item", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "item_name", "fieldtype": "Data", "label": "Item Name", "read_only": 1},
+  {"fieldname": "requested_qty", "fieldtype": "Float", "label": "Requested Qty", "reqd": 1, "in_list_view": 1},
+  {"fieldname": "fg_inventory_qty", "fieldtype": "Float", "label": "FG Inventory Qty", "read_only": 1},
+  {"fieldname": "net_required_qty", "fieldtype": "Float", "label": "Net Required Qty", "read_only": 1, "in_list_view": 1},
+  {"fieldname": "target_date", "fieldtype": "Date", "label": "Target Date"},
+  {"fieldname": "priority_rank", "fieldtype": "Int", "label": "Priority Rank", "default": 2},
+  {"fieldname": "line_status", "fieldtype": "Select", "label": "Line Status", "options": "Open\nJob Card Created\nPlanned\nClosed", "default": "Open", "in_list_view": 1}
+ ],
+ "istable": 1,
+ "links": [],
+ "module": "Calco Production",
+ "name": "Production Requirement Item",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "idx",
+ "sort_order": "ASC"
+}
+
